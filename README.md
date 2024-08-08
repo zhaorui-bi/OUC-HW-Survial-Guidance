@@ -38,13 +38,15 @@
 
 这样就以为着你拥有着来自于中方和英方的**成绩单**和**在读证明**
 
-注意：保研（夏令营，预推免）和出国申请都可以开具 //体现英本身份
+注意-1：保研（夏令营，预推免）和出国申请都可以开具 //体现英本身份
+
+注意-2：不要”投机取巧“申请的时候只递交英方成绩单，招生办都明白，请大家递交中英双方成绩单
 
 - 赫瑞瓦特大学成绩单开具链接：https://hwu.unidesk.ac.uk/tas/public/ssp/80768ff1-d4f4-44ee-acc6-f805472c0370 
 
   //下面图片是网站主页，点transcript那按照网站操作填表就好了
 
-  <img src="fig/2.jpg" style="zoom:33%;" />
+  <img src="fig/2.jpg" style="zoom: 50%;" />
 
 2024级计算机科学与技术（中外合作办学）宿舍情况：
 
@@ -161,6 +163,6 @@ CS能力提升可参考**CS自学指南**：https://csdiy.wiki  //PKU学长写�
 - Stanford：CS224W: Machine Learning with Graphs
 - 链接：https://snap.stanford.edu/class/cs224w-2023/index.html#content
 
-更新时间：2024-08-08 贡献者：Zhaorui Jiang (Elijah)
+更新时间：2024-08-09 贡献者：Zhaorui Jiang (Elijah)
 
-结语：感谢在海大宝贵的三年！感谢一路上遇到的老师与伙伴！感谢自己所能经历的一切！
+结语：感谢在海大宝贵的三年！感谢一路上遇到的老师与伙伴！感谢自己所能经历的一切！愿项目今后越办越好！
