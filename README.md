@@ -36,7 +36,7 @@
    - 赫瑞瓦特大学MACS学院CS部门的官网：https://www.hw.ac.uk/uk/schools/mathematical-computer-sciences/departments/computer-science.htm
    - 赫瑞瓦特大学CS学生信息官网：https://www.macs.hw.ac.uk/students/cs/
 
-这样就以为着你拥有着来自于中方和英方的**成绩单**和**在读证明 **
+这样就以为着你拥有着来自于中方和英方的**成绩单**和**在读证明**
 
 注意：保研（夏令营，预推免）和出国申请都可以开具 //体现英本身份
 
