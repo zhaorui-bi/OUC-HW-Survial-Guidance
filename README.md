@@ -103,7 +103,7 @@ Why英语这么这么重要重要？
 
 可参考学长**小红书**（链接在文档开头）的《适合中国海洋大学中外计科宝宝的竞赛指南》
 
-链接：http://xhslink.com/O4WCyS
+链接：http://xhslink.com/zSmDyS
 
 - 总的来讲数学建模竞赛是所有人都可以参加且门槛较低的一个比赛
 - 数学建模资料推荐：https://github.com/personqianduixue/Math_Model
