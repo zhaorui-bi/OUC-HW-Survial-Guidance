@@ -32,7 +32,7 @@
    - 中国海洋大学信息科学与工程学部官网：http://it.ouc.edu.cn/main.htm 
    - 注意：科研（进实验室）给老师写✍️email的时候记得根据学院官网找老师主页哈～
 2. 赫瑞瓦特大学：Bachelor of Engineering in Robotics (F2R8-ROB) //链接是英方项目介绍
-   - https://curriculum.hw.ac.uk/programmedetails/F2R8-ROB?termcode=202324&campuscode=4EJ
+   - https://curriculum.hw.ac.uk/programmedetails/F2R8-ROB?termcode=202425
    - 赫瑞瓦特大学MACS学院CS部门的官网：https://www.hw.ac.uk/uk/schools/mathematical-computer-sciences/departments/computer-science.htm
    - 赫瑞瓦特大学CS学生信息官网：https://www.macs.hw.ac.uk/students/cs/
 
