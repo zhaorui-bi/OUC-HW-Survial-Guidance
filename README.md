@@ -161,9 +161,5 @@ CS能力提升可参考**CS自学指南**：https://csdiy.wiki  //PKU学长写�
 - Stanford：CS224W: Machine Learning with Graphs
 - 链接：https://snap.stanford.edu/class/cs224w-2023/index.html#content
 
-
-
-2024-08-07 JINAN CITY Elijah
-
-
-
+更新时间：2024-08-08
+贡献者：Zhaorui Jiang (Elijah)
