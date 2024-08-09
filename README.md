@@ -10,6 +10,8 @@
 
 注意💡：**专栏项目**在本文最末[专栏篇](#专栏篇)部分
 
+参与者：Zhaorui Jiang, Xiangqi Li, Hongbo Li, Zewen Qu，Liangkun Chen（continue...）
+
 ## 前言
 
 我是谁？为什么要写这个？
