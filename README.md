@@ -215,7 +215,7 @@ CS能力提升可参考**CS自学指南**：https://csdiy.wiki  //PKU学长写�
 
 ### 申研规划
 
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92.md
+链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/申研规划.md
 
 贡献者：
 
