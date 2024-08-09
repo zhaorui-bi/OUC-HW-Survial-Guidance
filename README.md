@@ -10,7 +10,7 @@
 
 注意💡：**专栏项目**在本文最末[专栏篇](#专栏篇)部分
 
-参与者：Zhaorui Jiang, Xiangqi Li, Hongbo Li, Zewen Qu, Luyao Wang, Liangkun Chen（continue...）
+参与者：Zhaorui Jiang, Xiangqi Li, Hongbo Li, Zewen Qu, Luyao Wang, Liangkun Chen, Chanel（continue...）
 
 ## 前言
 
@@ -217,7 +217,7 @@ CS能力提升可参考**CS自学指南**：https://csdiy.wiki  //PKU学长写�
 
 链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/申研规划.md
 
-贡献者：
+贡献者：Chanel
 
 ### AI4S学习规划 
 
