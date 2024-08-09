@@ -227,6 +227,8 @@ CS能力提升可参考**CS自学指南**：https://csdiy.wiki  //PKU学长写�
 
 ### 有用小知识：Verilog
 
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/tree/main/Verilog代码
+文件夹链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/tree/main/Verilog代码
+
+说明文档链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/Verilog代码/使用说明.md
 
 贡献者：Liangkun Chen
