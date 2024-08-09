@@ -8,6 +8,20 @@
 
 邮箱email：个人：jzr071911@126.com  学校：zj2009@hw.ac.uk
 
+## 专栏
+
+### 机器人学习规划
+
+链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92.md
+
+### 申研规划
+
+链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92.md
+
+### AI4S学习规划 
+
+链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/AI4S%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92.md
+
 ## 前言
 
 我是谁？为什么要写这个？
