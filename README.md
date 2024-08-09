@@ -221,7 +221,7 @@ CS能力提升可参考**CS自学指南**：https://csdiy.wiki  //PKU学长写�
 
 ### AI4S学习规划 
 
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/AI4S%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92.md
+链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/AI4S学习规划.md
 
 贡献者： Zhaorui Jiang
 
