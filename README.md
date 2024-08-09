@@ -29,20 +29,6 @@
 
 - 邮箱email：个人：jzr071911@126.com  学校：zj2009@hw.ac.uk
 
-## 专栏
-
-### 机器人学习规划
-
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92.md
-
-### 申研规划
-
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92.md
-
-### AI4S学习规划 
-
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/AI4S%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92.md
-
 ## 项目篇
 
  计算机科学与技术（中外合作办学）**双学籍注册** 
@@ -210,3 +196,23 @@ CS能力提升可参考**CS自学指南**：https://csdiy.wiki  //PKU学长写�
 更新时间：2024-08-09 贡献者：Zhaorui Jiang (Elijah)
 
 结语：感谢在海大宝贵的三年！感谢一路上遇到的老师与伙伴！感谢自己所能经历的一切！愿项目今后越办越好！
+
+## 专栏
+
+### 机器人学习规划
+
+链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92.md
+
+贡献者：
+
+### 申研规划
+
+链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92.md
+
+贡献者：
+
+### AI4S学习规划 
+
+链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/AI4S%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92.md
+
+贡献者： 
