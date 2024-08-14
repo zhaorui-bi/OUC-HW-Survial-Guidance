@@ -168,7 +168,7 @@ CS能力提升可参考**CS自学指南**：https://csdiy.wiki  //PKU学长写�
 
 - 暂时只推荐windows和macOS皆可的： FinalShell（国产款）和 Royal TSX（国外款）
 
-必修模块 ML（2选1即可）和 DL模块（熟悉起来Pytorch深度学习框架），然后后面根据自己的兴趣点来选择后面三个板块的学习：CV（计算机视觉），NLP（自然语言处理），GNN（图深度学习）等等
+必修模块 ML（2选1即可）和 DL模块（熟悉起来Pytorch深度学习框架），然后后面根据自己的兴趣点来选择后面板块的学习：CV（计算机视觉），NLP（自然语言处理），GNN（图深度学习）, XAI（可解释人工智能）等等
 
 注意⚠️：前三年就算不学滴花～大四毕业🎓设计也需要学习相关的内容！！！
 
@@ -204,8 +204,16 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 
 - Stanford：CS224W: Machine Learning with Graphs
 - 链接：https://snap.stanford.edu/class/cs224w-2023/index.html#content
+- 同济子豪兄图机器学习公开课-CS224W-Graph Machine Learning
+- 视频链接：https://www.bilibili.com/video/BV1pR4y1S7GA
+- 课程主页：https://github.com/TommyZihao/zihao_course/tree/main/CS224W
 
-更新时间：2024-08-09 贡献者：Zhaorui Jiang (Elijah)
+### XAI（Explainalbe Artificial Intelligence）
+
+-同济子豪兄可解释机器学习公开课
+-课程主页：https://github.com/TommyZihao/zihao_course/tree/main/XAI
+
+更新时间：2024-08-15 贡献者：Zhaorui Jiang (Elijah)
 
 结语：感谢在海大宝贵的三年！感谢一路上遇到的老师与伙伴！感谢自己所能经历的一切！愿项目今后越办越好！
 
