@@ -170,6 +170,10 @@ CS能力提升可参考**CS自学指南**：https://csdiy.wiki  //PKU学长写�
 
 必修模块 ML（2选1即可）和 DL模块（熟悉起来Pytorch深度学习框架），然后后面根据自己的兴趣点来选择后面三个板块的学习：CV（计算机视觉），NLP（自然语言处理），GNN（图深度学习）等等
 
+注意⚠️：前三年就算不学滴花～大四毕业🎓设计也需要学习相关的内容！！！
+
+HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
+
 ### ML (Machine Learning)
 
 - NTU：HUNG-YI LEE (李宏毅) MACHINE LEARNING
