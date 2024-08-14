@@ -8,6 +8,8 @@
 
 邮箱email：个人：jzr071911@126.com  学校：zj2009@hw.ac.uk
 
+GitHub链接🔗：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance
+
 注意💡：**专栏项目**在本文最末[专栏篇](#专栏篇)部分
 
 参与者：Zhaorui Jiang, Xiangqi Li, Hongbo Li, Zewen Qu, Luyao Wang, Liangkun Chen, Chanel（continue...）
