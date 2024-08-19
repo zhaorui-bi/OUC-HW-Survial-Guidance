@@ -248,3 +248,12 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 其他需要补充的知识会创建新的文件夹放在Verilog文档里(๑•̀ㅂ•́)و✧
 
 贡献者：Liangkun Chen
+
+### 行前行李准备
+
+待补充  
+
+文档链接：[行前准备.md](https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E8%A1%8C%E5%89%8D%E5%87%86%E5%A4%87.md)  
+
+贡献者： Zewen(Rex) Qu
+
