@@ -12,7 +12,10 @@ GitHub链接🔗：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance
 
 注意💡：**专栏项目**在本文最末[专栏篇](#专栏篇)部分 
 
-News❗️：申研规划专栏！已完成✅ 感谢🙏Chanel
+News‼️：（updating）
+
+- 行前行李准备持续更新ing 感谢🙏Zewen(Rex) Qu
+- 申研规划专栏！已完成✅ 感谢🙏Chanel
 
 参与者：Zhaorui Jiang, Xiangqi Li, Hongbo Li, Zewen Qu, Luyao Wang, Liangkun Chen, Chanel（continue...）
 
@@ -224,7 +227,7 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 - 同济子豪兄可解释机器学习公开课
 - 课程主页：https://github.com/TommyZihao/zihao_course/tree/main/XAI
 
-更新时间：2024-08-15 贡献者：Zhaorui Jiang (Elijah)
+更新时间：2024-08-20 贡献者：Zhaorui Jiang (Elijah)
 
 结语：感谢在海大宝贵的三年！感谢一路上遇到的老师与伙伴！感谢自己所能经历的一切！愿项目今后越办越好！
 
