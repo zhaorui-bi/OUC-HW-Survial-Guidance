@@ -12,7 +12,7 @@ GitHub链接🔗：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance
 
 注意💡：**专栏项目**在本文最末[专栏篇](#专栏篇)部分 
 
-News❗️：[申研规划专栏篇](### 申研规划)已完成✅ 感谢🙏Chanel
+News❗️：[申研规划专栏篇](###申研规划)已完成✅ 感谢🙏Chanel
 
 参与者：Zhaorui Jiang, Xiangqi Li, Hongbo Li, Zewen Qu, Luyao Wang, Liangkun Chen, Chanel（continue...）
 
