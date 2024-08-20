@@ -195,7 +195,9 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 ### CV (Computer Visison)
 
 - Stanford：CS231n: Deep Learning for Computer Vision
-- 链接：https://cs231n.stanford.edu
+- 视频链接：https://cs231n.stanford.edu
+- 同济子豪兄计算机视觉CS231n-Deep Learning for Computer Vision
+- 视频链接：https://www.bilibili.com/video/BV1K7411W7So
 
 ### NLP (Natural Language Processing)
 
@@ -206,7 +208,7 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 ### GNN (Graph Neural Network)
 
 - Stanford：CS224W: Machine Learning with Graphs
-- 链接：https://snap.stanford.edu/class/cs224w-2023/index.html#content
+- 视频链接：https://snap.stanford.edu/class/cs224w-2023/index.html#content
 - 同济子豪兄图机器学习公开课-CS224W-Graph Machine Learning
 - 视频链接：https://www.bilibili.com/video/BV1pR4y1S7GA
 - 课程主页：https://github.com/TommyZihao/zihao_course/tree/main/CS224W
