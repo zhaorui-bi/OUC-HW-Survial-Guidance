@@ -188,7 +188,7 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 
 - Pytorch 一小时快速入门
 - 链接：https://pytorch.org/tutorials/beginner/introyt.html
-- Pytorch中文API文档：https://pytorch-cn.readthedocs.io/zh/latest/package_references
+- Pytorch中文API文档：https://pytorch-cn.readthedocs.io/zh/latest/
 
 - Pytorch 2024快速入门（中文版）
 - 链接：https://blog.csdn.net/ccaoshangfei/article/details/126074300
