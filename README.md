@@ -188,7 +188,11 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 
 - Pytorch 一小时快速入门
 - 链接：https://pytorch.org/tutorials/beginner/introyt.html
+- Pytorch中文API文档：https://pytorch-cn.readthedocs.io/zh/latest/package_references
 
+- Pytorch 2024快速入门（中文版）
+- 链接：https://blog.csdn.net/ccaoshangfei/article/details/126074300
+  
 - d2l 手动学深度学习 DIVE INTO DEEP LEARNING
 - 链接：https://zh.d2l.ai
 
@@ -240,7 +244,7 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 
 链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/AI4S学习规划.md
 
-贡献者： Zhaorui Jiang
+贡献者： Zhaorui(Elijah) Jiang
 
 ### 有用小知识：Verilog
 
