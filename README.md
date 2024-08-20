@@ -201,6 +201,7 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 
 - Stanford：CS224N: Natural Language Processing with Deep Learning
 - 链接：https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1234/
+- 笔记：https://looperxx.github.io/notes/CS224n-2019-00-Info/
 
 ### GNN (Graph Neural Network)
 
