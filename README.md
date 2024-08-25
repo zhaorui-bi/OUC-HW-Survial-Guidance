@@ -136,6 +136,10 @@ Why英语这么这么重要重要？
 - 搬书匠：http://www.banshujiang.cn/?lang=en
 - vdoc.pub：https://vdoc.pub //需要“科学上网”
 
+### 中海洋大学GPA计算规则
+
+<img src="fig/gpa.png" style="zoom: 100%;" />
+
 ### 刷分问题
 
 赫瑞瓦特大学成绩单（英方成绩单）：不支持刷分，即第一次考试的成绩分数为最终成绩单分数。
