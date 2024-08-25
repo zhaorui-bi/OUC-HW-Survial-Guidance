@@ -119,9 +119,9 @@ Why英语这么这么重要重要？
 - 《中国海洋大学 中外计科 大一下 生存指南》
 - 链接： http://xhslink.com/O4WCyS
 - 《中国海洋大学 中外计科 大二上 生存指南1》
-- 链接：
+- 链接：https://www.xiaohongshu.com/explore/66c061f30000000025030541?note_flow_source=wechat&xsec_token=AB_gYjKrclfj5vWHdjQGJ0luAlAeucConsfpLByimEJ44=
 - 《中国海洋大学 中外计科 大二上 生存指南2》
-- 链接：
+- 链接：https://www.xiaohongshu.com/explore/66c0658e0000000025031ea4?xsec_token=AB_gYjKrclfj5vWHdjQGJ0loZJXBC8vtrZW9rDoDojQx4=&xsec_source=pc_user
 - 《中国海洋大学 中外计科 大二下 生存指南》
 - 链接：
 - 《中国海洋大学 中外计科 大三上 生存指南》
