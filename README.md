@@ -17,9 +17,11 @@ News‼️：（updating）
 - 行前行李准备持续更新ing 感谢🙏Zewen(Rex) Qu
 - 申研规划专栏！已完成✅ 感谢🙏Chanel
 
-参与者：Zhaorui Jiang, Xiangqi Li, Hongbo Li, Zewen Qu, Luyao Wang, Liangkun Chen, Chanel（continue...）
+参与者：Zhaorui Jiang (Elijah), Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel（continue...）
 
-更新时间：2024-08-25 贡献者：Zhaorui Jiang (Elijah)
+更新时间：2024-08-25 
+
+发起者：Zhaorui Jiang (Elijah)
 
 感谢在海大宝贵的三年！感谢一路上遇到的老师与伙伴！感谢自己所能经历的一切！愿项目今后越办越好！
 
