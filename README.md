@@ -19,6 +19,10 @@ News‼️：（updating）
 
 参与者：Zhaorui Jiang, Xiangqi Li, Hongbo Li, Zewen Qu, Luyao Wang, Liangkun Chen, Chanel（continue...）
 
+更新时间：2024-08-25 贡献者：Zhaorui Jiang (Elijah)
+
+感谢在海大宝贵的三年！感谢一路上遇到的老师与伙伴！感谢自己所能经历的一切！愿项目今后越办越好！
+
 ## 前言
 
 我是谁？为什么要写这个？
@@ -246,10 +250,6 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 
 - 同济子豪兄可解释机器学习公开课
 - 课程主页：https://github.com/TommyZihao/zihao_course/tree/main/XAI
-
-更新时间：2024-08-20 贡献者：Zhaorui Jiang (Elijah)
-
-结语：感谢在海大宝贵的三年！感谢一路上遇到的老师与伙伴！感谢自己所能经历的一切！愿项目今后越办越好！
 
 ## 专栏篇
 
