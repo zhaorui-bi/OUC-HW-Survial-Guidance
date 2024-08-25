@@ -14,10 +14,11 @@ GitHub链接🔗：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance
 
 News‼️：（updating）
 
-- 行前行李准备持续更新ing 感谢🙏Zewen(Rex) Qu
+- 行前行李准备专栏！持续更新ing 感谢🙏Zewen(Rex) Qu
 - 申研规划专栏！已完成✅ 感谢🙏Chanel
+- 雅思备考专刊！持续更新ing 感谢🙏Yu Zhou
 
-参与者：Zhaorui Jiang (Elijah), Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel（continue...）
+参与者：Zhaorui Jiang (Elijah), Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou（continue...）
 
 更新时间：2024-08-25 
 
