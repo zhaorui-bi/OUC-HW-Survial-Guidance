@@ -289,3 +289,8 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 
 贡献者： Zewen(Rex) Qu
 
+### 雅思备考
+
+文档链接：[雅思备考.md](https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E9%9B%85%E6%80%9D%E5%A4%87%E8%80%83.md)
+
+贡献者： Yu Zhou
