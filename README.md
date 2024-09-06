@@ -18,7 +18,7 @@ News‼️：（updating）
 - 申研规划专栏！已完成✅ 感谢🙏Chanel
 - 雅思备考专刊！持续更新ing 感谢🙏Yu Zhou
 
-参与者：Zhaorui Jiang (Elijah), Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou（continue...）
+参与者：Zhaorui Jiang (Elijah), Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou, Jie Liu（continue...）
 
 更新时间：2024-08-25 
 
