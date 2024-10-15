@@ -270,7 +270,7 @@ HWU毕业🎓设计项目链接🔗：https://projects.hw.ac.uk/Proposals/Index
 
 ### AI4S学习规划 
 
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/AI4S学习规划.md
+链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/AI4Science学习规划.md
 
 贡献者： Zhaorui(Elijah) Jiang
 
