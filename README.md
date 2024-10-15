@@ -20,7 +20,7 @@ News‼️：（updating）
 
 参与者：Zhaorui Jiang (Elijah), Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou, Jie Liu（continue...）
 
-更新时间：2024-08-25 
+更新时间：2024-10-16 
 
 发起者：Zhaorui Jiang (Elijah)
 
