@@ -1,6 +1,6 @@
 # AI4Science学习规划
 
-## 什么是AI4S?
+## 什么是AI4Science?
 
 或许大家真正的认识AI4Science是在2024年的诺贝尔奖，诺贝尔物理学奖给了Hiton，诺贝尔化学奖给了David Baker和Alphafold。
 
