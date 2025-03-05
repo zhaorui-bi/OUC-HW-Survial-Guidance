@@ -251,6 +251,11 @@ HWU 毕业 🎓 设计项目链接 🔗：https://projects.hw.ac.uk/Proposals/In
 - 同济子豪兄可解释机器学习公开课
 - 课程主页：https://github.com/TommyZihao/zihao_course/tree/main/XAI
 
+### Computational Biology
+
+- MIT
+- 链接：
+
 ## 专栏篇
 
 ### 机器人学习规划
