@@ -203,57 +203,60 @@ HWU 毕业 🎓 设计项目链接 🔗：https://projects.hw.ac.uk/Proposals/In
 
 ### Overall(大综合类型的课程)
 
-- MIT：MIT 6.S191 Introduction to Deep Learning
+MIT：MIT 6.S191 Introduction to Deep Learning
 - 链接：https://introtodeeplearning.com/
 
 ### ML (Machine Learning)
 
-- NTU：HUNG-YI LEE (李宏毅) MACHINE LEARNING
+NTU：HUNG-YI LEE (李宏毅) MACHINE LEARNING
 - 链接：https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php
 
-- Stanford：CS229: Machine Learning
+Stanford：CS229: Machine Learning
 - 链接：https://cs229.stanford.edu/index.html-backup-fall23
 
 ### DL (Deep Learning)
 
-- Pytorch 一小时快速入门
+Pytorch 一小时快速入门
 - 链接：https://pytorch.org/tutorials/beginner/introyt.html
 - Pytorch 中文 API 文档：https://pytorch-cn.readthedocs.io/zh/latest/
 
-- Pytorch 2024 快速入门（中文版）
+Pytorch 2024 快速入门（中文版）
 - 链接：https://blog.csdn.net/ccaoshangfei/article/details/126074300
-- d2l 手动学深度学习 DIVE INTO DEEP LEARNING
+
+d2l 手动学深度学习 DIVE INTO DEEP LEARNING
 - 链接：https://zh.d2l.ai
 
 ### CV (Computer Visison)
 
-- Stanford：CS231n: Deep Learning for Computer Vision
+Stanford：CS231n: Deep Learning for Computer Vision
 - 视频链接：https://cs231n.stanford.edu
-- 同济子豪兄计算机视觉 CS231n-Deep Learning for Computer Vision
+
+同济子豪兄计算机视觉 CS231n-Deep Learning for Computer Vision
 - 视频链接：https://www.bilibili.com/video/BV1K7411W7So
 
 ### NLP (Natural Language Processing)
 
-- Stanford：CS224N: Natural Language Processing with Deep Learning
+Stanford：CS224N: Natural Language Processing with Deep Learning
 - 链接：https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1234/
 - 笔记：https://looperxx.github.io/notes/CS224n-2019-00-Info/
 
 ### GNN (Graph Neural Network)
 
-- Stanford：CS224W: Machine Learning with Graphs
+Stanford：CS224W: Machine Learning with Graphs
 - 视频链接：https://snap.stanford.edu/class/cs224w-2023/index.html#content
-- 同济子豪兄图机器学习公开课-CS224W-Graph Machine Learning
+  
+同济子豪兄图机器学习公开课-CS224W-Graph Machine Learning
 - 视频链接：https://www.bilibili.com/video/BV1pR4y1S7GA
 - 课程主页：https://github.com/TommyZihao/zihao_course/tree/main/CS224W
 
 ### XAI（Explainalbe Artificial Intelligence）
 
-- 同济子豪兄可解释机器学习公开课
+同济子豪兄可解释机器学习公开课
 - 课程主页：https://github.com/TommyZihao/zihao_course/tree/main/XAI
 
 ### Computational Biology（AI For Life Science）
 
-- MIT MLCB24 Machine Learning for Computational Biology
+MIT MLCB24 Machine Learning for Computational Biology
 - 课程链接：https://canvas.mit.edu/courses/28242 
 - YouTube视频链接：https://www.youtube.com/watch?v=1zZSPeKGRzw&list=PLypiXJdtIca4gtioEPLIExlAKvu64z7rc
   
