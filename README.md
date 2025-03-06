@@ -251,11 +251,16 @@ HWU 毕业 🎓 设计项目链接 🔗：https://projects.hw.ac.uk/Proposals/In
 - 同济子豪兄可解释机器学习公开课
 - 课程主页：https://github.com/TommyZihao/zihao_course/tree/main/XAI
 
-### Computational Biology
+### Computational Biology（AI For Life Science）
 
-- MIT
-- 链接：
-
+- MIT MLCB24 Machine Learning for Computational Biology
+- 课程链接：https://canvas.mit.edu/courses/28242 
+- YouTube视频链接：https://www.youtube.com/watch?v=1zZSPeKGRzw&list=PLypiXJdtIca4gtioEPLIExlAKvu64z7rc
+  
+Guideline-for-Computational-Biology-and-Bioinformatics
+- 北京大学gao lab（国内超级牛🐮的大组）
+- 链接：https://github.com/gao-lab/Guideline-for-Computational-Biology-and-Bioinformatics
+  
 ## 专栏篇
 
 ### 机器人学习规划
