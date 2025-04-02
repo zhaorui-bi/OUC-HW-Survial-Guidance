@@ -201,6 +201,11 @@ CS 能力提升可参考**CS 自学指南**：https://csdiy.wiki //PKU 学长写
 
 HWU 毕业 🎓 设计项目链接 🔗：https://projects.hw.ac.uk/Proposals/Index
 
+### 实用科研工具
+
+Latex 公式编辑器
+- https://arachnoid.com/latex/index.html
+
 ### Overall(大综合类型的课程)
 
 MIT：MIT 6.S191 Introduction to Deep Learning
