@@ -20,7 +20,7 @@ News‼️：（updating）
 
 参与者：Zhaorui Jiang (Elijah), Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou, Jie Liu（continue...）
 
-更新时间：2025-4-02
+更新时间：2025-4-09
 
 发起者：Zhaorui Jiang (Elijah)
 
@@ -187,23 +187,24 @@ CS 能力提升可参考**CS 自学指南**：https://csdiy.wiki //PKU 学长写
 
 备注：计科中外保研率根据 2020 级大概是百分之 20 左右
 
-“工欲善其事，必先利其器” 完备科研工具是“必备品”🉑参考下面链接（一定复制“全”）
-
-- 链接：https://ai4s.lab.westlake.edu.cn/blogs/2024/04/10/有用科研工具集锦.html
-
-跑模型通常都是要在服务器上进行，故而一款优秀的服务器管理软件必不可少
-
-- 暂时只推荐 windows 和 macOS 皆可的： FinalShell（国产款）和 Royal TSX（国外款）
-
 必修模块 ML（2 选 1 即可）和 DL 模块（熟悉起来 Pytorch 深度学习框架），然后后面根据自己的兴趣点来选择后面板块的学习：CV（计算机视觉），NLP（自然语言处理），GNN（图深度学习）, XAI（可解释人工智能）等等
 
 注意 ⚠️：前三年就算不学滴花～大四毕业 🎓 设计也需要学习相关的内容！！！
 
 HWU 毕业 🎓 设计项目链接 🔗：https://projects.hw.ac.uk/Proposals/Index
 
-### 实用科研工具
+### 科研工具
 
-Latex 公式编辑器
+“工欲善其事，必先利其器” 完备科研工具是“必备品”🉑参考下面链接（一定复制“全”）
+
+- 课程链接：https://missing-semester-cn.github.io/
+- blog链接：https://ai4s.lab.westlake.edu.cn/blogs/2024/04/10/有用科研工具集锦.html
+
+跑模型通常都是要在服务器上进行，故而一款优秀的服务器管理软件必不可少
+
+- 暂时只推荐 windows 和 macOS 皆可的： FinalShell（国产款）和 Royal TSX（国外款）
+
+论文中的Latex 公式编辑器
 - https://arachnoid.com/latex/index.html
 
 ### Overall(大综合类型的课程)
