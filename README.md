@@ -276,7 +276,7 @@ Guideline-for-Computational-Biology-and-Bioinformatics
 
 链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/机器人学习规划.md
 
-贡献者：Hongbo Li，Xiangqi Li
+贡献者：Hongbo Li
 
 ### 申研规划
 
