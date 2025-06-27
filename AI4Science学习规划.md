@@ -18,17 +18,25 @@ AI 在 Science 领域更多的是一种“高端工具”的职能，它就像�
 
 自己从一开始就一直 all in AI for Life Science, 所以主要给大家推荐一些 AI For Life Science 的一些比较好的方向。
 
-### Artificial Intelligence for Drug Discovery（AIDD）
+### AIDD
 
-### Protein Design
+### AI4Protein
 
-### Spatial Omics
+从熟悉AF系列，RF系列开始
+
+### AI4Medicine
+
+
+### Spatial Multi-Omics
+
 
 ### Metagenomics
 
 ## 关于 Domain Knowlege 学习建议
 
 ## 关于 Deep Leanring 学习建议
+
+参考主README部分的东西
 
 ## 关于 Paper 追踪和阅读建议
 
