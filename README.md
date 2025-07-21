@@ -274,13 +274,13 @@ Guideline-for-Computational-Biology-and-Bioinformatics
 
 ### 机器人学习规划
 
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/机器人学习规划.md
+链接：[机器人学习规划](./机器人学习规划.md)
 
 贡献者：Hongbo Li
 
 ### 申研规划
 
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/申研规划.md
+链接：[申研规划.md](./申研规划.md)
 
 贡献者：Chanel
 
@@ -302,12 +302,12 @@ Guideline-for-Computational-Biology-and-Bioinformatics
 
 ### 行前行李准备
 
-文档链接：[行前准备.md](https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E8%A1%8C%E5%89%8D%E5%87%86%E5%A4%87.md)
+文档链接：[行前准备.md](./行前准备.md)
 
 贡献者： Zewen(Rex) Qu
 
 ### 雅思备考
 
-文档链接：[雅思备考.md](https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/%E9%9B%85%E6%80%9D%E5%A4%87%E8%80%83.md)
+文档链接：[雅思备考.md](./雅思备考.md)
 
 贡献者： Yu Zhou
