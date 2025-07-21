@@ -17,9 +17,10 @@ News‼️：（updating）
 - 有用小知识：Verilog！完成 ✅ 感谢 🙏 Liangkun Chen
 - 行前行李准备专栏！完成 ✅ 感谢 🙏 Zewen(Rex) Qu
 - 申研规划专栏！完成 ✅ 感谢 🙏 Chanel
-- 雅思备考专刊！完成 ✅ 感谢 🙏 Yu Zhou
+- 雅思备考专刊！第一版完成 ✅ 感谢 🙏 Yu Zhou
 - 机器人学习规划！第一版完成 ✅ 感谢 🙏 Hongbo Li
 - AI4Science 学习规划！第一版完成 ✅ 感谢🙏 Zhaorui(Elijah) Jiang
+- 留学生做饭菜谱！第一版完成✅ 感谢 🙏 Hongbo Li
 
 参与者：Zhaorui(Elijah) Jiang , Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou, Jie Liu（continue...）
 
