@@ -2,11 +2,11 @@
 
 ## ⚠️ 注意
 
-下一步准备开设更多关于 OUC&HWU 计科中外的“专栏项目”例如：机器人学习规划，AI4S 学习规划，申研规划等等
+下一步准备开设更多关于 OUC&HWU 计科中外的“专栏项目”例如：机器人学习规划，AI4Science 学习规划，申研规划, 保研规划，雅思备考，行前准备等等
 
 有兴趣参与其中的志同道合的朋友欢迎与我联系哈！！！（尤其 20 级的学姐/学长们哈）
 
-邮箱 email：个人：jzr071911@126.com 学校：zj2009@hw.ac.uk
+邮箱 email：个人：jzr071911@126.com 学校：zrjiang25@stu.pku.edu.cn
 
 GitHub 链接 🔗：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance
 
@@ -14,13 +14,16 @@ GitHub 链接 🔗：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance
 
 News‼️：（updating）
 
-- 行前行李准备专栏！持续更新 ing 感谢 🙏Zewen(Rex) Qu
-- 申研规划专栏！已完成 ✅ 感谢 🙏Chanel
-- 雅思备考专刊！持续更新 ing 感谢 🙏Yu Zhou
+- 有用小知识：Verilog！完成 ✅ 感谢 🙏 Liangkun Chen
+- 行前行李准备专栏！完成 ✅ 感谢 🙏 Zewen(Rex) Qu
+- 申研规划专栏！完成 ✅ 感谢 🙏 Chanel
+- 雅思备考专刊！完成 ✅ 感谢 🙏 Yu Zhou
+- 机器人学习规划！第一版完成 ✅ 感谢 🙏 Hongbo Li
+- AI4Science 学习规划！第一版完成 ✅ 感谢🙏 Zhaorui(Elijah) Jiang
 
-参与者：Zhaorui Jiang (Elijah), Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou, Jie Liu（continue...）
+参与者：Zhaorui(Elijah) Jiang , Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou, Jie Liu（continue...）
 
-更新时间：2025-4-09
+更新时间：2025-7-21
 
 发起者：Zhaorui Jiang (Elijah)
 
@@ -272,29 +275,35 @@ Guideline-for-Computational-Biology-and-Bioinformatics
   
 ## 专栏篇
 
+### 申研规划
+
+链接：[申研规划](./申研规划.md)
+
+贡献者：Chanel
+
+### 申研规划
+
+链接：[保研规划](./保研规划.md)
+
+贡献者：Zhaorui(Elijah) Jiang
+
 ### 机器人学习规划
 
 链接：[机器人学习规划](./机器人学习规划.md)
 
 贡献者：Hongbo Li
 
-### 申研规划
+### AI4Science 学习规划
 
-链接：[申研规划.md](./申研规划.md)
-
-贡献者：Chanel
-
-### AI4S 学习规划
-
-链接：[AI4Science学习规划.md](./AI4Science学习规划.md)
+链接：[AI4Science学习规划](./AI4Science学习规划.md)
 
 贡献者： Zhaorui(Elijah) Jiang
 
 ### 有用小知识：Verilog
 
-文件夹链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/tree/main/Verilog代码
+文件夹链接：[Verilog代码](./Verilog代码)
 
-说明文档链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/Verilog代码/使用说明.md
+说明文档链接：[使用说明](./Verilog代码/使用说明.md)
 
 其他需要补充的知识会创建新的文件夹放在 Verilog 文档里(๑•̀ㅂ•́)و✧
 
@@ -302,12 +311,12 @@ Guideline-for-Computational-Biology-and-Bioinformatics
 
 ### 行前行李准备
 
-文档链接：[行前准备.md](./行前准备.md)
+文档链接：[行前准备](./行前准备.md)
 
 贡献者： Zewen(Rex) Qu
 
 ### 雅思备考
 
-文档链接：[雅思备考.md](./雅思备考.md)
+文档链接：[雅思备考](./雅思备考.md)
 
 贡献者： Yu Zhou
