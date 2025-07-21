@@ -317,6 +317,12 @@ Guideline-for-Computational-Biology-and-Bioinformatics
 
 贡献者： Zewen(Rex) Qu
 
+### 留学生菜谱
+
+文档链接：[留学生菜谱](./留学生菜谱.md)
+
+贡献者：Hongbo Li
+
 ### 雅思备考
 
 文档链接：[雅思备考](./雅思备考.md)
