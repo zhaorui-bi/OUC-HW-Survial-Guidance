@@ -286,7 +286,7 @@ Guideline-for-Computational-Biology-and-Bioinformatics
 
 ### AI4S 学习规划
 
-链接：https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/blob/main/AI4Science学习规划.md
+链接：/blob/main/AI4Science学习规划.md
 
 贡献者： Zhaorui(Elijah) Jiang
 
