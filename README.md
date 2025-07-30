@@ -24,7 +24,7 @@ News‼️：（updating）
 
 参与者：Zhaorui(Elijah) Jiang , Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou, Jie Liu（continue...）
 
-更新时间：2025-7-21
+更新时间：2025-7-30
 
 发起者：Zhaorui(Elijah) Jiang 
 
@@ -51,7 +51,7 @@ News‼️：（updating）
 
   //长期寻找志同道合的合作伙伴 + 朋友 AI FOR LIFE SCEINCE
 
-- 邮箱 email：个人：jzr071911@126.com 学校：zj2009@hw.ac.uk
+- 邮箱 email：个人：jzr071911@126.com 学校：zrjiang25@stu.pku.edu.cn
 
 生存指南将分为一下几个板块：[项目篇](#项目篇)；[英语篇](#英语篇)；[课程篇](#课程篇)；[竞赛篇](#竞赛篇)；[科研篇](#科研篇)；[专栏篇](#专栏篇)
 
