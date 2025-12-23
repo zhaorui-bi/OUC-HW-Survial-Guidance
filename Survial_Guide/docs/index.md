@@ -1,10 +1,11 @@
-# Welcome to Data Visualization and Analysis Methods Course!
+# Welcome to OUC-HW-Survial-Guidance! OUC&HW计科中外“宝宝”👶生存指南
 
 <div class="result" markdown>
 
 <!-- ![Image title](img/logo.png){ align=right width=300 } -->
 
-This repository contains the course materials for the Data Visualization and Analysis Methods (DVAM) course offered at Peking University. The course aims to equip students with essential skills in data visualization and analysis, enabling them to effectively interpret and present data insights.
+OUC-HW-Survial-Guidance is a comprehensive repository designed to assist students at Ocean University of China (OUC) in navigating the challenges of homework assignments. This repository offers a variety of resources, including tips, strategies, and tools to help students effectively manage their homework workload and improve their academic performance.
+
 
 </div>
 
