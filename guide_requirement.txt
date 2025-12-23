@@ -1,0 +1,6 @@
+mkdocs>=1.5.0
+mkdocs-material
+pymdown-extensions
+mkdocs-jupyter
+mkdocs-glightbox
+mkdocstrings[python]

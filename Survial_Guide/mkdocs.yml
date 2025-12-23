@@ -1,0 +1,79 @@
+site_name: OUC-HW-Survial-Guidance
+repo_url: https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance
+site_author: "Zhaorui(Elijah) JIANG"
+copyright: "Copyright &copy; Survial Guidance TEAM 2025"
+
+nav:
+  - Index: index.md
+  - Prerequisites: Prerequisites_guild.md
+  - Lecture1: lecture1.md
+  - Lecture2: lecture2.md
+  - Release notes: Release_notes.md
+  # - Developer guild: Developer_guild.md
+
+plugins:
+  - mkdocs-jupyter
+  - glightbox
+  # - gen-files:
+  #     scripts:
+  #       - docs/gen_ref_pages.py
+  - mkdocstrings:
+      enabled: !ENV [ENABLE_MKDOCSTRINGS, true]
+      # custom_templates: templates
+      default_handler: python
+      handlers:
+        python:
+          options:
+            show_source: false
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  logo: img/ico.png
+  favicon: img/favicon.ico
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  #- mkautodoc
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - css/custom.css
