@@ -340,7 +340,7 @@ Guideline-for-Computational-Biology-and-Bioinformatics
 
 ```bibtex
 @misc{OUC_Survival_Guidance,
-  author = {Jiang, Zhaorui and Contributors},
+  author = {Jiang, Zhaorui and OUC&HWU Survial Guidance TEAM},
   title  = {OUC-HW-Survival-Guidance: Ocean University of China Course Materials and Exam Resources},
   year   = {2024},
   publisher = {GitHub},
