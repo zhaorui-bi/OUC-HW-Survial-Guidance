@@ -32,7 +32,7 @@ News‼️：（updating）
 
 感觉在赫瓦精彩的一年！感谢BCML Lab的每一个成员！感谢一切nice的外国友人们！希望下一个路口更加精彩！
 
-## 前言
+## 📖 前言
 
 我是谁？为什么要写这个？
 
@@ -55,7 +55,7 @@ News‼️：（updating）
 
 生存指南将分为一下几个板块：[项目篇](#项目篇)；[英语篇](#英语篇)；[课程篇](#课程篇)；[竞赛篇](#竞赛篇)；[科研篇](#科研篇)；[专栏篇](#专栏篇)
 
-## 项目篇
+## 🔧 项目篇
 
 计算机科学与技术（中外合作办学）**双学籍注册**
 
@@ -276,7 +276,7 @@ Guideline-for-Computational-Biology-and-Bioinformatics
 - 北京大学gao lab（国内超级牛🐮的大组）
 - 链接：https://github.com/gao-lab/Guideline-for-Computational-Biology-and-Bioinformatics
   
-## 专栏篇
+## 📺 专栏篇
 
 ### 申研规划
 
