@@ -330,4 +330,22 @@ Guideline-for-Computational-Biology-and-Bioinformatics
 
 贡献者：Hongbo Li
 
+## 🔒 License
+* See [LICENSE](LICENSE) for details.
+
+
+## 🤝 Citation
+
+如果您觉得本项目对您的学习有所帮助，或者在您的项目中使用了本仓库的资料，请考虑引用：
+
+```bibtex
+@misc{OUC_Survival_Guidance,
+  author = {Jiang, Zhaorui and Contributors},
+  title  = {OUC-HW-Survival-Guidance: Ocean University of China Course Materials and Exam Resources},
+  year   = {2024},
+  publisher = {GitHub},
+  journal   = {GitHub repository},
+  howpublished = {\url{[https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance](https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance)}},
+  note   = {Accessed: \today}
+}
 
