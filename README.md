@@ -24,7 +24,7 @@ News‼️：（updating）
 
 参与者：Zhaorui(Elijah) Jiang , Xiangqi Li, Hongbo Li, Zewen(Rex) Qu, Luyao Wang, Liangkun Chen, Chanel, Yu Zhou, Jie Liu（continue...）
 
-更新时间：2025-7-30
+更新时间：2026-02-09
 
 发起者：Zhaorui(Elijah) Jiang 
 
