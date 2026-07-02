@@ -25,7 +25,7 @@ Ocean University of China x Heriot-Watt University
 
 - 内容基线：2026-02-09
 - 站点更新：2026-07-02
-- 维护者：Zhaorui(Elijah) Jiang
+- 创始人 / 维护者：[Zhaorui(Elijah) Jiang](https://zhaorui-bi.github.io/)
 - 文档形态：非官方学生知识库
 - 反馈方式：GitHub Issues / Pull Request
 </div>
@@ -141,7 +141,7 @@ Ocean University of China x Heriot-Watt University
 ### [保研规划](保研规划.md)
 推免准备、规则理解和风险点。
 
-贡献者：Zhaorui(Elijah) Jiang
+贡献者：[Zhaorui(Elijah) Jiang](https://zhaorui-bi.github.io/)
 </div>
 
 <div class="topic-card" markdown>
@@ -155,7 +155,7 @@ Ocean University of China x Heriot-Watt University
 ### [AI4Science 学习规划](AI4Science学习规划.md)
 AI for Science 入门、进阶和科研方向选择。
 
-贡献者：Zhaorui(Elijah) Jiang
+贡献者：[Zhaorui(Elijah) Jiang](https://zhaorui-bi.github.io/)
 </div>
 
 <div class="topic-card" markdown>
@@ -211,7 +211,7 @@ IELTS 备考经验、资料和策略。
 | 申研规划 | 完成 | Chanel |
 | 雅思备考 | 第一版完成 | Yu Zhou |
 | 机器人学习规划 | 第一版完成 | Hongbo Li |
-| AI4Science 学习规划 | 第一版完成 | Zhaorui(Elijah) Jiang |
+| AI4Science 学习规划 | 第一版完成 | [Zhaorui(Elijah) Jiang](https://zhaorui-bi.github.io/) |
 | 本科生如何做科研 | 待完善 | 待补充 |
 | 大学牲赚钱指南 | 待完善 | 待补充 |
 | 留学生做饭菜谱 | 第一版完成 | Hongbo Li |
@@ -448,9 +448,9 @@ Guideline for Computational Biology and Bioinformatics
 | 专栏 | 链接 | 贡献者 |
 | --- | --- | --- |
 | 申研规划 | [申研规划](申研规划.md) | Chanel |
-| 保研规划 | [保研规划](保研规划.md) | Zhaorui(Elijah) Jiang |
+| 保研规划 | [保研规划](保研规划.md) | [Zhaorui(Elijah) Jiang](https://zhaorui-bi.github.io/) |
 | 机器人学习规划 | [机器人学习规划](机器人学习规划.md) | Hongbo Li |
-| AI4Science 学习规划 | [AI4Science学习规划](AI4Science学习规划.md) | Zhaorui(Elijah) Jiang |
+| AI4Science 学习规划 | [AI4Science学习规划](AI4Science学习规划.md) | [Zhaorui(Elijah) Jiang](https://zhaorui-bi.github.io/) |
 | 本科生如何做科研 | [本科生如何做科研](本科生如何做科研.md) | 待补充 |
 | Verilog 小知识 | [使用说明](Verilog代码/使用说明.md) | Liangkun Chen |
 | 雅思备考 | [雅思备考](雅思备考.md) | Yu Zhou |

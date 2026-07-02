@@ -6,6 +6,9 @@
     面向中国海洋大学 - 赫瑞瓦特大学计算机科学与技术中外合作办学项目的开放式学生生存指南。
   </p>
   <p>
+    创始人 / 维护者：<a href="https://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a>
+  </p>
+  <p>
     <a href="https://ouc-hw-survial-guidance.readthedocs.io/zh-cn/latest/">在线阅读</a>
     ·
     <a href="https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance/issues">反馈与勘误</a>
