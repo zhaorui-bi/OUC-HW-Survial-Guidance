@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Survial_Guide/docs/img/logo.png" alt="OUC-HWU Academic Guide" width="220" />
+  <img src="Survial_Guide/docs/img/logo.png" alt="OUC-HWU Academic Guide" width="320" />
   <h1>OUC-HWU Academic Guide</h1>
   <p><strong>OUC-HWU 计科中外学习与发展指南</strong></p>
   <p>
