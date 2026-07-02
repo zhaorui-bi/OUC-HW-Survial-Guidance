@@ -599,6 +599,21 @@ body {
   max-width: 52rem;
 }
 
+.md-typeset .guide-pdf-embed {
+  margin: 1.2rem 0 1.6rem;
+  border: 1px solid var(--guide-border);
+  border-radius: 0.28rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.md-typeset .guide-pdf-embed iframe {
+  display: block;
+  width: 100%;
+  min-height: 34rem;
+  border: 0;
+}
+
 .md-typeset .guide-qr {
   display: block;
   width: min(15rem, 70vw);
