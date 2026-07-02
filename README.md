@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="Survial_Guide/docs/img/logo.png" alt="OUC-HWU Academic Guide" width="320" />
-  <h1>OUC-HWU Academic Guide</h1>
-  <p><strong>OUC-HWU 计科中外学习与发展指南</strong></p>
+  <img src="Survial_Guide/docs/img/logo.png" alt="OUC-HWU Survial Guidance" width="320" />
+  <h1>OUC-HWU Survial Guidance</h1>
+  <p><strong>OUC-HWU 计科中外生存指南</strong></p>
   <p>
-    面向中国海洋大学 - 赫瑞瓦特大学计算机科学与技术中外合作办学项目的开放式学生知识库。
+    面向中国海洋大学 - 赫瑞瓦特大学计算机科学与技术中外合作办学项目的开放式学生生存指南。
   </p>
   <p>
     <a href="https://ouc-hw-survial-guidance.readthedocs.io/zh-cn/latest/">在线阅读</a>

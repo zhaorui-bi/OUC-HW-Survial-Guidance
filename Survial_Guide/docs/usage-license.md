@@ -20,7 +20,7 @@
 
 转载、引用或改编时，请尽量保留以下信息：
 
-- 项目名称：OUC-HWU 计科中外学习与发展指南
+- 项目名称：OUC-HWU 计科中外生存指南
 - 原始链接：[https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance](https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance)
 - 作者与贡献者信息
 - 协议名称：CC BY-NC-SA 4.0

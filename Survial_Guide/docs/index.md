@@ -1,10 +1,10 @@
-# OUC-HWU 计科中外学习与发展指南
+# OUC-HWU 计科中外生存指南
 
 <section class="guide-hero" markdown>
 <div class="guide-hero__content" markdown>
-<img src="img/logo.png" alt="OUC-HWU Guide Logo" class="guide-hero__logo" />
+<img src="img/logo.png" alt="OUC-HWU Survial Guidance Logo" class="guide-hero__logo" />
 
-<span class="guide-hero__eyebrow">Academic Knowledge Base</span>
+<span class="guide-hero__eyebrow">Survial Guidance</span>
 
 <div class="guide-meta" markdown>
 **OUC-HWU Computer Science Joint Programme**
