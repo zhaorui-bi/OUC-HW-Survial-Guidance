@@ -1,7 +1,10 @@
-site_name: OUC-HW-Survial-Guidance
+site_name: OUC-HWU Academic Guide
+site_description: "OUC-HWU 计科中外项目课程、科研、升学与专业发展知识库"
+site_url: https://ouc-hw-survial-guidance.readthedocs.io/zh-cn/latest/
 repo_url: https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance
+repo_name: zhaorui-bi/OUC-HW-Survial-Guidance
 site_author: "Zhaorui(Elijah) JIANG"
-copyright: "Copyright &copy; Survial Guidance TEAM 2025"
+copyright: "Copyright &copy; OUC-HWU Survival Guidance Team 2026"
 
 nav:
   - 首页: index.md
@@ -17,9 +20,14 @@ nav:
       - Verilog 使用说明: Verilog代码/使用说明.md
   - FAQ: FAQ.md
   - 更新日志: Release_notes.md
+  - 使用协议: usage-license.md
   # - Developer guild: Developer_guild.md
 
 plugins:
+  - search:
+      lang:
+        - zh
+        - en
   - mkdocs-jupyter
   - glightbox
   # - gen-files:
@@ -37,17 +45,21 @@ plugins:
 theme:
   name: material
   custom_dir: docs/overrides
-  logo: img/ico.png
-  favicon: img/favicon.ico
+  logo: img/logo.png
+  favicon: img/ico.png
 
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: blue
+      accent: light blue
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -55,7 +67,14 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
     - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.code.copy
 
 markdown_extensions:
   - admonition
@@ -80,7 +99,6 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/config.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
