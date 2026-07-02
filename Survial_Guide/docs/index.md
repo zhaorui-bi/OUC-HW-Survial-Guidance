@@ -33,7 +33,7 @@ Ocean University of China x Heriot-Watt University
 
 <div class="guide-stats" markdown>
 <div markdown>
-**9**
+**11**
 
 专题模块
 </div>
@@ -110,7 +110,7 @@ Ocean University of China x Heriot-Watt University
 <div class="guide-card" markdown>
 ### 发展路径
 
-推免、海外申请、雅思备考、AI4Science 与机器人方向等内容已拆分为独立专题，便于按目标检索。
+推免、海外申请、科研入门、雅思备考、AI4Science 与机器人方向等内容已拆分为独立专题，便于按目标检索。
 
 [查看专题](#专题导航)
 </div>
@@ -159,6 +159,13 @@ AI for Science 入门、进阶和科研方向选择。
 </div>
 
 <div class="topic-card" markdown>
+### [本科生如何做科研](本科生如何做科研.md)
+本科生科研入门、文献阅读和课题切入。
+
+贡献者：待补充
+</div>
+
+<div class="topic-card" markdown>
 ### [雅思备考](雅思备考.md)
 IELTS 备考经验、资料和策略。
 
@@ -180,6 +187,13 @@ IELTS 备考经验、资料和策略。
 </div>
 
 <div class="topic-card" markdown>
+### [大学牲赚钱指南](大学牲赚钱指南.md)
+大学阶段合规收入来源、技能变现和风险边界。
+
+贡献者：待补充
+</div>
+
+<div class="topic-card" markdown>
 ### [Verilog 使用说明](Verilog代码/使用说明.md)
 数字逻辑与 Verilog 小知识。
 
@@ -198,6 +212,8 @@ IELTS 备考经验、资料和策略。
 | 雅思备考 | 第一版完成 | Yu Zhou |
 | 机器人学习规划 | 第一版完成 | Hongbo Li |
 | AI4Science 学习规划 | 第一版完成 | Zhaorui(Elijah) Jiang |
+| 本科生如何做科研 | 待完善 | 待补充 |
+| 大学牲赚钱指南 | 待完善 | 待补充 |
 | 留学生做饭菜谱 | 第一版完成 | Hongbo Li |
 
 !!! note "关于这份指南"
@@ -435,9 +451,11 @@ Guideline for Computational Biology and Bioinformatics
 | 保研规划 | [保研规划](保研规划.md) | Zhaorui(Elijah) Jiang |
 | 机器人学习规划 | [机器人学习规划](机器人学习规划.md) | Hongbo Li |
 | AI4Science 学习规划 | [AI4Science学习规划](AI4Science学习规划.md) | Zhaorui(Elijah) Jiang |
+| 本科生如何做科研 | [本科生如何做科研](本科生如何做科研.md) | 待补充 |
 | Verilog 小知识 | [使用说明](Verilog代码/使用说明.md) | Liangkun Chen |
 | 雅思备考 | [雅思备考](雅思备考.md) | Yu Zhou |
 | 行前行李准备 | [行前准备](行前准备.md) | Zewen(Rex) Qu |
+| 大学牲赚钱指南 | [大学牲赚钱指南](大学牲赚钱指南.md) | 待补充 |
 | 留学生做饭菜谱 | [留学生菜谱](留学生做饭菜谱.md) | Hongbo Li |
 | 计算物理学 | [计算物理学](计算物理学.md) | 项目贡献者 |
 
