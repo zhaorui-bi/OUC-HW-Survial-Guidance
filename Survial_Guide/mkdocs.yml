@@ -18,7 +18,6 @@ nav:
       - 留学生做饭菜谱: 留学生做饭菜谱.md
       - 计算物理学: 计算物理学.md
       - Verilog 使用说明: Verilog代码/使用说明.md
-  - FAQ: FAQ.md
   - 更新日志: Release_notes.md
   - 使用协议: usage-license.md
   # - Developer guild: Developer_guild.md
@@ -45,6 +44,7 @@ plugins:
 theme:
   name: material
   custom_dir: docs/overrides
+  language: zh
   logo: img/logo.png
   favicon: img/ico.png
 
@@ -99,6 +99,7 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/config.js
+  - javascripts/nav-dropdown-v4.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:

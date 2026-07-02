@@ -79,7 +79,7 @@ Ocean University of China x Heriot-Watt University
 
 </div>
 
-## 推荐路径 { #路线图 }
+## 核心内容 { #路线图 }
 
 <div class="guide-grid" markdown>
 
