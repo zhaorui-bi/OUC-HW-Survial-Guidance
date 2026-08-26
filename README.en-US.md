@@ -32,7 +32,7 @@ You can select topics based on your current stage:
 | Scenario | Recommended Reading |
 | --- | --- |
 | New to the program, want to understand the curriculum structure | Home, Program Basics, Courses & Grades |
-| Preparing for domestic graduate recommendations or overseas applications | Domestic Grad Recommendation Planning, Overseas Grad Application Planning, Undergraduate Research Guide |
+| Preparing for domestic graduate recommendations, overseas applications, or summer programs | Domestic Grad Recommendation Planning, Overseas Grad Application Planning, Summer Research and Summer School Applications, Undergraduate Research Guide |
 | Preparing to study and live in the UK | IELTS Preparation, Pre-departure Checklist, International Student Cooking Recipes |
 | Exploring directions or supplementing skills | AI4Science Learning Plan, Robotics Learning Plan, Computational Physics, Verilog Usage Guide |
 

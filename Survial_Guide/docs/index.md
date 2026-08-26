@@ -33,7 +33,7 @@ Ocean University of China x Heriot-Watt University
 
 <div class="guide-stats" markdown>
 <div markdown>
-**11**
+**12**
 
 专题模块
 </div>
@@ -121,10 +121,10 @@ Ocean University of China x Heriot-Watt University
 
 | 阶段 | 推荐阅读 | 关键任务 |
 | --- | --- | --- |
-| 大一 / 大二 | [项目篇](#项目篇)、[课程篇](#课程篇) | 理解中英双方成绩单、课程节奏与基础 CS 能力建设 |
+| 大一 / 大二 | [项目篇](#项目篇)、[课程篇](#课程篇)、[暑研与暑校申请](暑研与暑校申请.md) | 理解中英双方成绩单、课程节奏与基础 CS 能力建设，开始探索方向和暑期机会 |
 | 大三 | [科研篇](#科研篇)、[竞赛篇](#竞赛篇) | 明确推免 / 申请 / 就业方向，准备科研、竞赛或申请材料 |
 | 准大四赴英 | [英语篇](#英语篇)、[行前准备](行前准备.md) | 确认语言成绩、住宿、行李、签证和落地事项 |
-| 申请季 | [保研规划](保研规划.md)、[申研规划](申研规划.md)、[雅思备考](雅思备考.md) | 按时间线准备成绩、推荐信、文书、面试和语言成绩 |
+| 申请季 | [保研规划](保研规划.md)、[申研规划](申研规划.md)、[暑研与暑校申请](暑研与暑校申请.md)、[雅思备考](雅思备考.md) | 按时间线准备成绩、推荐信、文书、面试和语言成绩 |
 
 ## 专题导航 { #专题导航 }
 
@@ -135,6 +135,13 @@ Ocean University of China x Heriot-Watt University
 海外硕博申请路线、材料准备和时间线。
 
 贡献者：Chanel
+</div>
+
+<div class="topic-card" markdown>
+### [暑研与暑校申请](暑研与暑校申请.md)
+暑期项目选择、机会检索、申请材料、面试准备与安全边界。
+
+贡献者：李金硕
 </div>
 
 <div class="topic-card" markdown>
@@ -209,6 +216,7 @@ IELTS 备考经验、资料和策略。
 | Verilog 小知识 | 完成 | Liangkun Chen |
 | 行前行李准备 | 完成 | Zewen(Rex) Qu |
 | 申研规划 | 完成 | Chanel |
+| 暑研与暑校申请 | 第一版完成 | 李金硕 |
 | 雅思备考 | 第一版完成 | Yu Zhou |
 | 机器人学习规划 | 第一版完成 | Hongbo Li |
 | AI4Science 学习规划 | 第一版完成 | [Zhaorui(Elijah) Jiang](https://zhaorui-bi.github.io/) |
