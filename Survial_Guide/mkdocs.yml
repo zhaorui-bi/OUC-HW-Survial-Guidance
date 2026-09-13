@@ -106,4 +106,9 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
+  - https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc@5/400.css
+  - https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc@5/500.css
+  - https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc@5/700.css
+  - https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5/700.css
+  - https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5/900.css
   - css/custom.css

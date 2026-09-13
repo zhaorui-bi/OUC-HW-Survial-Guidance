@@ -1,631 +1,2637 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+<!DOCTYPE html><html lang="zh" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="OUC-HWU 计科中外项目课程、科研、升学与生活生存指南">
+      
+      
+        <meta name="author" content="Zhaorui(Elijah) JIANG">
+      
+      
+        <link rel="canonical" href="https://ouc-hw-survial-guidance.readthedocs.io/zh-cn/latest/">
+      
+      
+      
+        <link rel="next" href="%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="img/ico.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>OUC-HWU Survial Guidance</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
 
-    <meta name="author" content="Zhaorui(Elijah) JIANG" />
 
-    <link rel="next" href="Prerequisites_guild/" />
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc@5/400.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc@5/500.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc@5/700.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5/700.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5/900.css">
+    
+      <link rel="stylesheet" href="css/custom.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
 
-    <link rel="icon" href="img/favicon.ico" />
-    <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.21" />
-
-    <title>Epiverse Readthedocs</title>
-
-    <link rel="stylesheet" href="assets/stylesheets/main.eebd395e.min.css" />
-
-    <link rel="stylesheet" href="assets/stylesheets/palette.ecc896b0.min.css" />
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback"
-    />
-    <style>
-      :root {
-        --md-text-font: "Roboto";
-        --md-code-font: "Roboto Mono";
-      }
-    </style>
-
-    <link rel="stylesheet" href="assets/_mkdocstrings.css" />
-
-    <link rel="stylesheet" href="css/custom.css" />
-
-    <script>
-      (__md_scope = new URL(".", location)),
-        (__md_hash = (e) =>
-          [...e].reduce((e, _) => (e << 5) - e + _.charCodeAt(0), 0)),
-        (__md_get = (e, _ = localStorage, t = __md_scope) =>
-          JSON.parse(_.getItem(t.pathname + "." + e))),
-        (__md_set = (e, _, t = localStorage, a = __md_scope) => {
-          try {
-            t.setItem(a.pathname + "." + e, JSON.stringify(_));
-          } catch (e) {}
-        });
-    </script>
-
-    <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet" />
-    <style>
-      html.glightbox-open {
-        overflow: initial;
-        height: 100%;
-      }
-      .gslide-title {
-        margin-top: 0px;
-        user-select: text;
-      }
-      .gslide-desc {
-        color: #666;
-        user-select: text;
-      }
-      .gslide-image img {
-        background: white;
-      }
-
-      .gscrollbar-fixer {
-        padding-right: 15px;
-      }
-      .gdesc-inner {
-        font-size: 0.75rem;
-      }
-      body[data-md-color-scheme="slate"] .gdesc-inner {
-        background: var(--md-default-bg-color);
-      }
-      body[data-md-color-scheme="slate"] .gslide-title {
-        color: var(--md-default-fg-color);
-      }
-      body[data-md-color-scheme="slate"] .gslide-desc {
-        color: var(--md-default-fg-color);
-      }
-    </style>
-    <script src="assets/javascripts/glightbox.min.js"></script>
-  </head>
-
-  <body
-    dir="ltr"
-    data-md-color-scheme="default"
-    data-md-color-primary="indigo"
-    data-md-color-accent="indigo"
-  >
-    <script>
-      var palette = __md_get("__palette");
-      if (palette && "object" == typeof palette.color)
-        for (var key of Object.keys(palette.color))
-          document.body.setAttribute(
-            "data-md-color-" + key,
-            palette.color[key]
-          );
-    </script>
-
-    <input
-      class="md-toggle"
-      data-md-toggle="drawer"
-      type="checkbox"
-      id="__drawer"
-      autocomplete="off"
-    />
-    <input
-      class="md-toggle"
-      data-md-toggle="search"
-      type="checkbox"
-      id="__search"
-      autocomplete="off"
-    />
+    
+    
+  <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      <a href="#welcome-to-epiverses-documentation" class="md-skip">
-        Skip to content
-      </a>
-    </div>
-    <div data-md-component="announce"></div>
-
-    <header class="md-header md-header--shadow" data-md-component="header">
-      <nav class="md-header__inner md-grid" aria-label="Header">
-        <a
-          href="."
-          title="Epiverse Readthedocs"
-          class="md-header__button md-logo"
-          aria-label="Epiverse Readthedocs"
-          data-md-component="logo"
-        >
-          <img src="img/ico.png" alt="logo" />
+      
+        
+        <a href="#ouc-hwu" class="md-skip">
+          跳转至
         </a>
-        <label class="md-header__button md-icon" for="__drawer">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z" />
-          </svg>
-        </label>
-        <div class="md-header__title" data-md-component="header-title">
-          <div class="md-header__ellipsis">
-            <div class="md-header__topic">
-              <span class="md-ellipsis"> Epiverse Readthedocs </span>
-            </div>
-            <div class="md-header__topic" data-md-component="header-topic">
-              <span class="md-ellipsis"> Index </span>
-            </div>
-          </div>
-        </div>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
 
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="." title="OUC-HWU Survial Guidance" class="md-header__button md-logo" aria-label="OUC-HWU Survial Guidance" data-md-component="logo">
+      
+  <img src="img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OUC-HWU Survial Guidance
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              首页
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
         <form class="md-header__option" data-md-component="palette">
-          <input
-            class="md-option"
-            data-md-color-media="(prefers-color-scheme: light)"
-            data-md-color-scheme="default"
-            data-md-color-primary="indigo"
-            data-md-color-accent="indigo"
-            aria-label="Switch to dark mode"
-            type="radio"
-            name="__palette"
-            id="__palette_1"
-          />
-
-          <label
-            class="md-header__button md-icon"
-            title="Switch to dark mode"
-            for="__palette_2"
-            hidden
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path
-                d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-              />
-            </svg>
-          </label>
-
-          <input
-            class="md-option"
-            data-md-color-media="(prefers-color-scheme: dark)"
-            data-md-color-scheme="slate"
-            data-md-color-primary="indigo"
-            data-md-color-accent="indigo"
-            aria-label="Switch to light mode"
-            type="radio"
-            name="__palette"
-            id="__palette_2"
-          />
-
-          <label
-            class="md-header__button md-icon"
-            title="Switch to light mode"
-            for="__palette_1"
-            hidden
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path
-                d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"
-              />
-            </svg>
-          </label>
-        </form>
-
-        <div class="md-header__source">
-          <a
-            href="https://github.com/DBinary/Epiverse"
-            title="Go to repository"
-            class="md-source"
-            data-md-component="source"
-          >
-            <div class="md-source__icon md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.-->
-                <path
-                  d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"
-                />
-              </svg>
-            </div>
-            <div class="md-source__repository">GitHub</div>
-          </a>
-        </div>
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
       </nav>
-    </header>
-
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    zhaorui-bi/OUC-HW-Survial-Guidance
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
     <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  专栏篇
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Release_notes/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  更新日志
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="usage-license/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  使用协议
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
-          <div
-            class="md-sidebar md-sidebar--primary"
-            data-md-component="sidebar"
-            data-md-type="navigation"
-          >
-            <div class="md-sidebar__scrollwrap">
-              <div class="md-sidebar__inner">
-                <nav
-                  class="md-nav md-nav--primary"
-                  aria-label="Navigation"
-                  data-md-level="0"
-                >
-                  <label class="md-nav__title" for="__drawer">
-                    <a
-                      href="."
-                      title="Epiverse Readthedocs"
-                      class="md-nav__button md-logo"
-                      aria-label="Epiverse Readthedocs"
-                      data-md-component="logo"
-                    >
-                      <img src="img/ico.png" alt="logo" />
-                    </a>
-                    Epiverse Readthedocs
-                  </label>
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
 
-                  <div class="md-nav__source">
-                    <a
-                      href="https://github.com/DBinary/Epiverse"
-                      title="Go to repository"
-                      class="md-source"
-                      data-md-component="source"
-                    >
-                      <div class="md-source__icon md-icon">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 448 512"
-                        >
-                          <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.-->
-                          <path
-                            d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"
-                          />
-                        </svg>
-                      </div>
-                      <div class="md-source__repository">GitHub</div>
-                    </a>
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="OUC-HWU Survial Guidance" class="md-nav__button md-logo" aria-label="OUC-HWU Survial Guidance" data-md-component="logo">
+      
+  <img src="img/logo.png" alt="logo">
+
+    </a>
+    OUC-HWU Survial Guidance
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    zhaorui-bi/OUC-HW-Survial-Guidance
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#关于" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        关于
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#动态" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        动态
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#阶段路线" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段路线
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#六大板块" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六大板块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六大板块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        项目篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        英语篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        课程篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        竞赛篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        科研篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        专栏篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#专题导航" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        专题导航
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="专题导航">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        申研规划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        暑研与暑校申请
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        保研规划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        机器人学习规划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai4science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI4Science 学习规划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        本科生如何做科研
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        雅思备考
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        行前准备
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        留学生做饭菜谱
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        大学牲赚钱指南
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        计算物理学
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verilog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verilog 使用说明
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#贡献者" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        贡献者
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        编写说明
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#项目篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        项目篇
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#英语篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        英语篇
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#课程篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        课程篇
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="课程篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gpa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        中国海洋大学 GPA 计算规则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        刷分问题
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#竞赛篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        竞赛篇
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#科研篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        科研篇
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="科研篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        科研工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overall
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ML
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NLP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gnn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GNN
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        XAI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#computational-biology-ai-for-life-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computational Biology / AI for Life Science
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#专栏篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        专栏篇
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        License
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Citation
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    专栏篇
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    专栏篇
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    申研规划
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E6%9A%91%E7%A0%94%E4%B8%8E%E6%9A%91%E6%A0%A1%E7%94%B3%E8%AF%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    暑研与暑校申请
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E4%BF%9D%E7%A0%94%E8%A7%84%E5%88%92/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    保研规划
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    机器人学习规划
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="AI4Science%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI4Science 学习规划
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E6%9C%AC%E7%A7%91%E7%94%9F%E5%A6%82%E4%BD%95%E5%81%9A%E7%A7%91%E7%A0%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    本科生如何做科研
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E9%9B%85%E6%80%9D%E5%A4%87%E8%80%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    雅思备考
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E8%A1%8C%E5%89%8D%E5%87%86%E5%A4%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    行前准备
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E5%A4%A7%E5%AD%A6%E7%89%B2%E8%B5%9A%E9%92%B1%E6%8C%87%E5%8D%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    大学牲赚钱指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E7%95%99%E5%AD%A6%E7%94%9F%E5%81%9A%E9%A5%AD%E8%8F%9C%E8%B0%B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    留学生做饭菜谱
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    计算物理学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Verilog%E4%BB%A3%E7%A0%81/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verilog 使用说明
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Release_notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    更新日志
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="usage-license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用协议
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
                   </div>
-
-                  <ul class="md-nav__list" data-md-scrollfix>
-                    <li class="md-nav__item md-nav__item--active">
-                      <input
-                        class="md-nav__toggle md-toggle"
-                        type="checkbox"
-                        id="__toc"
-                      />
-
-                      <label
-                        class="md-nav__link md-nav__link--active"
-                        for="__toc"
-                      >
-                        Index
-                        <span class="md-nav__icon md-icon"></span>
-                      </label>
-
-                      <a href="." class="md-nav__link md-nav__link--active">
-                        Index
-                      </a>
-
-                      <nav
-                        class="md-nav md-nav--secondary"
-                        aria-label="Table of contents"
-                      >
-                        <label class="md-nav__title" for="__toc">
-                          <span class="md-nav__icon md-icon"></span>
-                          Table of contents
-                        </label>
-                        <ul
-                          class="md-nav__list"
-                          data-md-component="toc"
-                          data-md-scrollfix
-                        >
-                          <li class="md-nav__item">
-                            <a href="#contact" class="md-nav__link">
-                              Contact
-                            </a>
-                          </li>
-                        </ul>
-                      </nav>
-                    </li>
-
-                    <li class="md-nav__item">
-                      <a href="Installation_guild/" class="md-nav__link">
-                        Installation
-                      </a>
-                    </li>
-
-                    <li class="md-nav__item md-nav__item--nested">
-                      <input
-                        class="md-nav__toggle md-toggle"
-                        type="checkbox"
-                        id="__nav_3"
-                      />
-
-                      <label
-                        class="md-nav__link"
-                        for="__nav_3"
-                        id="__nav_3_label"
-                        tabindex="0"
-                      >
-                        Tutorial
-                        <span class="md-nav__icon md-icon"></span>
-                      </label>
-
-                      <nav
-                        class="md-nav"
-                        data-md-level="1"
-                        aria-labelledby="__nav_3_label"
-                        aria-expanded="false"
-                      >
-                        <label class="md-nav__title" for="__nav_3">
-                          <span class="md-nav__icon md-icon"></span>
-                          Tutorial
-                        </label>
-                        <ul class="md-nav__list" data-md-scrollfix>
-                          <li class="md-nav__item md-nav__item--nested">
-                            <input
-                              class="md-nav__toggle md-toggle"
-                              type="checkbox"
-                              id="__nav_3_1"
-                            />
-
-                            <label
-                              class="md-nav__link"
-                              for="__nav_3_1"
-                              id="__nav_3_1_label"
-                              tabindex="0"
-                            >
-                              Bulk
-                              <span class="md-nav__icon md-icon"></span>
-                            </label>
-
-                            <nav
-                              class="md-nav"
-                              data-md-level="2"
-                              aria-labelledby="__nav_3_1_label"
-                              aria-expanded="false"
-                            >
-                              <label class="md-nav__title" for="__nav_3_1">
-                                <span class="md-nav__icon md-icon"></span>
-                                Bulk
-                              </label>
-                              <ul class="md-nav__list" data-md-scrollfix>
-                                <li class="md-nav__item">
-                                  <a
-                                    href="Tutorials-bulk/t_pp/"
-                                    class="md-nav__link"
-                                  >
-                                    Preprocessing the data of bulk ATAC-seq with
-                                    Epiverse
-                                  </a>
-                                </li>
-                              </ul>
-                            </nav>
-                          </li>
-
-                          <li class="md-nav__item md-nav__item--nested">
-                            <input
-                              class="md-nav__toggle md-toggle"
-                              type="checkbox"
-                              id="__nav_3_2"
-                            />
-
-                            <label
-                              class="md-nav__link"
-                              for="__nav_3_2"
-                              id="__nav_3_2_label"
-                              tabindex="0"
-                            >
-                              Single
-                              <span class="md-nav__icon md-icon"></span>
-                            </label>
-
-                            <nav
-                              class="md-nav"
-                              data-md-level="2"
-                              aria-labelledby="__nav_3_2_label"
-                              aria-expanded="false"
-                            >
-                              <label class="md-nav__title" for="__nav_3_2">
-                                <span class="md-nav__icon md-icon"></span>
-                                Single
-                              </label>
-                              <ul class="md-nav__list" data-md-scrollfix>
-                                <li class="md-nav__item">
-                                  <a
-                                    href="Tutorials-single/t_preprocess/"
-                                    class="md-nav__link"
-                                  >
-                                    Preprocessing the data of scATAC-seq with
-                                    Epiverse
-                                  </a>
-                                </li>
-                              </ul>
-                            </nav>
-                          </li>
-                        </ul>
-                      </nav>
-                    </li>
-
-                    <li class="md-nav__item">
-                      <a href="api/" class="md-nav__link">
-                        API documentation
-                      </a>
-                    </li>
-
-                    <li class="md-nav__item">
-                      <a href="Release_notes/" class="md-nav__link">
-                        Release notes
-                      </a>
-                    </li>
-
-                    <li class="md-nav__item">
-                      <a href="Developer_guild.md" class="md-nav__link">
-                        Developer guild
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
+                </div>
               </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#关于" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        关于
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#动态" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        动态
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#阶段路线" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        阶段路线
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#六大板块" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        六大板块
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="六大板块">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        项目篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        英语篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        课程篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        竞赛篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        科研篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        专栏篇
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#专题导航" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        专题导航
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="专题导航">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        申研规划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        暑研与暑校申请
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        保研规划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        机器人学习规划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai4science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI4Science 学习规划
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        本科生如何做科研
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        雅思备考
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        行前准备
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        留学生做饭菜谱
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        大学牲赚钱指南
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        计算物理学
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verilog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verilog 使用说明
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#贡献者" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        贡献者
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        编写说明
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#项目篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        项目篇
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#英语篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        英语篇
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#课程篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        课程篇
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="课程篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gpa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        中国海洋大学 GPA 计算规则
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        刷分问题
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#竞赛篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        竞赛篇
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#科研篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        科研篇
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="科研篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        科研工具
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overall
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ML
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dl" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cv" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CV
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nlp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NLP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gnn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GNN
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        XAI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#computational-biology-ai-for-life-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computational Biology / AI for Life Science
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#专栏篇" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        专栏篇
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        License
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Citation
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+  
+  
+
+
+<section class="mit-hero">
+<p><span class="mit-hero__eyebrow">Survival Guidance</span></p>
+<h1 id="ouc-hwu">OUC-HWU 计科中外生存指南<a class="headerlink" href="#ouc-hwu" title="Permanent link">¶</a></h1>
+<p>把中外合作办学的规则、课程、科研与升学路径,一次讲清楚。</p>
+<div class="mit-hero__meta">
+<p><strong>OUC × HWU Computer Science Joint Programme</strong> · 中国海洋大学 × 赫瑞瓦特大学 · 由学生维护,持续更新</p>
+</div>
+<nav class="mit-hero__anchors">
+<p><a class="mit-anchor" href="#关于">关于</a>
+·
+<a class="mit-anchor" href="#动态">动态</a>
+·
+<a class="mit-anchor" href="#阶段路线">阶段路线</a>
+·
+<a class="mit-anchor" href="#六大板块">六大板块</a>
+·
+<a class="mit-anchor" href="#专题导航">专题导航</a>
+·
+<a class="mit-anchor" href="#贡献者">贡献者</a></p>
+</nav>
+<div class="mit-hero__actions">
+<p><a class="md-button md-button--primary" href="#六大板块">开始阅读</a>
+<a class="md-button" href="https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance">GitHub 仓库</a></p>
+</div>
+</section>
+<h2 id="关于">关于<a class="headerlink" href="#关于" title="Permanent link">¶</a></h2>
+<p>本指南面向 OUC-HWU 计科中外合作办学项目学生,系统梳理培养规则、课程学习、语言要求、科研训练、升学申请、赴英准备与留学生活等关键议题。项目同时涉及中英两套培养与评价体系,信息分散且更新频繁,我们希望把学生视角的经验沉淀成一份可持续维护的知识库。</p>
+<div class="mit-logistics">
+<div>
+<p><strong>文档形态</strong></p>
+<p>非官方学生知识库,以学生经验和公开资料为基础,不替代学校、学院、签证中心或目标院校的正式通知。</p>
+</div>
+<div>
+<p><strong>维护团队</strong></p>
+<p>发起人 / 维护者:<a href="https://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a>,与各专题贡献者共同维护,详见<a href="#贡献者">贡献者</a>。</p>
+</div>
+<div>
+<p><strong>反馈渠道</strong></p>
+<p>通过 GitHub Issues 或 Pull Request 补充经验、修复链接与更新政策;请勿提交个人隐私或未授权材料。</p>
+</div>
+<div>
+<p><strong>内容基线</strong></p>
+<p>2026-02-09 首批专题成稿,2026-08-26 新增「暑研与暑校申请」,关键节点见<a href="Release_notes/">更新日志</a>。</p>
+</div>
+<div>
+<p><strong>使用方式</strong></p>
+<p>作为检索入口和规划参考;涉及政策、申请要求与学校流程时,请回到官方页面二次确认,以当年通知为准。</p>
+</div>
+<div>
+<p><strong>引用协议</strong></p>
+<p>CC BY-NC-SA 4.0:署名、非商业、相同方式共享;商业使用请先联系维护者,详见<a href="usage-license/">使用协议</a>。</p>
+</div>
+</div>
+<h2 id="动态">动态<a class="headerlink" href="#动态" title="Permanent link">¶</a></h2>
+<div class="mit-news">
+<ul>
+<li><strong>2026-08-26</strong> — 新增专题「<a href="%E6%9A%91%E7%A0%94%E4%B8%8E%E6%9A%91%E6%A0%A1%E7%94%B3%E8%AF%B7/">暑研与暑校申请</a>」,结合 PKU CQB 与 SMART-SZBL 经历,整理机会检索、CV / 邮件 / 个人网站、面试 PPT、参与边界与安全检查。</li>
+<li><strong>2026-07-02</strong> — 站点整理:白色简约样式、专栏下拉导航、英文 README 与非商业协议说明更新。</li>
+<li><strong>2026-02-09</strong> — 申研、雅思、机器人、AI4Science、行前准备、Verilog 等专题进入第一版维护状态。</li>
+</ul>
+</div>
+<p>完整历史见<a href="Release_notes/">更新日志</a>。</p>
+<h2 id="阶段路线">阶段路线<a class="headerlink" href="#阶段路线" title="Permanent link">¶</a></h2>
+<p>按学年阶段组织的关键任务与推荐阅读,点击药丸链接直达对应板块或专题。</p>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>关键任务</th>
+<th>推荐阅读</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大一 / 大二</td>
+<td>理解双学籍成绩单、课程节奏与 GPA 规则;开始探索方向与暑期机会</td>
+<td><a class="mit-pill" href="#项目篇">项目篇</a> <a class="mit-pill" href="#课程篇">课程篇</a> <a class="mit-pill" href="%E6%9A%91%E7%A0%94%E4%B8%8E%E6%9A%91%E6%A0%A1%E7%94%B3%E8%AF%B7/">暑研与暑校</a></td>
+</tr>
+<tr>
+<td>大三</td>
+<td>明确推免 / 申请 / 就业方向;推进科研、竞赛或申请材料</td>
+<td><a class="mit-pill" href="#科研篇">科研篇</a> <a class="mit-pill" href="#竞赛篇">竞赛篇</a> <a class="mit-pill" href="%E4%BF%9D%E7%A0%94%E8%A7%84%E5%88%92/">保研规划</a></td>
+</tr>
+<tr>
+<td>准大四赴英</td>
+<td>确认语言成绩、住宿、行李、签证与落地事项</td>
+<td><a class="mit-pill" href="#英语篇">英语篇</a> <a class="mit-pill" href="%E8%A1%8C%E5%89%8D%E5%87%86%E5%A4%87/">行前准备</a></td>
+</tr>
+<tr>
+<td>申请季</td>
+<td>按时间线准备成绩、推荐信、文书、面试与语言成绩</td>
+<td><a class="mit-pill" href="%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92/">申研规划</a> <a class="mit-pill" href="%E4%BF%9D%E7%A0%94%E8%A7%84%E5%88%92/">保研规划</a> <a class="mit-pill" href="%E9%9B%85%E6%80%9D%E5%A4%87%E8%80%83/">雅思备考</a></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">项目基础优先</p>
+<p>无论最终选择哪条路线,优先理解双学籍注册、成绩单体系与 GPA 规则;语言成绩则应作为长期学术能力建设的一部分,尽早启动。</p>
+</div>
+<h2 id="六大板块">六大板块<a class="headerlink" href="#六大板块" title="Permanent link">¶</a></h2>
+<p>指南正文分为六个核心板块,可按顺序通读,也可按需跳转。</p>
+<div class="guide-grid mit-sections">
+<div class="guide-card">
+<p><span class="mit-num">01</span></p>
+<h3 id="_1"><a href="#项目篇">项目篇</a><a class="headerlink" href="#_1" title="Permanent link">¶</a></h3>
+<p>双学籍注册、成绩单体系、住宿安排与 GPA / 刷分规则。</p>
+</div>
+<div class="guide-card">
+<p><span class="mit-num">02</span></p>
+<h3 id="_2"><a href="#英语篇">英语篇</a><a class="headerlink" href="#_2" title="Permanent link">¶</a></h3>
+<p>HWU 语言要求、雅思 / 托福选择与英语能力长期建设。</p>
+</div>
+<div class="guide-card">
+<p><span class="mit-num">03</span></p>
+<h3 id="_3"><a href="#课程篇">课程篇</a><a class="headerlink" href="#_3" title="Permanent link">¶</a></h3>
+<p>课程节奏、GPA 计算规则、刷分策略与自学资源。</p>
+</div>
+<div class="guide-card">
+<p><span class="mit-num">04</span></p>
+<h3 id="_4"><a href="#竞赛篇">竞赛篇</a><a class="headerlink" href="#_4" title="Permanent link">¶</a></h3>
+<p>数学建模入门、LaTeX 工具链与 CS 能力提升路径。</p>
+</div>
+<div class="guide-card">
+<p><span class="mit-num">05</span></p>
+<h3 id="_5"><a href="#科研篇">科研篇</a><a class="headerlink" href="#_5" title="Permanent link">¶</a></h3>
+<p>科研与升学目标的关系、工具链与方向课程地图。</p>
+</div>
+<div class="guide-card">
+<p><span class="mit-num">06</span></p>
+<h3 id="_6"><a href="#专栏篇">专栏篇</a><a class="headerlink" href="#_6" title="Permanent link">¶</a></h3>
+<p>申研、保研、暑研、雅思、行前等十二个独立专题。</p>
+</div>
+</div>
+<h2 id="专题导航">专题导航<a class="headerlink" href="#专题导航" title="Permanent link">¶</a></h2>
+<p>专栏篇下的独立专题,覆盖从升学路线到留学生活的完整链路。</p>
+<div class="topic-grid">
+<div class="topic-card">
+<h3 id="_7"><a href="%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92/">申研规划</a><a class="headerlink" href="#_7" title="Permanent link">¶</a></h3>
+<p>海外硕博申请路线、材料准备和时间线。</p>
+<p>贡献者:Chanel</p>
+</div>
+<div class="topic-card">
+<h3 id="_8"><a href="%E6%9A%91%E7%A0%94%E4%B8%8E%E6%9A%91%E6%A0%A1%E7%94%B3%E8%AF%B7/">暑研与暑校申请</a><a class="headerlink" href="#_8" title="Permanent link">¶</a></h3>
+<p>暑期项目选择、机会检索、申请材料、面试准备与安全边界。</p>
+<p>贡献者:李金硕</p>
+</div>
+<div class="topic-card">
+<h3 id="_9"><a href="%E4%BF%9D%E7%A0%94%E8%A7%84%E5%88%92/">保研规划</a><a class="headerlink" href="#_9" title="Permanent link">¶</a></h3>
+<p>推免准备、规则理解和风险点。</p>
+<p>贡献者:<a href="https://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a></p>
+</div>
+<div class="topic-card">
+<h3 id="_10"><a href="%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">机器人学习规划</a><a class="headerlink" href="#_10" title="Permanent link">¶</a></h3>
+<p>机器人方向学习路线与资源。</p>
+<p>贡献者:Hongbo Li</p>
+</div>
+<div class="topic-card">
+<h3 id="ai4science"><a href="AI4Science%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">AI4Science 学习规划</a><a class="headerlink" href="#ai4science" title="Permanent link">¶</a></h3>
+<p>AI for Science 入门、进阶和科研方向选择。</p>
+<p>贡献者:<a href="https://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a></p>
+</div>
+<div class="topic-card">
+<h3 id="_11"><a href="%E6%9C%AC%E7%A7%91%E7%94%9F%E5%A6%82%E4%BD%95%E5%81%9A%E7%A7%91%E7%A0%94/">本科生如何做科研</a><a class="headerlink" href="#_11" title="Permanent link">¶</a></h3>
+<p>本科生科研入门、文献阅读和课题切入。</p>
+<p>贡献者:待补充</p>
+</div>
+<div class="topic-card">
+<h3 id="_12"><a href="%E9%9B%85%E6%80%9D%E5%A4%87%E8%80%83/">雅思备考</a><a class="headerlink" href="#_12" title="Permanent link">¶</a></h3>
+<p>IELTS 备考经验、资料和策略。</p>
+<p>贡献者:Yu Zhou</p>
+</div>
+<div class="topic-card">
+<h3 id="_13"><a href="%E8%A1%8C%E5%89%8D%E5%87%86%E5%A4%87/">行前准备</a><a class="headerlink" href="#_13" title="Permanent link">¶</a></h3>
+<p>赴英行李、住宿、落地和生活事项。</p>
+<p>贡献者:Zewen(Rex) Qu</p>
+</div>
+<div class="topic-card">
+<h3 id="_14"><a href="%E7%95%99%E5%AD%A6%E7%94%9F%E5%81%9A%E9%A5%AD%E8%8F%9C%E8%B0%B1/">留学生做饭菜谱</a><a class="headerlink" href="#_14" title="Permanent link">¶</a></h3>
+<p>留学做饭、采购和生活经验。</p>
+<p>贡献者:Hongbo Li</p>
+</div>
+<div class="topic-card">
+<h3 id="_15"><a href="%E5%A4%A7%E5%AD%A6%E7%89%B2%E8%B5%9A%E9%92%B1%E6%8C%87%E5%8D%97/">大学牲赚钱指南</a><a class="headerlink" href="#_15" title="Permanent link">¶</a></h3>
+<p>大学阶段合规收入来源、技能变现和风险边界。</p>
+<p>贡献者:待补充</p>
+</div>
+<div class="topic-card">
+<h3 id="_16"><a href="%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6/">计算物理学</a><a class="headerlink" href="#_16" title="Permanent link">¶</a></h3>
+<p>计算物理方向的学习路径与资源。</p>
+<p>贡献者:项目贡献者</p>
+</div>
+<div class="topic-card">
+<h3 id="verilog"><a href="Verilog%E4%BB%A3%E7%A0%81/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/">Verilog 使用说明</a><a class="headerlink" href="#verilog" title="Permanent link">¶</a></h3>
+<p>数字逻辑与 Verilog 小知识。</p>
+<p>贡献者:Liangkun Chen</p>
+</div>
+</div>
+<h2 id="贡献者">贡献者<a class="headerlink" href="#贡献者" title="Permanent link">¶</a></h2>
+<p>本指南由以下同学贡献维护,欢迎通过 Issues 或 Pull Request 加入。</p>
+<div class="people-grid">
+<div class="people-card">
+<p><strong><a href="https://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a></strong></p>
+<p>发起人 / 维护者 · 保研规划 · AI4Science 学习规划</p>
+</div>
+<div class="people-card">
+<p><strong>Chanel</strong></p>
+<p>申研规划</p>
+</div>
+<div class="people-card">
+<p><strong>李金硕</strong></p>
+<p>暑研与暑校申请</p>
+</div>
+<div class="people-card">
+<p><strong>Hongbo Li</strong></p>
+<p>机器人学习规划 · 留学生做饭菜谱</p>
+</div>
+<div class="people-card">
+<p><strong>Yu Zhou</strong></p>
+<p>雅思备考</p>
+</div>
+<div class="people-card">
+<p><strong>Zewen(Rex) Qu</strong></p>
+<p>行前准备</p>
+</div>
+<div class="people-card">
+<p><strong>Liangkun Chen</strong></p>
+<p>Verilog 使用说明</p>
+</div>
+<div class="people-card">
+<p><strong>虚位以待</strong></p>
+<p>本科生如何做科研 · 大学牲赚钱指南 · 计算物理学</p>
+</div>
+</div>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>状态</th>
+<th>致谢</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Verilog 小知识</td>
+<td>完成</td>
+<td>Liangkun Chen</td>
+</tr>
+<tr>
+<td>行前行李准备</td>
+<td>完成</td>
+<td>Zewen(Rex) Qu</td>
+</tr>
+<tr>
+<td>申研规划</td>
+<td>完成</td>
+<td>Chanel</td>
+</tr>
+<tr>
+<td>暑研与暑校申请</td>
+<td>第一版完成</td>
+<td>李金硕</td>
+</tr>
+<tr>
+<td>雅思备考</td>
+<td>第一版完成</td>
+<td>Yu Zhou</td>
+</tr>
+<tr>
+<td>机器人学习规划</td>
+<td>第一版完成</td>
+<td>Hongbo Li</td>
+</tr>
+<tr>
+<td>AI4Science 学习规划</td>
+<td>第一版完成</td>
+<td><a href="https://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a></td>
+</tr>
+<tr>
+<td>本科生如何做科研</td>
+<td>待完善</td>
+<td>待补充</td>
+</tr>
+<tr>
+<td>大学牲赚钱指南</td>
+<td>待完善</td>
+<td>待补充</td>
+</tr>
+<tr>
+<td>留学生做饭菜谱</td>
+<td>第一版完成</td>
+<td>Hongbo Li</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">关于这份指南</p>
+<p>本文档保留部分个人经验叙述,同时会根据 GitHub Issues 的反馈持续补充专题。涉及政策、培养方案、申请要求和学校链接时,请以当年官方通知为准;引用或改编本文档时请遵守 CC BY-NC-SA 4.0 非商业共享协议。</p>
+</div>
+<hr>
+<h2 id="_17">编写说明<a class="headerlink" href="#_17" title="Permanent link">¶</a></h2>
+<p>为什么整理这份文档?</p>
+<ul>
+<li>本文档源于 2021 级学生在项目学习、科研与申请过程中的经验整理。</li>
+<li>由于中外合作办学项目同时涉及中英两套培养与评价体系,系统化记录对后续年级具有参考价值。</li>
+</ul>
+<p>个人 social 账号:</p>
+<ul>
+<li>小红书:<a href="https://www.xiaohongshu.com/user/profile/642d82590000000010028a0a">个人主页</a></li>
+<li>GitHub:<a href="https://github.com/zhaorui-bi">zhaorui-bi</a></li>
+<li>Email:<code>jzr071911@126.com</code> / <code>zrjiang25@stu.pku.edu.cn</code></li>
+</ul>
+<h2 id="项目篇">项目篇<a class="headerlink" href="#项目篇" title="Permanent link">¶</a></h2>
+<p>计算机科学与技术(中外合作办学)是双学籍注册项目。</p>
+<div class="admonition tip">
+<p class="admonition-title">项目特点</p>
+<p>你会同时拥有中方和英方的成绩单 / 在读证明。保研、夏令营、预推免和海外申请时都可能用到,但申请时请如实递交中英双方材料。</p>
+</div>
+<ol>
+<li>中国海洋大学:Bachelor of Engineering in Computer Science and Technology</li>
+<li>微信公众号:中国海洋大学计算机学院。毕业去向、学子访谈、课程跟踪等内容可以往前翻。</li>
+<li>信息科学与工程学部官网:<a href="http://it.ouc.edu.cn/main.htm">http://it.ouc.edu.cn/main.htm</a></li>
+<li>科研进组给老师写 email 时,建议先根据学院官网找到老师主页。</li>
+<li>赫瑞瓦特大学:Bachelor of Engineering in Robotics (F2R8-ROB)</li>
+<li>英方项目介绍:<a href="https://curriculum.hw.ac.uk/programmedetails/F2R8-ROB?termcode=202425">课程页面</a></li>
+<li>MACS 学院 CS 部门官网:<a href="https://www.hw.ac.uk/uk/schools/mathematical-computer-sciences/departments/computer-science.htm">Computer Science</a></li>
+<li>HWU CS 学生信息官网:<a href="https://www.macs.hw.ac.uk/students/cs/">Student information</a></li>
+</ol>
+<p>赫瑞瓦特大学成绩单开具链接:<a href="https://hwu.unidesk.ac.uk/tas/public/ssp/80768ff1-d4f4-44ee-acc6-f805472c0370">Student Service Portal</a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="fig/2.jpg" data-desc-position="bottom"><img src="fig/2.jpg" alt="HWU transcript portal" class="guide-image guide-image--medium"></a></p>
+<p>2024 级计算机科学与技术(中外合作办学)宿舍情况:</p>
+<ul>
+<li>大一:崂山校区。一般情况下是四人间,中海苑是六人间但很新。</li>
+<li>大二 + 大三:西海岸校区。独立卫浴 + 四人间。</li>
+<li>大四:赫瑞瓦特大学爱丁堡校区附近。traditional / modern 单人间。</li>
+</ul>
+<h2 id="英语篇">英语篇<a class="headerlink" href="#英语篇" title="Permanent link">¶</a></h2>
+<p>Heriot-Watt University 入学英语要求如下表第三列,总分和小分都必须达标。</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="fig/1.jpg" data-desc-position="bottom"><img src="fig/1.jpg" alt="Heriot-Watt University language requirement" class="guide-image guide-image--medium"></a></p>
+<p>一般情况下建议考 IELTS Academic。学术英语课也会围绕雅思相关内容展开。如果有强烈赴美深造意愿,也可以选择 TOEFL iBT,但一定要注意小分要求。</p>
+<p>为什么英语能力重要?</p>
+<ul>
+<li>赫瑞瓦特大学要求达到 IELTS 6.0(各单项 5.5)或其他同等语言成绩。不达标虽然有语言班,但费用很高。</li>
+<li>出国申请中,亮眼的雅思或托福成绩是必备项,也是加分项。</li>
+<li>国内保研和出国申请面试都可能是英文面试。</li>
+<li>CS 和 AI 前沿内容主要以英文论文、课程和文档呈现。</li>
+<li>大四、硕士、博士阶段的学习、沟通和学术交流都需要英语能力支撑。</li>
+</ul>
+<h2 id="课程篇">课程篇<a class="headerlink" href="#课程篇" title="Permanent link">¶</a></h2>
+<p>关于计科中外课程,可参考既有系列文章。指南也会根据 GitHub Issues 的反馈继续补充专题,例如期末复习、课程选择和申请材料准备。</p>
+<p>小红书链接:<a href="https://www.xiaohongshu.com/user/profile/642d82590000000010028a0a">个人主页</a></p>
+<p>已有帖子包括:</p>
+<ul>
+<li>中国海洋大学计科中外新生之生存指南(一)</li>
+<li>中国海洋大学中外计科大一下生存指南</li>
+<li>中国海洋大学中外计科大二上生存指南 1</li>
+<li>中国海洋大学中外计科大二上生存指南 2</li>
+<li>中国海洋大学中外计科大二下生存指南</li>
+<li>中国海洋大学中外计科大三上生存指南</li>
+<li>中国海洋大学中外计科大四上生存指南</li>
+<li>中国海洋大学中外计科大四下生存指南</li>
+</ul>
+<p>编程启蒙与能力提升推荐:</p>
+<ul>
+<li>UCB CS61A: Structure and Interpretation of Computer Programs
+  <a href="https://cs61a.org">https://cs61a.org</a></li>
+</ul>
+<p>实用电子书网站:</p>
+<ul>
+<li>搬书匠:<a href="http://www.banshujiang.cn/?lang=en">http://www.banshujiang.cn/?lang=en</a></li>
+<li>vdoc.pub:<a href="https://vdoc.pub">https://vdoc.pub</a></li>
+</ul>
+<h3 id="gpa">中国海洋大学 GPA 计算规则<a class="headerlink" href="#gpa" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="fig/gpa.png" data-desc-position="bottom"><img src="fig/gpa.png" alt="OUC GPA rule" class="guide-image guide-image--wide"></a></p>
+<h3 id="_18">刷分问题<a class="headerlink" href="#_18" title="Permanent link">¶</a></h3>
+<p>赫瑞瓦特大学成绩单(英方成绩单)不支持刷分,即第一次考试成绩为最终成绩单分数。</p>
+<p>英方课程:<a href="https://curriculum.hw.ac.uk/programmedetails/F2R8-ROB?termcode=202425">F2R8-ROB curriculum</a></p>
+<p>中国海洋大学成绩单(中方成绩单)支持刷分,同名课程取最高。也就是说,英方课程如果刷分,英方成绩单不更新,但中方成绩单会更新。</p>
+<p>刷分策略:</p>
+<ul>
+<li>尽量刷高学分课程。</li>
+<li>尽可能刷超低分课程。</li>
+<li>多修高分通识课以抬高均分。</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">保研特别注意</p>
+<p>保研成绩计算通常只看第一次初修成绩,刷分对保研排名可能无效。具体以当年学院政策为准。</p>
+</div>
+<h2 id="竞赛篇">竞赛篇<a class="headerlink" href="#竞赛篇" title="Permanent link">¶</a></h2>
+<p>可参考小红书中的《适合中国海洋大学中外计科学生的竞赛指南》。</p>
+<p>链接:<a href="http://xhslink.com/zSmDyS">http://xhslink.com/zSmDyS</a></p>
+<ul>
+<li>数学建模竞赛是所有人都可以参加、门槛相对较低的比赛。</li>
+<li>数学建模资料推荐:<a href="https://github.com/personqianduixue/Math_Model">Math_Model</a></li>
+</ul>
+<p>LaTeX 是数学建模等论文写作的必备工具,需要学会相应软件配置:</p>
+<ul>
+<li>线上工具:Overleaf。配置简单,但编译速度可能较慢。</li>
+<li>macOS 用户可参考:<a href="https://github.com/zhaorui-bi/sublime-latex-macos">sublime-latex-macos</a></li>
+<li>Windows 用户可参考:<a href="https://space.bilibili.com/11921722/channel/collectiondetail?sid=350752">Bilibili 配置教程</a></li>
+</ul>
+<p>CS 能力提升可参考 <a href="https://csdiy.wiki">CS 自学指南</a>。</p>
+<h2 id="科研篇">科研篇<a class="headerlink" href="#科研篇" title="Permanent link">¶</a></h2>
+<p>科研训练具有较强的目标差异性,但越早理解其与升学目标之间的关系,越有利于形成稳定的长期规划。</p>
+<table>
+<thead>
+<tr>
+<th>目标</th>
+<th>科研权重</th>
+<th>建议</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>海博</td>
+<td>权重较高</td>
+<td>建议尽早开始,并形成明确产出</td>
+</tr>
+<tr>
+<td>保研</td>
+<td>重要补充到关键加分</td>
+<td>高竞争度院校建议具备科研产出</td>
+</tr>
+<tr>
+<td>海硕</td>
+<td>视目标学校而定</td>
+<td>大多数情况下绩点仍是主线</td>
+</tr>
+</tbody>
+</table>
+<p>备注:计科中外保研率根据 2020 级情况大概在 20% 左右。</p>
+<p>必修模块 ML(2 选 1)和 DL 模块建议认真学,熟悉 PyTorch 深度学习框架。后续可以根据兴趣选择 CV、NLP、GNN、XAI 等方向。</p>
+<div class="admonition note">
+<p class="admonition-title">毕业设计提醒</p>
+<p>前三年即使没有深入学习 AI / ML,大四毕业设计也大概率需要接触相关内容,建议提前建立基础。</p>
+</div>
+<p>HWU 毕业设计项目链接:<a href="https://projects.hw.ac.uk/Proposals/Index">Project proposals</a></p>
+<h3 id="_19">科研工具<a class="headerlink" href="#_19" title="Permanent link">¶</a></h3>
+<p>完备科研工具是长期学习和科研的基础:</p>
+<ul>
+<li>Missing Semester 中文版:<a href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a></li>
+<li>有用科研工具集锦:<a href="https://ai4s.lab.westlake.edu.cn/blogs/2024/04/10/有用科研工具集锦.html">AI4S Lab Blog</a></li>
+</ul>
+<p>跑模型通常需要服务器,一款好用的服务器管理软件会省很多时间。暂时推荐 Windows 和 macOS 都可用的 FinalShell 和 Royal TSX。</p>
+<p>论文中的 LaTeX 公式编辑器:<a href="https://arachnoid.com/latex/index.html">https://arachnoid.com/latex/index.html</a></p>
+<h3 id="overall">Overall<a class="headerlink" href="#overall" title="Permanent link">¶</a></h3>
+<p>MIT 6.S191 Introduction to Deep Learning
+<a href="https://introtodeeplearning.com/">https://introtodeeplearning.com/</a></p>
+<h3 id="ml">ML<a class="headerlink" href="#ml" title="Permanent link">¶</a></h3>
+<p>NTU Hung-yi Lee Machine Learning
+<a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php">https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php</a></p>
+<p>Stanford CS229: Machine Learning
+<a href="https://cs229.stanford.edu/index.html-backup-fall23">https://cs229.stanford.edu/index.html-backup-fall23</a></p>
+<h3 id="dl">DL<a class="headerlink" href="#dl" title="Permanent link">¶</a></h3>
+<p>PyTorch 一小时快速入门
+<a href="https://pytorch.org/tutorials/beginner/introyt.html">https://pytorch.org/tutorials/beginner/introyt.html</a></p>
+<p>PyTorch 中文 API 文档
+<a href="https://pytorch-cn.readthedocs.io/zh/latest/">https://pytorch-cn.readthedocs.io/zh/latest/</a></p>
+<p>PyTorch 2024 快速入门(中文版)
+<a href="https://blog.csdn.net/ccaoshangfei/article/details/126074300">https://blog.csdn.net/ccaoshangfei/article/details/126074300</a></p>
+<p>d2l 动手学深度学习
+<a href="https://zh.d2l.ai">https://zh.d2l.ai</a></p>
+<h3 id="cv">CV<a class="headerlink" href="#cv" title="Permanent link">¶</a></h3>
+<p>Stanford CS231n: Deep Learning for Computer Vision
+<a href="https://cs231n.stanford.edu">https://cs231n.stanford.edu</a></p>
+<p>同济子豪兄 CS231n 计算机视觉课程
+<a href="https://www.bilibili.com/video/BV1K7411W7So">https://www.bilibili.com/video/BV1K7411W7So</a></p>
+<h3 id="nlp">NLP<a class="headerlink" href="#nlp" title="Permanent link">¶</a></h3>
+<p>Stanford CS224N: Natural Language Processing with Deep Learning
+<a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1234/">https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1234/</a></p>
+<p>CS224n 笔记
+<a href="https://looperxx.github.io/notes/CS224n-2019-00-Info/">https://looperxx.github.io/notes/CS224n-2019-00-Info/</a></p>
+<h3 id="gnn">GNN<a class="headerlink" href="#gnn" title="Permanent link">¶</a></h3>
+<p>Stanford CS224W: Machine Learning with Graphs
+<a href="https://snap.stanford.edu/class/cs224w-2023/index.html#content">https://snap.stanford.edu/class/cs224w-2023/index.html#content</a></p>
+<p>同济子豪兄图机器学习公开课
+<a href="https://www.bilibili.com/video/BV1pR4y1S7GA">https://www.bilibili.com/video/BV1pR4y1S7GA</a></p>
+<p>课程主页
+<a href="https://github.com/TommyZihao/zihao_course/tree/main/CS224W">https://github.com/TommyZihao/zihao_course/tree/main/CS224W</a></p>
+<h3 id="xai">XAI<a class="headerlink" href="#xai" title="Permanent link">¶</a></h3>
+<p>同济子豪兄可解释机器学习公开课
+<a href="https://github.com/TommyZihao/zihao_course/tree/main/XAI">https://github.com/TommyZihao/zihao_course/tree/main/XAI</a></p>
+<h3 id="computational-biology-ai-for-life-science">Computational Biology / AI for Life Science<a class="headerlink" href="#computational-biology-ai-for-life-science" title="Permanent link">¶</a></h3>
+<p>MIT MLCB24 Machine Learning for Computational Biology
+<a href="https://canvas.mit.edu/courses/28242">https://canvas.mit.edu/courses/28242</a></p>
+<p>YouTube 视频列表
+<a href="https://www.youtube.com/watch?v=1zZSPeKGRzw&amp;list=PLypiXJdtIca4gtioEPLIExlAKvu64z7rc">https://www.youtube.com/watch?v=1zZSPeKGRzw&amp;list=PLypiXJdtIca4gtioEPLIExlAKvu64z7rc</a></p>
+<p>Guideline for Computational Biology and Bioinformatics
+<a href="https://github.com/gao-lab/Guideline-for-Computational-Biology-and-Bioinformatics">https://github.com/gao-lab/Guideline-for-Computational-Biology-and-Bioinformatics</a></p>
+<h2 id="专栏篇">专栏篇<a class="headerlink" href="#专栏篇" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>专栏</th>
+<th>链接</th>
+<th>贡献者</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>申研规划</td>
+<td><a href="%E7%94%B3%E7%A0%94%E8%A7%84%E5%88%92/">申研规划</a></td>
+<td>Chanel</td>
+</tr>
+<tr>
+<td>暑研与暑校申请</td>
+<td><a href="%E6%9A%91%E7%A0%94%E4%B8%8E%E6%9A%91%E6%A0%A1%E7%94%B3%E8%AF%B7/">暑研与暑校申请</a></td>
+<td>李金硕</td>
+</tr>
+<tr>
+<td>保研规划</td>
+<td><a href="%E4%BF%9D%E7%A0%94%E8%A7%84%E5%88%92/">保研规划</a></td>
+<td><a href="https://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a></td>
+</tr>
+<tr>
+<td>机器人学习规划</td>
+<td><a href="%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">机器人学习规划</a></td>
+<td>Hongbo Li</td>
+</tr>
+<tr>
+<td>AI4Science 学习规划</td>
+<td><a href="AI4Science%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">AI4Science学习规划</a></td>
+<td><a href="https://zhaorui-bi.github.io/">Zhaorui(Elijah) Jiang</a></td>
+</tr>
+<tr>
+<td>本科生如何做科研</td>
+<td><a href="%E6%9C%AC%E7%A7%91%E7%94%9F%E5%A6%82%E4%BD%95%E5%81%9A%E7%A7%91%E7%A0%94/">本科生如何做科研</a></td>
+<td>待补充</td>
+</tr>
+<tr>
+<td>Verilog 小知识</td>
+<td><a href="Verilog%E4%BB%A3%E7%A0%81/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/">使用说明</a></td>
+<td>Liangkun Chen</td>
+</tr>
+<tr>
+<td>雅思备考</td>
+<td><a href="%E9%9B%85%E6%80%9D%E5%A4%87%E8%80%83/">雅思备考</a></td>
+<td>Yu Zhou</td>
+</tr>
+<tr>
+<td>行前行李准备</td>
+<td><a href="%E8%A1%8C%E5%89%8D%E5%87%86%E5%A4%87/">行前准备</a></td>
+<td>Zewen(Rex) Qu</td>
+</tr>
+<tr>
+<td>大学牲赚钱指南</td>
+<td><a href="%E5%A4%A7%E5%AD%A6%E7%89%B2%E8%B5%9A%E9%92%B1%E6%8C%87%E5%8D%97/">大学牲赚钱指南</a></td>
+<td>待补充</td>
+</tr>
+<tr>
+<td>留学生做饭菜谱</td>
+<td><a href="%E7%95%99%E5%AD%A6%E7%94%9F%E5%81%9A%E9%A5%AD%E8%8F%9C%E8%B0%B1/">留学生菜谱</a></td>
+<td>Hongbo Li</td>
+</tr>
+<tr>
+<td>计算物理学</td>
+<td><a href="%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6/">计算物理学</a></td>
+<td>项目贡献者</td>
+</tr>
+</tbody>
+</table>
+<h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">¶</a></h2>
+<p>本项目采用 <strong>CC BY-NC-SA 4.0</strong> 协议,即署名、非商业、相同方式共享。</p>
+<ul>
+<li>非商业使用:允许学习、教学、交流、引用和非商业转载。</li>
+<li>署名要求:转载或改编时请保留项目名称、作者 / 贡献者信息和原始链接。</li>
+<li>相同方式共享:改编内容应继续采用兼容的非商业共享协议。</li>
+<li>商业用途:如课程售卖、商业培训、付费资料包或其他以商业收益为目的的使用,请先联系项目维护者。</li>
+</ul>
+<p>完整协议说明见:<a href="usage-license/">使用协议</a>。</p>
+<h2 id="citation">Citation<a class="headerlink" href="#citation" title="Permanent link">¶</a></h2>
+<p>如果本项目对你的学习或项目有帮助,欢迎引用:</p>
+<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="nc">@misc</span><span class="p">{</span><span class="nl">OUC_Survival_Guidance</span><span class="p">,</span>
+<span class="linenos" data-linenos="2 "></span><span class="w">  </span><span class="na">author</span><span class="w">       </span><span class="p">=</span><span class="w"> </span><span class="s">{Jiang, Zhaorui and OUC-HWU Survival Guidance Team}</span><span class="p">,</span>
+<span class="linenos" data-linenos="3 "></span><span class="w">  </span><span class="na">title</span><span class="w">        </span><span class="p">=</span><span class="w"> </span><span class="s">{OUC-HWU Survival Guidance: Ocean University of China and Heriot-Watt University Computer Science Joint Programme Guide}</span><span class="p">,</span>
+<span class="linenos" data-linenos="4 "></span><span class="w">  </span><span class="na">year</span><span class="w">         </span><span class="p">=</span><span class="w"> </span><span class="s">{2024}</span><span class="p">,</span>
+<span class="linenos" data-linenos="5 "></span><span class="w">  </span><span class="na">publisher</span><span class="w">    </span><span class="p">=</span><span class="w"> </span><span class="s">{GitHub}</span><span class="p">,</span>
+<span class="linenos" data-linenos="6 "></span><span class="w">  </span><span class="na">journal</span><span class="w">      </span><span class="p">=</span><span class="w"> </span><span class="s">{GitHub repository}</span><span class="p">,</span>
+<span class="linenos" data-linenos="7 "></span><span class="w">  </span><span class="na">howpublished</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{\url{https://github.com/zhaorui-bi/OUC-HW-Survial-Guidance}}</span><span class="p">,</span>
+<span class="linenos" data-linenos="8 "></span><span class="w">  </span><span class="na">note</span><span class="w">         </span><span class="p">=</span><span class="w"> </span><span class="s">{Accessed: \today}</span>
+<span class="linenos" data-linenos="9 "></span><span class="p">}</span>
+</code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+  
+
+              </article>
             </div>
-          </div>
-
-          <div
-            class="md-sidebar md-sidebar--secondary"
-            data-md-component="sidebar"
-            data-md-type="toc"
-          >
-            <div class="md-sidebar__scrollwrap">
-              <div class="md-sidebar__inner">
-                <nav
-                  class="md-nav md-nav--secondary"
-                  aria-label="Table of contents"
-                >
-                  <label class="md-nav__title" for="__toc">
-                    <span class="md-nav__icon md-icon"></span>
-                    Table of contents
-                  </label>
-                  <ul
-                    class="md-nav__list"
-                    data-md-component="toc"
-                    data-md-scrollfix
-                  >
-                    <li class="md-nav__item">
-                      <a href="#contact" class="md-nav__link"> Contact </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              <h1 id="welcome-to-epiverses-documentation">
-                Welcome to Epiverse’s documentation!<a
-                  class="headerlink"
-                  href="#welcome-to-epiverses-documentation"
-                  title="Permanent link"
-                  >&para;</a
-                >
-              </h1>
-              <div class="result">
-                <p>
-                  <a
-                    class="glightbox"
-                    href="img/logo.png"
-                    data-type="image"
-                    data-width="100%"
-                    data-height="auto"
-                    data-desc-position="bottom"
-                    ><img
-                      align="right"
-                      alt="Image title"
-                      src="img/logo.png"
-                      width="300"
-                  /></a>
-                </p>
-                <p>
-                  Epiverse is the fundamental package for multi omics included
-                  bulk and single cell ATAC-seq analysis with Python.
-                </p>
-                <p>
-                  To get started with <code>epiverse</code>, check out the
-                  <a href="Installation_guild">Installation</a> and
-                  <a href="Tutorial">Tutorials</a>.
-                </p>
-                <p>
-                  For more details about the epiverse framework, please check
-                  out our <a href="">publication</a>.
-                </p>
-              </div>
-              <div class="Contact">
-                <h2 id="contact">
-                  Contact<a
-                    class="headerlink"
-                    href="#contact"
-                    title="Permanent link"
-                    >&para;</a
-                  >
-                </h2>
-                <ul>
-                  <li>
-                    Lei Hu (<a href="mailto:1157269262@qq.com"
-                      >1157269262@qq.com</a
-                    >, or
-                    <a href="mailto:hulei@westlake.edu.cn"
-                      >hulei@westlake.edu.cn</a
-                    >)
-                  </li>
-                  <li>
-                    Zehua Zeng (<a href="mailto:starlitnightly@163.com"
-                      >starlitnightly@163.com</a
-                    >, or
-                    <a href="mailto:zehuazeng@xs.ustb.edu.cn"
-                      >zehuazeng@xs.ustb.edu.cn</a
-                    >)
-                  </li>
-                </ul>
-              </div>
-            </article>
-          </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  回到页面顶部
+</button>
+        
       </main>
-
-      <footer class="md-footer">
-        <div class="md-footer-meta md-typeset">
-          <div class="md-footer-meta__inner md-grid">
-            <div class="md-copyright">
-              <div class="md-copyright__highlight">
-                Copyright &copy; 2022-2023, 112 Lab, USTB
-              </div>
-
-              Made with
-              <a
-                href="https://squidfunk.github.io/mkdocs-material/"
-                target="_blank"
-                rel="noopener"
-              >
-                Material for MkDocs
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © OUC-HWU Survival Guidance Team 2026
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-
-    <script id="__config" type="application/json">
-      {
-        "base": ".",
-        "features": [
-          "navigation.instant",
-          "navigation.tracking",
-          "navigation.indexes"
-        ],
-        "search": "assets/javascripts/workers/search.74e28a9f.min.js",
-        "translations": {
-          "clipboard.copied": "Copied to clipboard",
-          "clipboard.copy": "Copy to clipboard",
-          "search.result.more.one": "1 more on this page",
-          "search.result.more.other": "# more on this page",
-          "search.result.none": "No matching documents",
-          "search.result.one": "1 matching document",
-          "search.result.other": "# matching documents",
-          "search.result.placeholder": "Type to start searching",
-          "search.result.term.missing": "Missing",
-          "select.version": "Select version"
-        }
-      }
-    </script>
-
-    <script src="assets/javascripts/bundle.220ee61c.min.js"></script>
-
-    <script src="javascripts/config.js"></script>
-
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <script>
-      document$.subscribe(() => {
-        const lightbox = GLightbox({
-          touchNavigation: true,
-          loop: false,
-          zoomable: true,
-          draggable: true,
-          openEffect: "zoom",
-          closeEffect: "zoom",
-          slideEffect: "slide",
-        });
-      });
-    </script>
-  </body>
-</html>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "toc.follow", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="javascripts/config.js"></script>
+      
+        <script src="javascripts/nav-dropdown-v4.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
