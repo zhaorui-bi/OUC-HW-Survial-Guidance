@@ -1,33 +1,41 @@
 /* ==========================================================================
-   OUC-HWU Survial Guidance — 设计语言对齐 MIT Han Lab (hanlab.mit.edu)
-   Token 取自其线上样式:
-   版式与中性色取自 hanlab.mit.edu(--light-black:#333 --blue:#0080cc 等)
-   强调色体系:中国海洋大学海大蓝 #003288(--accent)+ 亮蓝 #0080cc
-   字体:Open Sans / Lato + 系统无衬线;链接默认深色,悬停海大蓝
+   OUC-HWU Survial Guidance
+   版式气质参考 Qiu Lab 招聘页(devo-evo.com/opening):
+   暖色奶油底、Josefin Sans 大写标题、圆角卡片、悬浮投影
+   颜色体系:中国海洋大学海大蓝 #003288(主色)
+            + Heriot-Watt 海军蓝 #0a3e65 与暖沙色 #f7d6a8(辅助)
+   字体:Josefin Sans(标题/眉题)+ Lato(正文)+ 系统中文无衬线
    ========================================================================== */
 
 :root {
   --accent: #003288;
   --accent-dark: #00256b;
-  --link-blue: #0080cc;
-  --ink: #333;
-  --ink-strong: #111;
-  --muted: #8a8b8c;
-  --muted-strong: #758696;
-  --border: #e4ebf3;
-  --border-strong: #c8c8c8;
-  --light-grey: #ededed;
-  --soft: #f3f3f3;
-  --softer: #fafafa;
-  --accent-soft: #eef2f9;
-  --shadow: rgba(0, 0, 0, 0.2);
+  --accent-soft: rgba(0, 50, 136, 0.07);
+  --navy: #0a3e65;
+  --sand: #f7d6a8;
+  --sand-soft: #faf3e4;
+  --cream: #fdf8ee;
+  --taupe: #8e7b6b;
+
+  --ink: #2b2b2b;
+  --ink-strong: #1f2329;
+  --muted: #868e96;
+  --muted-strong: #4b5563;
+  --border: rgba(142, 123, 107, 0.25);
+  --border-strong: rgba(142, 123, 107, 0.45);
+  --soft: #f6f1e7;
+  --softer: #fbf7ee;
 
   --guide-card: #ffffff;
   --guide-page: #ffffff;
+  --page-wash: linear-gradient(180deg, var(--cream) 0%, #ffffff 45%, var(--cream) 100%);
+  --card-shadow-hover: 0 10px 24px rgba(0, 50, 136, 0.12);
+  --panel-shadow: 0 12px 28px rgba(43, 43, 43, 0.09);
 
-  --guide-font-sans: "Open Sans", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
-    sans-serif;
+  --guide-font-sans: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --guide-font-display: "Josefin Sans", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --guide-font-code: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --md-text-font-family: var(--guide-font-sans);
   --md-code-font-family: var(--guide-font-code);
@@ -36,21 +44,27 @@
 [data-md-color-scheme="slate"] {
   --accent: #85aee8;
   --accent-dark: #a9c6f0;
-  --link-blue: #4db3e6;
+  --accent-soft: rgba(133, 174, 232, 0.14);
+  --navy: #9cc0e2;
+  --sand: #f7d6a8;
+  --sand-soft: rgba(247, 214, 168, 0.12);
+  --cream: #17191c;
+  --taupe: #a89a8c;
+
   --ink: #d6d9dc;
   --ink-strong: #f2f3f4;
   --muted: #9a9c9e;
   --muted-strong: #a9b6c2;
-  --border: rgba(255, 255, 255, 0.14);
-  --border-strong: rgba(255, 255, 255, 0.32);
-  --light-grey: #26292c;
+  --border: rgba(255, 255, 255, 0.16);
+  --border-strong: rgba(255, 255, 255, 0.34);
   --soft: #1e2124;
   --softer: #17191c;
-  --accent-soft: rgba(133, 174, 232, 0.14);
-  --shadow: rgba(0, 0, 0, 0.55);
 
   --guide-card: #1b1e21;
   --guide-page: #141618;
+  --page-wash: none;
+  --card-shadow-hover: 0 10px 24px rgba(0, 0, 0, 0.45);
+  --panel-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
 }
 
 html {
@@ -58,7 +72,8 @@ html {
 }
 
 body {
-  background: var(--guide-page);
+  background: var(--page-wash);
+  background-color: var(--guide-page);
   font-family: var(--guide-font-sans);
 }
 
@@ -78,15 +93,18 @@ body {
   margin: 0.7em 0;
 }
 
-/* ---------- 头部与标签栏(加高顶栏,导航更饱满) ---------- */
+/* ---------- 头部与标签栏 ---------- */
 
 .md-header__inner {
   height: 2.9rem;
 }
 
 .md-header__title {
+  font-family: var(--guide-font-display);
   font-size: 0.74rem;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .md-header__button.md-logo img {
@@ -96,15 +114,10 @@ body {
 
 .md-header,
 .md-tabs {
-  background: #fff;
+  background: var(--guide-card);
   border-bottom: 1px solid var(--border);
   color: var(--ink);
   box-shadow: none;
-}
-
-[data-md-color-scheme="slate"] .md-header,
-[data-md-color-scheme="slate"] .md-tabs {
-  background: var(--guide-page);
 }
 
 .md-header__title,
@@ -143,7 +156,7 @@ body {
   opacity: 1;
   font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.04em;
 }
 
 .md-tabs__item {
@@ -206,8 +219,8 @@ body {
   padding: 0.35rem;
   border: 1px solid var(--border);
   border-radius: 0.28rem;
-  background: #fff;
-  box-shadow: 0 0.45rem 1.4rem rgba(31, 35, 40, 0.08);
+  background: var(--guide-card);
+  box-shadow: var(--panel-shadow);
 }
 
 .guide-tabs-dropdown--portal {
@@ -218,9 +231,9 @@ body {
   max-width: min(44rem, calc(100vw - 1.2rem));
   padding: 0.9rem 1rem 1rem;
   border: 1px solid var(--border);
-  border-radius: 0.25rem;
+  border-radius: 12px;
   background: var(--guide-card);
-  box-shadow: 1px 1px 6px 0 var(--shadow);
+  box-shadow: var(--panel-shadow);
   opacity: 0;
   transform: translateY(-0.3rem);
   transition: opacity 140ms ease, transform 140ms ease;
@@ -247,17 +260,18 @@ body {
 
 .guide-mega__title {
   margin: 0.2rem 0 0.45rem;
-  color: var(--muted);
+  color: var(--taupe);
+  font-family: var(--guide-font-display);
   font-size: 0.64rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
+  font-weight: 600;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
 .guide-tabs-dropdown a {
   display: block;
   padding: 0.34rem 0.55rem;
-  border-radius: 0.2rem;
+  border-radius: 0.4rem;
   color: var(--ink);
   font-size: 0.78rem;
   white-space: nowrap;
@@ -265,7 +279,7 @@ body {
 
 .guide-tabs-dropdown a:hover,
 .guide-tabs-dropdown a:focus {
-  background: var(--soft);
+  background: var(--accent-soft);
   color: var(--accent);
 }
 
@@ -283,7 +297,7 @@ body {
 }
 
 .md-nav__item {
-  border-radius: 0.2rem;
+  border-radius: 0.25rem;
 }
 
 .md-nav__link {
@@ -302,11 +316,6 @@ body {
 
 .md-sidebar--primary,
 .md-sidebar--primary .md-sidebar__scrollwrap {
-  background: #fff;
-}
-
-[data-md-color-scheme="slate"] .md-sidebar--primary,
-[data-md-color-scheme="slate"] .md-sidebar--primary .md-sidebar__scrollwrap {
   background: var(--guide-page);
 }
 
@@ -370,7 +379,7 @@ body {
 .md-search__form {
   background: var(--soft);
   border: 1px solid var(--border);
-  border-radius: 0.2rem;
+  border-radius: 999px;
   box-shadow: none;
 }
 
@@ -392,8 +401,8 @@ body {
 
 .md-search__output {
   border: 1px solid var(--border);
-  border-radius: 0.2rem;
-  box-shadow: 1px 1px 6px 0 var(--shadow);
+  border-radius: 12px;
+  box-shadow: var(--panel-shadow);
 }
 
 .md-search-result__meta,
@@ -402,7 +411,7 @@ body {
 }
 
 .md-search-result__link:hover {
-  background: var(--soft);
+  background: var(--softer);
 }
 
 /* ---------- 页面布局 ---------- */
@@ -446,13 +455,13 @@ body {
   }
 }
 
-/* ---------- 标题体系(对齐 hanlab:h1 800 / h2 h3 700,无衬线) ---------- */
+/* ---------- 标题体系(devo 参考:Josefin Sans + 大写 + 主题色) ---------- */
 
 .md-typeset h1 {
   color: var(--ink-strong);
-  font-family: var(--guide-font-sans);
-  font-weight: 800;
-  letter-spacing: 0;
+  font-family: var(--guide-font-display);
+  font-weight: 700;
+  letter-spacing: 0.01em;
   line-height: 1.3;
   font-size: 1.9em;
 }
@@ -461,16 +470,19 @@ body {
   margin-top: 1.9em;
   padding-bottom: 0.25rem;
   border-bottom: 1px solid var(--border);
-  color: var(--ink-strong);
-  font-family: var(--guide-font-sans);
-  font-weight: 700;
+  color: var(--accent);
+  font-family: var(--guide-font-display);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   font-size: 1.5em;
 }
 
 .md-typeset h3 {
   color: var(--ink-strong);
-  font-family: var(--guide-font-sans);
-  font-weight: 700;
+  font-family: var(--guide-font-display);
+  font-weight: 600;
+  letter-spacing: 0.02em;
   font-size: 1.18em;
 }
 
@@ -480,29 +492,28 @@ body {
   margin-top: 0.8rem;
 }
 
-/* 链接:默认深色,悬停海大蓝(hanlab 规则 a:hover{color:var(--accent)}) */
-
 .md-typeset a {
-  color: var(--ink);
+  color: var(--accent);
   text-underline-offset: 0.16em;
 }
 
 .md-typeset a:hover {
-  color: var(--accent);
+  color: var(--accent-dark);
 }
 
 .md-typeset hr {
   border-bottom-color: var(--border);
 }
 
-/* ---------- 按钮(方角、灰底悬停红,对齐 .button-color) ---------- */
+/* ---------- 按钮(药丸式,devo 参考 radius 999px) ---------- */
 
 .md-typeset .md-button {
   min-height: 2.05rem;
-  padding: 0.42rem 0.9rem;
-  border-radius: 0.2rem;
-  font-weight: 600;
+  padding: 0.42rem 1rem;
+  border-radius: 999px;
+  font-weight: 700;
   text-transform: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .md-typeset .md-button--primary {
@@ -515,21 +526,22 @@ body {
   background: var(--accent-dark);
   border-color: var(--accent-dark);
   color: #fff;
+  box-shadow: 0 6px 20px rgba(0, 50, 136, 0.35);
 }
 
 .md-typeset .md-button:not(.md-button--primary) {
-  background: var(--light-grey);
-  border-color: var(--light-grey);
+  background: var(--guide-card);
+  border-color: var(--border-strong);
   color: var(--ink);
 }
 
 .md-typeset .md-button:not(.md-button--primary):hover {
-  background: var(--accent);
+  background: var(--guide-card);
   border-color: var(--accent);
-  color: #fff;
+  color: var(--accent);
 }
 
-/* ---------- 首页 Hero(扁平、大标题、锚点行) ---------- */
+/* ---------- 首页 Hero ---------- */
 
 .md-typeset .mit-hero {
   position: relative;
@@ -542,18 +554,15 @@ body {
   overflow: visible;
 }
 
-.md-typeset .mit-hero::before {
-  content: none;
-}
-
 .md-typeset .mit-hero__eyebrow {
   display: inline-flex;
   align-items: center;
   width: fit-content;
   color: var(--accent);
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
+  font-family: var(--guide-font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
 }
 
@@ -572,7 +581,7 @@ body {
 }
 
 .md-typeset .mit-hero__meta strong {
-  color: var(--ink);
+  color: var(--ink-strong);
 }
 
 .md-typeset .mit-hero__anchors {
@@ -588,8 +597,10 @@ body {
 
 .md-typeset .mit-anchor {
   color: var(--muted-strong);
-  font-size: 0.8rem;
+  font-family: var(--guide-font-display);
+  font-size: 0.78rem;
   font-weight: 600;
+  letter-spacing: 0.05em;
   text-decoration: none;
 }
 
@@ -624,7 +635,7 @@ body {
 
 .md-typeset .mit-logistics > div {
   padding-top: 0.7rem;
-  border-top: 2px solid var(--light-grey);
+  border-top: 2px solid var(--sand);
 }
 
 .md-typeset .mit-logistics > div > p {
@@ -636,9 +647,11 @@ body {
 
 .md-typeset .mit-logistics > div > p:first-child {
   margin-bottom: 0.3rem;
-  color: var(--ink-strong);
-  font-size: 0.84rem;
-  font-weight: 700;
+  color: var(--navy);
+  font-family: var(--guide-font-display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
 /* ---------- 动态列表 ---------- */
@@ -670,13 +683,13 @@ body {
 .md-typeset table:not([class]) {
   overflow: hidden;
   border: 1px solid var(--border);
-  border-radius: 0.2rem;
+  border-radius: 10px;
   background: var(--guide-card);
   font-size: 0.78rem;
 }
 
 .md-typeset table:not([class]) th {
-  background: var(--soft);
+  background: var(--sand-soft);
   color: var(--ink-strong);
   font-weight: 700;
   padding: 0.55em 0.8em;
@@ -695,40 +708,27 @@ body {
   background: var(--softer);
 }
 
-/* ---------- 方括号链接(对齐课程表 [Slides] / [Video] 样式) ---------- */
+/* ---------- 专题药丸链接(devo 参考:圆角 chip + 主题色底) ---------- */
 
 .md-typeset .mit-pill {
   display: inline-block;
-  margin: 0.1rem 0.35rem 0.1rem 0;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  color: var(--link-blue);
-  font-size: 0.78rem;
+  margin: 0.1rem 0.2rem 0.1rem 0;
+  padding: 0.1em 0.7em;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.76rem;
   font-weight: 600;
   line-height: 1.6;
   white-space: nowrap;
   text-decoration: none;
-}
-
-.md-typeset .mit-pill::before {
-  content: "[ ";
-  color: var(--link-blue);
-}
-
-.md-typeset .mit-pill::after {
-  content: " ]";
-  color: var(--link-blue);
+  transition: all 0.3s ease-in-out;
 }
 
 .md-typeset .mit-pill:hover,
 .md-typeset .mit-pill:focus {
-  color: var(--accent);
-}
-
-.md-typeset .mit-pill:hover::before,
-.md-typeset .mit-pill:hover::after {
-  color: var(--accent);
+  background: var(--accent);
+  color: #fff;
 }
 
 /* ---------- 板块编号 ---------- */
@@ -736,9 +736,10 @@ body {
 .md-typeset .mit-num {
   display: inline-block;
   color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
+  font-family: var(--guide-font-display);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
 }
 
 .md-typeset .guide-card .mit-num + h3 {
@@ -757,14 +758,14 @@ body {
 .md-typeset .people-card {
   padding: 0.7rem 0.8rem;
   border: 1px solid var(--border);
-  border-radius: 0.2rem;
+  border-radius: 10px;
   background: var(--guide-card);
-  transition: border-color 120ms ease, box-shadow 120ms ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .md-typeset .people-card:hover {
-  border-color: var(--border);
-  box-shadow: 1px 1px 6px 0 var(--shadow);
+  border-color: var(--accent);
+  box-shadow: var(--card-shadow-hover);
 }
 
 .md-typeset .people-card p {
@@ -788,7 +789,7 @@ body {
   color: var(--accent);
 }
 
-/* ---------- 通用卡片网格 ---------- */
+/* ---------- 通用卡片网格(devo 参考 .opening-role 样式) ---------- */
 
 .md-typeset .guide-grid,
 .md-typeset .topic-grid {
@@ -802,16 +803,16 @@ body {
 .md-typeset .topic-card {
   padding: 0.8rem 0.85rem;
   border: 1px solid var(--border);
-  border-radius: 0.2rem;
+  border-radius: 10px;
   background: var(--guide-card);
   box-shadow: none;
-  transition: box-shadow 120ms ease, border-color 120ms ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .md-typeset .guide-card:hover,
 .md-typeset .topic-card:hover {
-  border-color: var(--border);
-  box-shadow: 1px 1px 6px 0 var(--shadow);
+  border-color: var(--accent);
+  box-shadow: var(--card-shadow-hover);
 }
 
 .md-typeset .guide-card h3,
@@ -822,12 +823,12 @@ body {
 
 .md-typeset .guide-card h3 a,
 .md-typeset .topic-card h3 a {
-  color: var(--ink-strong);
+  color: var(--accent);
 }
 
 .md-typeset .guide-card h3 a:hover,
 .md-typeset .topic-card h3 a:hover {
-  color: var(--accent);
+  color: var(--accent-dark);
 }
 
 .md-typeset .guide-card p,
@@ -843,7 +844,7 @@ body {
   width: 100%;
   margin: 1rem auto;
   border: 1px solid var(--border);
-  border-radius: 0.2rem;
+  border-radius: 10px;
   box-shadow: none;
 }
 
@@ -858,9 +859,9 @@ body {
 .md-typeset .guide-pdf-embed {
   margin: 1.2rem 0 1.6rem;
   border: 1px solid var(--border);
-  border-radius: 0.2rem;
+  border-radius: 10px;
   overflow: hidden;
-  background: #fff;
+  background: var(--guide-card);
 }
 
 .md-typeset .guide-pdf-embed iframe {
@@ -876,23 +877,24 @@ body {
   margin: 1rem auto 1.25rem;
   padding: 0.6rem;
   border: 1px solid var(--border);
-  border-radius: 0.2rem;
-  background: #fff;
+  border-radius: 10px;
+  background: var(--guide-card);
 }
 
 .md-typeset .admonition {
   border-color: var(--border);
-  border-radius: 0.2rem;
+  border-radius: 10px;
   background: var(--guide-card);
   box-shadow: none;
 }
 
 .md-typeset .admonition-title {
-  background: var(--soft);
+  background: var(--accent-soft);
+  border-radius: 10px 10px 0 0;
 }
 
 .md-typeset blockquote {
-  border-left-color: var(--border-strong);
+  border-left-color: var(--sand);
   color: var(--muted-strong);
 }
 
@@ -953,7 +955,7 @@ a.autorefs-external:hover::after {
   }
 
   .md-typeset h2 {
-    margin-top: 1.8em;
+    margin-top: 1.7em;
   }
 
   .md-typeset .guide-grid,
