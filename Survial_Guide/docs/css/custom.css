@@ -63,13 +63,13 @@ body {
 }
 
 .md-grid {
-  max-width: 61rem;
+  max-width: 55rem;
 }
 
 .md-typeset {
   color: var(--ink);
   font-family: var(--guide-font-sans);
-  font-size: 0.84rem;
+  font-size: 0.8rem;
   line-height: 1.7;
   text-rendering: optimizeLegibility;
 }
@@ -393,7 +393,7 @@ body {
 
 @media screen and (min-width: 76.25em) {
   .md-grid {
-    max-width: 61rem;
+    max-width: 55rem;
   }
 
   .md-sidebar--primary {
@@ -429,6 +429,7 @@ body {
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1.3;
+  font-size: 1.9em;
 }
 
 .md-typeset h2 {
@@ -438,12 +439,14 @@ body {
   color: var(--ink-strong);
   font-family: var(--guide-font-sans);
   font-weight: 700;
+  font-size: 1.5em;
 }
 
 .md-typeset h3 {
   color: var(--ink-strong);
   font-family: var(--guide-font-sans);
   font-weight: 700;
+  font-size: 1.18em;
 }
 
 .md-typeset h2 + .guide-grid,
@@ -531,7 +534,7 @@ body {
 
 .md-typeset .mit-hero h1 {
   margin: 0.5rem 0 0.5rem;
-  font-size: clamp(1.8rem, 3.4vw, 2.4rem);
+  font-size: clamp(1.7rem, 2.8vw, 1.9rem);
 }
 
 .md-typeset .mit-hero__meta {
