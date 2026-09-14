@@ -1,7 +1,7 @@
 /* ==========================================================================
    OUC-HWU Survial Guidance
    版式气质参考 Qiu Lab 招聘页(devo-evo.com/opening):
-   暖色奶油底、Josefin Sans 大写标题、圆角卡片、悬浮投影
+   纯白底、Josefin Sans 大写标题、圆角卡片、悬浮投影
    颜色体系:中国海洋大学海大蓝 #003288(主色)
             + Heriot-Watt 海军蓝 #0a3e65 与暖沙色 #f7d6a8(辅助)
    字体:Josefin Sans(标题/眉题)+ Lato(正文)+ 系统中文无衬线
@@ -28,7 +28,7 @@
 
   --guide-card: #ffffff;
   --guide-page: #ffffff;
-  --page-wash: linear-gradient(180deg, var(--cream) 0%, #ffffff 45%, var(--cream) 100%);
+  --page-wash: none;
   --card-shadow-hover: 0 10px 24px rgba(0, 50, 136, 0.12);
   --panel-shadow: 0 12px 28px rgba(43, 43, 43, 0.09);
 
@@ -154,13 +154,15 @@ body {
 
 .md-tabs__link {
   opacity: 1;
-  font-size: 0.75rem;
+  padding: 0.4em 1.2em;
+  font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
 }
 
 .md-tabs__item {
-  height: 2.7rem;
+  height: 2.9rem;
+  margin: 0 0.55rem;
 }
 
 .md-tabs__link:hover,
