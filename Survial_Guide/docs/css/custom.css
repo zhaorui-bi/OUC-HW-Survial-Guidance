@@ -1,52 +1,56 @@
-:root {
-  /* 品牌色:中国海洋大学「海大蓝」+ Heriot-Watt 海军蓝(取自两校官网 VI) */
-  --ouc-blue: #003288;
-  --ouc-blue-dark: #00256b;
-  --ouc-blue-soft: #eef2f9;
-  --hwu-navy: #0a3e65;
-  --hwu-navy-dark: #031b39;
-  --hwu-sand: #f7d6a8;
-  --hwu-sand-soft: #fdf6ec;
+/* ==========================================================================
+   OUC-HWU Survial Guidance — 设计语言对齐 MIT Han Lab (hanlab.mit.edu)
+   Token 取自其线上样式:
+   --light-black:#333  --blue:#0080cc  --mit-red:#a31f34  --light-grey:#ededed
+   --pink:#fcf5f5      --shadow:#0003  --mit-grey:#8a8b8c --mit-light:#c2c0bf
+   字体:Open Sans / Lato + 系统无衬线;链接默认深色,悬停 MIT 红
+   ========================================================================== */
 
-  --guide-ink: #1a1f26;
-  --guide-muted: #5d6c7b;
-  --guide-border: #e4ebf3;
-  --guide-border-strong: #cbd6e2;
+:root {
+  --mit-red: #a31f34;
+  --mit-red-dark: #8c1a2c;
+  --mit-blue: #0080cc;
+  --ink: #333;
+  --ink-strong: #111;
+  --muted: #8a8b8c;
+  --muted-strong: #758696;
+  --border: #e4ebf3;
+  --border-strong: #c8c8c8;
+  --light-grey: #ededed;
+  --soft: #f3f3f3;
+  --softer: #fafafa;
+  --pink: #fcf5f5;
+  --shadow: rgba(0, 0, 0, 0.2);
+
   --guide-card: #ffffff;
   --guide-page: #ffffff;
-  --guide-page-soft: #f7f9fb;
-  --guide-hover: #f4f7fa;
 
-  --guide-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica,
-    Arial, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  --guide-font-serif: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", "STSong", "SimSun",
-    serif;
+  --guide-font-sans: "Open Sans", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    sans-serif;
   --guide-font-code: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --md-text-font-family: var(--guide-font-sans);
   --md-code-font-family: var(--guide-font-code);
-
-  --guide-brand: var(--ouc-blue);
-  --guide-brand-dark: var(--ouc-blue-dark);
-  --guide-brand-soft: var(--ouc-blue-soft);
 }
 
 [data-md-color-scheme="slate"] {
-  --ouc-blue: #85aee8;
-  --ouc-blue-dark: #a9c6f0;
-  --ouc-blue-soft: rgba(133, 174, 232, 0.14);
-  --hwu-navy: #9cc0e2;
-  --hwu-navy-dark: #c9dcee;
-  --hwu-sand: #f7d6a8;
-  --hwu-sand-soft: rgba(247, 214, 168, 0.12);
+  --mit-red: #e05c70;
+  --mit-red-dark: #eb7c8d;
+  --mit-blue: #4db3e6;
+  --ink: #d6d9dc;
+  --ink-strong: #f2f3f4;
+  --muted: #9a9c9e;
+  --muted-strong: #a9b6c2;
+  --border: rgba(255, 255, 255, 0.14);
+  --border-strong: rgba(255, 255, 255, 0.32);
+  --light-grey: #26292c;
+  --soft: #1e2124;
+  --softer: #17191c;
+  --pink: rgba(224, 92, 112, 0.12);
+  --shadow: rgba(0, 0, 0, 0.55);
 
-  --guide-ink: #e9edf2;
-  --guide-muted: #a5b3c2;
-  --guide-border: rgba(255, 255, 255, 0.14);
-  --guide-border-strong: rgba(255, 255, 255, 0.3);
-  --guide-card: #171b21;
-  --guide-page: #101418;
-  --guide-page-soft: #14181d;
-  --guide-hover: rgba(255, 255, 255, 0.06);
+  --guide-card: #1b1e21;
+  --guide-page: #141618;
 }
 
 html {
@@ -63,18 +67,20 @@ body {
 }
 
 .md-typeset {
-  color: var(--guide-ink);
+  color: var(--ink);
   font-family: var(--guide-font-sans);
   font-size: 0.84rem;
-  line-height: 1.8;
+  line-height: 1.75;
   text-rendering: optimizeLegibility;
 }
+
+/* ---------- 头部与标签栏 ---------- */
 
 .md-header,
 .md-tabs {
   background: #fff;
-  border-bottom: 1px solid var(--guide-border);
-  color: var(--guide-ink);
+  border-bottom: 1px solid var(--border);
+  color: var(--ink);
   box-shadow: none;
 }
 
@@ -112,23 +118,21 @@ body {
 .md-source,
 .md-source__repository,
 .md-source__facts {
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-tabs__link {
-  opacity: 0.78;
+  opacity: 1;
 }
 
-.md-tabs__link:hover {
-  color: var(--ouc-blue);
-  opacity: 1;
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: var(--mit-red);
 }
 
 .md-tabs__link--active {
-  color: var(--ouc-blue);
-  opacity: 1;
   font-weight: 700;
-  box-shadow: inset 0 -2px 0 var(--ouc-blue);
+  box-shadow: inset 0 -2px 0 var(--mit-red);
 }
 
 .md-tabs,
@@ -142,7 +146,7 @@ body {
   z-index: 10;
 }
 
-/* ============ 专栏篇下拉面板(分组式) ============ */
+/* ---------- 专栏篇下拉面板 ---------- */
 
 .guide-tabs-item--dropdown {
   position: relative;
@@ -155,7 +159,7 @@ body {
 .guide-tabs-trigger::after {
   display: inline-block;
   margin-left: 0.24rem;
-  color: var(--guide-muted);
+  color: var(--muted);
   content: "⌄";
   font-size: 0.68rem;
   line-height: 1;
@@ -175,7 +179,7 @@ body {
   display: none;
   min-width: 11.5rem;
   padding: 0.35rem;
-  border: 1px solid var(--guide-border);
+  border: 1px solid var(--border);
   border-radius: 0.28rem;
   background: #fff;
   box-shadow: 0 0.45rem 1.4rem rgba(31, 35, 40, 0.08);
@@ -188,10 +192,10 @@ body {
   width: max-content;
   max-width: min(44rem, calc(100vw - 1.2rem));
   padding: 0.9rem 1rem 1rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.25rem;
   background: var(--guide-card);
-  box-shadow: 0 1rem 2.4rem rgba(3, 27, 57, 0.14);
+  box-shadow: 1px 1px 6px 0 var(--shadow);
   opacity: 0;
   transform: translateY(-0.3rem);
   transition: opacity 140ms ease, transform 140ms ease;
@@ -218,7 +222,7 @@ body {
 
 .guide-mega__title {
   margin: 0.2rem 0 0.45rem;
-  color: var(--ouc-blue);
+  color: var(--muted);
   font-size: 0.64rem;
   font-weight: 800;
   letter-spacing: 0.12em;
@@ -228,43 +232,43 @@ body {
 .guide-tabs-dropdown a {
   display: block;
   padding: 0.34rem 0.55rem;
-  border-radius: 0.4rem;
-  color: var(--guide-muted);
+  border-radius: 0.2rem;
+  color: var(--ink);
   font-size: 0.78rem;
   white-space: nowrap;
 }
 
 .guide-tabs-dropdown a:hover,
 .guide-tabs-dropdown a:focus {
-  background: var(--guide-hover);
-  color: var(--ouc-blue);
+  background: var(--soft);
+  color: var(--mit-red);
 }
 
 .guide-tabs-dropdown a.guide-mega__link--current {
-  background: var(--ouc-blue-soft);
-  color: var(--ouc-blue);
+  background: var(--pink);
+  color: var(--mit-red);
   font-weight: 700;
 }
 
-/* ============ 侧边导航 / 目录 ============ */
+/* ---------- 侧边导航 / 目录 ---------- */
 
 .md-nav__title {
-  color: var(--guide-ink);
+  color: var(--ink);
   font-weight: 700;
 }
 
 .md-nav__item {
-  border-radius: 0.25rem;
+  border-radius: 0.2rem;
 }
 
 .md-nav__link {
-  color: var(--guide-muted);
+  color: var(--muted-strong);
 }
 
 .md-nav__link--active,
 .md-nav__link:focus,
 .md-nav__link:hover {
-  color: var(--ouc-blue);
+  color: var(--mit-red);
 }
 
 .md-nav__link--active {
@@ -284,9 +288,9 @@ body {
 .md-nav--primary .md-nav__title,
 .md-nav--primary .md-nav__title[for="__drawer"],
 .md-nav--primary .md-nav__source {
-  border-bottom: 1px solid var(--guide-border);
+  border-bottom: 1px solid var(--border);
   background: var(--guide-page);
-  color: var(--guide-ink);
+  color: var(--ink);
   box-shadow: none;
 }
 
@@ -301,28 +305,28 @@ body {
 
 .md-nav--primary .md-nav__source .md-source {
   background: var(--guide-page);
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-nav--primary .md-nav__source .md-source__repository {
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-nav--primary .md-nav__source .md-source__facts {
-  color: var(--guide-muted);
+  color: var(--muted);
 }
 
 [data-md-color-primary="blue"] .md-nav--primary .md-nav__title[for="__drawer"],
 [data-md-color-primary="blue"] .md-nav--primary .md-nav__source {
   background: var(--guide-page);
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-footer,
 .md-footer-meta {
-  border-top: 1px solid var(--guide-border);
+  border-top: 1px solid var(--border);
   background: var(--guide-page);
-  color: var(--guide-muted);
+  color: var(--muted);
 }
 
 .md-footer__title,
@@ -330,41 +334,41 @@ body {
 .md-footer-meta__inner,
 .md-copyright,
 .md-social__link {
-  color: var(--guide-muted);
+  color: var(--muted);
 }
 
 .md-footer__link:hover,
 .md-social__link:hover {
-  color: var(--ouc-blue);
+  color: var(--mit-red);
 }
 
 .md-search__form {
-  background: var(--guide-hover);
-  border: 1px solid var(--guide-border);
-  border-radius: 0.25rem;
+  background: var(--soft);
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
   box-shadow: none;
 }
 
 .md-search__input,
 .md-search__icon {
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-search__input::placeholder {
-  color: var(--guide-muted);
+  color: var(--muted);
   opacity: 1;
 }
 
 .md-search__form:hover,
 .md-search__form:focus-within {
   background: var(--guide-card);
-  border-color: var(--guide-border-strong);
+  border-color: var(--border-strong);
 }
 
 .md-search__output {
-  border: 1px solid var(--guide-border);
-  border-radius: 0.25rem;
-  box-shadow: 0 0.4rem 1.2rem rgba(3, 27, 57, 0.12);
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
+  box-shadow: 1px 1px 6px 0 var(--shadow);
 }
 
 .md-search-result__meta,
@@ -373,10 +377,10 @@ body {
 }
 
 .md-search-result__link:hover {
-  background: var(--guide-hover);
+  background: var(--soft);
 }
 
-/* ============ 页面布局 ============ */
+/* ---------- 页面布局 ---------- */
 
 .md-main__inner {
   margin-top: 1.15rem;
@@ -407,41 +411,39 @@ body {
   }
 
   .md-sidebar--secondary .md-sidebar__scrollwrap {
-    border-right: 1px solid var(--guide-border);
+    border-right: 1px solid var(--border);
     border-left: 0;
   }
 
   .md-sidebar--secondary .md-nav__title {
     padding-left: 0;
-    color: var(--guide-ink);
+    color: var(--ink);
   }
 }
 
-/* ============ 标题体系 ============ */
+/* ---------- 标题体系(对齐 hanlab:h1 800 / h2 h3 700,无衬线) ---------- */
 
 .md-typeset h1 {
-  color: var(--guide-ink);
-  font-family: var(--guide-font-serif);
-  font-weight: 900;
-  letter-spacing: 0.01em;
-  line-height: 1.24;
+  color: var(--ink-strong);
+  font-family: var(--guide-font-sans);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.3;
 }
 
 .md-typeset h2 {
   margin-top: 2.35em;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid var(--guide-border);
-  color: var(--guide-ink);
-  font-family: var(--guide-font-serif);
+  border-bottom: 1px solid var(--border);
+  color: var(--ink-strong);
+  font-family: var(--guide-font-sans);
   font-weight: 700;
-  letter-spacing: 0.01em;
 }
 
 .md-typeset h3 {
-  color: var(--guide-ink);
-  font-family: var(--guide-font-serif);
+  color: var(--ink-strong);
+  font-family: var(--guide-font-sans);
   font-weight: 700;
-  letter-spacing: 0.01em;
 }
 
 .md-typeset h2 + .guide-grid,
@@ -450,85 +452,77 @@ body {
   margin-top: 0.8rem;
 }
 
+/* 链接:默认深色,悬停 MIT 红(hanlab 规则 a:hover{color:var(--mit-red)}) */
+
 .md-typeset a {
-  color: var(--ouc-blue);
+  color: var(--ink);
   text-underline-offset: 0.16em;
 }
 
 .md-typeset a:hover {
-  color: var(--hwu-navy);
+  color: var(--mit-red);
 }
 
 .md-typeset hr {
-  border-bottom-color: var(--guide-border);
+  border-bottom-color: var(--border);
 }
 
-/* ============ 按钮(药丸式) ============ */
+/* ---------- 按钮(方角、灰底悬停红,对齐 .button-color) ---------- */
 
 .md-typeset .md-button {
   min-height: 2.05rem;
-  padding: 0.42rem 0.95rem;
-  border-radius: 999px;
-  font-weight: 700;
+  padding: 0.42rem 0.9rem;
+  border-radius: 0.2rem;
+  font-weight: 600;
   text-transform: none;
 }
 
 .md-typeset .md-button--primary {
-  background: var(--ouc-blue);
-  border-color: var(--ouc-blue);
+  background: var(--mit-red);
+  border-color: var(--mit-red);
   color: #fff;
 }
 
 .md-typeset .md-button--primary:hover {
-  background: var(--hwu-navy);
-  border-color: var(--hwu-navy);
+  background: var(--mit-red-dark);
+  border-color: var(--mit-red-dark);
   color: #fff;
 }
 
 .md-typeset .md-button:not(.md-button--primary) {
-  border-color: var(--guide-border-strong);
-  color: var(--guide-ink);
+  background: var(--light-grey);
+  border-color: var(--light-grey);
+  color: var(--ink);
 }
 
 .md-typeset .md-button:not(.md-button--primary):hover {
-  background: transparent;
-  border-color: var(--ouc-blue);
-  color: var(--ouc-blue);
+  background: var(--mit-red);
+  border-color: var(--mit-red);
+  color: #fff;
 }
 
-/* ============ 首页 Hero ============ */
+/* ---------- 首页 Hero(扁平、大标题、锚点行) ---------- */
 
 .md-typeset .mit-hero {
   position: relative;
-  margin: 0.6rem 0 1.4rem;
-  padding: clamp(1.5rem, 4vw, 2.4rem);
-  border: 1px solid var(--guide-border);
-  border-radius: 0.8rem;
-  background:
-    radial-gradient(120% 140% 140% 100% at 100% 0%, var(--hwu-sand-soft) 0%, transparent 42%),
-    linear-gradient(180deg, #fbfcfe 0%, var(--guide-card) 100%);
-  overflow: hidden;
-}
-
-[data-md-color-scheme="slate"] .md-typeset .mit-hero {
-  background:
-    radial-gradient(120% 140% at 100% 0%, var(--hwu-sand-soft) 0%, transparent 42%),
-    linear-gradient(180deg, var(--guide-page-soft) 0%, var(--guide-card) 100%);
+  margin: 0.4rem 0 1.6rem;
+  padding: 0.4rem 0 1.2rem;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
 }
 
 .md-typeset .mit-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--ouc-blue) 0%, var(--hwu-navy) 58%, var(--hwu-sand) 100%);
+  content: none;
 }
 
 .md-typeset .mit-hero__eyebrow {
   display: inline-flex;
   align-items: center;
   width: fit-content;
-  color: var(--ouc-blue);
+  color: var(--mit-red);
   font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.16em;
@@ -537,11 +531,11 @@ body {
 
 .md-typeset .mit-hero h1 {
   margin: 0.5rem 0 0.55rem;
-  font-size: clamp(1.75rem, 4.2vw, 2.6rem);
+  font-size: clamp(1.9rem, 4.4vw, 2.75rem);
 }
 
 .md-typeset .mit-hero__meta {
-  color: var(--guide-muted);
+  color: var(--muted-strong);
   font-size: 0.84rem;
 }
 
@@ -550,14 +544,14 @@ body {
 }
 
 .md-typeset .mit-hero__meta strong {
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-typeset .mit-hero__anchors {
   margin-top: 1.05rem;
   padding-top: 0.8rem;
-  border-top: 1px solid var(--guide-border);
-  color: var(--guide-border-strong);
+  border-top: 1px solid var(--border);
+  color: var(--border-strong);
 }
 
 .md-typeset .mit-hero__anchors p {
@@ -565,14 +559,14 @@ body {
 }
 
 .md-typeset .mit-anchor {
-  color: var(--guide-muted);
+  color: var(--muted-strong);
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 }
 
 .md-typeset .mit-anchor:hover {
-  color: var(--ouc-blue);
+  color: var(--mit-red);
   text-decoration: underline;
 }
 
@@ -591,7 +585,7 @@ body {
   margin: 0;
 }
 
-/* ============ 关于:键值信息栅格 ============ */
+/* ---------- 关于:键值信息栅格 ---------- */
 
 .md-typeset .mit-logistics {
   display: grid;
@@ -602,24 +596,24 @@ body {
 
 .md-typeset .mit-logistics > div {
   padding-top: 0.7rem;
-  border-top: 2px solid var(--guide-border-strong);
+  border-top: 2px solid var(--light-grey);
 }
 
 .md-typeset .mit-logistics > div > p {
   margin: 0;
-  color: var(--guide-muted);
+  color: var(--muted-strong);
   font-size: 0.78rem;
   line-height: 1.7;
 }
 
 .md-typeset .mit-logistics > div > p:first-child {
   margin-bottom: 0.3rem;
-  color: var(--hwu-navy);
+  color: var(--ink-strong);
   font-size: 0.84rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
-/* ============ 动态列表 ============ */
+/* ---------- 动态列表 ---------- */
 
 .md-typeset .mit-news {
   margin: 0.8rem 0 1rem;
@@ -632,82 +626,84 @@ body {
 .md-typeset .mit-news li {
   margin: 0;
   padding: 0.55rem 0;
-  color: var(--guide-muted);
+  color: var(--muted-strong);
 }
 
 .md-typeset .mit-news li + li {
-  border-top: 1px solid var(--guide-border);
+  border-top: 1px solid var(--border);
 }
 
 .md-typeset .mit-news li strong {
-  color: var(--ouc-blue);
+  color: var(--mit-red);
 }
 
-/* ============ 表格 ============ */
+/* ---------- 表格 ---------- */
 
 .md-typeset table:not([class]) {
   overflow: hidden;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
   background: var(--guide-card);
   font-size: 0.78rem;
 }
 
 .md-typeset table:not([class]) th {
-  background: var(--ouc-blue-soft);
-  color: var(--hwu-navy-dark);
-  font-weight: 800;
-}
-
-[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
-  color: var(--guide-ink);
+  background: var(--soft);
+  color: var(--ink-strong);
+  font-weight: 700;
 }
 
 .md-typeset table:not([class]) td:first-child {
-  color: var(--guide-ink);
-  font-weight: 700;
+  color: var(--ink-strong);
+  font-weight: 600;
 }
 
 .md-typeset table:not([class]) tr:hover td {
-  background: var(--guide-hover);
+  background: var(--softer);
 }
 
-/* ============ 药丸链接(表格内跳转) ============ */
+/* ---------- 方括号链接(对齐课程表 [Slides] / [Video] 样式) ---------- */
 
 .md-typeset .mit-pill {
   display: inline-block;
-  margin: 0.1rem 0.15rem 0.1rem 0;
-  padding: 0.1rem 0.62rem;
-  border: 1px solid rgba(0, 50, 136, 0.4);
-  border-radius: 999px;
-  color: var(--ouc-blue);
-  font-size: 0.72rem;
-  font-weight: 700;
+  margin: 0.1rem 0.35rem 0.1rem 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: var(--mit-blue);
+  font-size: 0.78rem;
+  font-weight: 600;
   line-height: 1.6;
   white-space: nowrap;
   text-decoration: none;
 }
 
-[data-md-color-scheme="slate"] .md-typeset .mit-pill {
-  border-color: rgba(133, 174, 232, 0.5);
+.md-typeset .mit-pill::before {
+  content: "[ ";
+  color: var(--mit-blue);
+}
+
+.md-typeset .mit-pill::after {
+  content: " ]";
+  color: var(--mit-blue);
 }
 
 .md-typeset .mit-pill:hover,
 .md-typeset .mit-pill:focus {
-  background: var(--ouc-blue);
-  border-color: var(--ouc-blue);
-  color: #fff;
+  color: var(--mit-red);
 }
 
-/* ============ 六大板块编号卡片 ============ */
+.md-typeset .mit-pill:hover::before,
+.md-typeset .mit-pill:hover::after {
+  color: var(--mit-red);
+}
+
+/* ---------- 板块编号 ---------- */
 
 .md-typeset .mit-num {
   display: inline-block;
-  background: linear-gradient(90deg, var(--ouc-blue), var(--hwu-navy));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-size: 0.8rem;
+  color: var(--mit-red);
+  font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.1em;
 }
@@ -716,7 +712,7 @@ body {
   margin-top: 0.15rem;
 }
 
-/* ============ 贡献者卡片 ============ */
+/* ---------- 贡献者卡片 ---------- */
 
 .md-typeset .people-grid {
   display: grid;
@@ -727,39 +723,39 @@ body {
 
 .md-typeset .people-card {
   padding: 0.85rem 0.95rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
   background: var(--guide-card);
-  transition: border-color 120ms ease, background-color 120ms ease;
+  transition: border-color 120ms ease, box-shadow 120ms ease;
 }
 
 .md-typeset .people-card:hover {
-  border-color: var(--guide-border-strong);
-  background: var(--guide-hover);
+  border-color: var(--border);
+  box-shadow: 1px 1px 6px 0 var(--shadow);
 }
 
 .md-typeset .people-card p {
   margin: 0;
-  color: var(--guide-muted);
+  color: var(--muted-strong);
   font-size: 0.78rem;
 }
 
 .md-typeset .people-card p:first-child {
   margin-bottom: 0.25rem;
-  color: var(--guide-ink);
+  color: var(--ink-strong);
   font-size: 0.88rem;
 }
 
 .md-typeset .people-card a {
-  color: var(--guide-ink);
+  color: var(--ink-strong);
   font-weight: 700;
 }
 
 .md-typeset .people-card a:hover {
-  color: var(--ouc-blue);
+  color: var(--mit-red);
 }
 
-/* ============ 通用卡片网格 ============ */
+/* ---------- 通用卡片网格 ---------- */
 
 .md-typeset .guide-grid,
 .md-typeset .topic-grid {
@@ -772,17 +768,17 @@ body {
 .md-typeset .guide-card,
 .md-typeset .topic-card {
   padding: 1rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
   background: var(--guide-card);
   box-shadow: none;
-  transition: border-color 120ms ease, background-color 120ms ease;
+  transition: box-shadow 120ms ease, border-color 120ms ease;
 }
 
 .md-typeset .guide-card:hover,
 .md-typeset .topic-card:hover {
-  border-color: var(--guide-border-strong);
-  background: var(--guide-hover);
+  border-color: var(--border);
+  box-shadow: 1px 1px 6px 0 var(--shadow);
 }
 
 .md-typeset .guide-card h3,
@@ -793,28 +789,28 @@ body {
 
 .md-typeset .guide-card h3 a,
 .md-typeset .topic-card h3 a {
-  color: var(--guide-ink);
+  color: var(--ink-strong);
 }
 
 .md-typeset .guide-card h3 a:hover,
 .md-typeset .topic-card h3 a:hover {
-  color: var(--ouc-blue);
+  color: var(--mit-red);
 }
 
 .md-typeset .guide-card p,
 .md-typeset .topic-card p {
   margin-bottom: 0.6rem;
-  color: var(--guide-muted);
+  color: var(--muted-strong);
 }
 
-/* ============ 图片 / PDF / 提示块 ============ */
+/* ---------- 图片 / PDF / 提示块 ---------- */
 
 .md-typeset .guide-image {
   display: block;
   width: 100%;
   margin: 1rem auto;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
   box-shadow: none;
 }
 
@@ -828,8 +824,8 @@ body {
 
 .md-typeset .guide-pdf-embed {
   margin: 1.2rem 0 1.6rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
   overflow: hidden;
   background: #fff;
 }
@@ -846,25 +842,25 @@ body {
   width: min(15rem, 70vw);
   margin: 1rem auto 1.25rem;
   padding: 0.6rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 0.2rem;
   background: #fff;
 }
 
 .md-typeset .admonition {
-  border-color: var(--guide-border);
-  border-radius: 0.6rem;
+  border-color: var(--border);
+  border-radius: 0.2rem;
   background: var(--guide-card);
   box-shadow: none;
 }
 
 .md-typeset .admonition-title {
-  background: var(--ouc-blue-soft);
+  background: var(--soft);
 }
 
 .md-typeset blockquote {
-  border-left-color: var(--guide-border-strong);
-  color: var(--guide-muted);
+  border-left-color: var(--border-strong);
+  color: var(--muted-strong);
 }
 
 div.doc-contents:not(.first) {
@@ -887,7 +883,7 @@ a.autorefs-external::after {
 }
 
 a.autorefs-external:hover::after {
-  background-color: var(--md-accent-fg-color);
+  background-color: var(--mit-red);
 }
 
 .highlight .gp,
@@ -895,7 +891,7 @@ a.autorefs-external:hover::after {
   user-select: none;
 }
 
-/* ============ 移动端 ============ */
+/* ---------- 移动端 ---------- */
 
 @media screen and (max-width: 60rem) {
   .md-typeset .mit-logistics {
@@ -944,7 +940,7 @@ a.autorefs-external:hover::after {
   }
 
   .md-typeset .mit-hero {
-    padding: 1.1rem;
+    padding: 0.2rem 0 1rem;
   }
 
   .md-typeset .mit-hero__actions p {
