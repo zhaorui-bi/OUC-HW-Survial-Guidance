@@ -1,86 +1,137 @@
-:root {
-  /* 品牌色:中国海洋大学「海大蓝」+ Heriot-Watt 海军蓝(取自两校官网 VI) */
-  --ouc-blue: #003288;
-  --ouc-blue-dark: #00256b;
-  --ouc-blue-soft: #eef2f9;
-  --hwu-navy: #0a3e65;
-  --hwu-navy-dark: #031b39;
-  --hwu-sand: #f7d6a8;
-  --hwu-sand-soft: #fdf6ec;
+/* ==========================================================================
+   OUC-HWU Survial Guidance
+   版式气质参考 Qiu Lab 招聘页(devo-evo.com/opening):
+   纯白底、Josefin Sans 大写标题、圆角卡片、悬浮投影
+   颜色体系:中国海洋大学海大蓝 #003288(主色)
+            + Heriot-Watt 海军蓝 #0a3e65 与暖沙色 #f7d6a8(辅助)
+   字体:Josefin Sans(标题/眉题)+ Lato(正文)+ 系统中文无衬线
+   ========================================================================== */
 
-  --guide-ink: #1a1f26;
-  --guide-muted: #5d6c7b;
-  --guide-border: #e4ebf3;
-  --guide-border-strong: #cbd6e2;
+:root {
+  --accent: #003288;
+  --accent-dark: #00256b;
+  --accent-soft: rgba(0, 50, 136, 0.07);
+  --navy: #0a3e65;
+  --sand: #f7d6a8;
+  --sand-soft: #faf3e4;
+  --cream: #fdf8ee;
+  --taupe: #8e7b6b;
+
+  --ink: #2b2b2b;
+  --ink-strong: #1f2329;
+  --muted: #868e96;
+  --muted-strong: #4b5563;
+  --border: rgba(142, 123, 107, 0.25);
+  --border-strong: rgba(142, 123, 107, 0.45);
+  --soft: #f6f1e7;
+  --softer: #fbf7ee;
+
   --guide-card: #ffffff;
   --guide-page: #ffffff;
-  --guide-page-soft: #f7f9fb;
-  --guide-hover: #f4f7fa;
+  --page-wash: none;
+  --card-shadow-hover: 0 10px 24px rgba(0, 50, 136, 0.12);
+  --panel-shadow: 0 12px 28px rgba(43, 43, 43, 0.09);
 
-  --guide-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica,
-    Arial, "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  --guide-font-serif: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", "STSong", "SimSun",
-    serif;
+  --guide-font-sans: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --guide-font-display: "Josefin Sans", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --guide-font-code: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --md-text-font-family: var(--guide-font-sans);
   --md-code-font-family: var(--guide-font-code);
-
-  --guide-brand: var(--ouc-blue);
-  --guide-brand-dark: var(--ouc-blue-dark);
-  --guide-brand-soft: var(--ouc-blue-soft);
 }
 
 [data-md-color-scheme="slate"] {
-  --ouc-blue: #85aee8;
-  --ouc-blue-dark: #a9c6f0;
-  --ouc-blue-soft: rgba(133, 174, 232, 0.14);
-  --hwu-navy: #9cc0e2;
-  --hwu-navy-dark: #c9dcee;
-  --hwu-sand: #f7d6a8;
-  --hwu-sand-soft: rgba(247, 214, 168, 0.12);
+  --accent: #85aee8;
+  --accent-dark: #a9c6f0;
+  --accent-soft: rgba(133, 174, 232, 0.14);
+  --navy: #9cc0e2;
+  --sand: #f7d6a8;
+  --sand-soft: rgba(247, 214, 168, 0.12);
+  --cream: #17191c;
+  --taupe: #a89a8c;
 
-  --guide-ink: #e9edf2;
-  --guide-muted: #a5b3c2;
-  --guide-border: rgba(255, 255, 255, 0.14);
-  --guide-border-strong: rgba(255, 255, 255, 0.3);
-  --guide-card: #171b21;
-  --guide-page: #101418;
-  --guide-page-soft: #14181d;
-  --guide-hover: rgba(255, 255, 255, 0.06);
+  --ink: #d6d9dc;
+  --ink-strong: #f2f3f4;
+  --muted: #9a9c9e;
+  --muted-strong: #a9b6c2;
+  --border: rgba(255, 255, 255, 0.16);
+  --border-strong: rgba(255, 255, 255, 0.34);
+  --soft: #1e2124;
+  --softer: #17191c;
+
+  --guide-card: #1b1e21;
+  --guide-page: #141618;
+  --page-wash: none;
+  --card-shadow-hover: 0 10px 24px rgba(0, 0, 0, 0.45);
+  --panel-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
 }
 
 html {
-  scroll-padding-top: 3.4rem;
+  scroll-padding-top: 3.2rem;
 }
 
 body {
-  background: var(--guide-page);
+  background: var(--page-wash);
+  background-color: var(--guide-page);
   font-family: var(--guide-font-sans);
 }
 
 .md-grid {
-  max-width: 74rem;
+  max-width: 53.5rem;
 }
 
 .md-typeset {
-  color: var(--guide-ink);
+  color: var(--ink);
   font-family: var(--guide-font-sans);
-  font-size: 0.84rem;
-  line-height: 1.8;
+  font-size: 0.8rem;
+  line-height: 1.7;
   text-rendering: optimizeLegibility;
+}
+
+.md-typeset p {
+  margin: 0.7em 0;
+}
+
+.md-typeset ul,
+.md-typeset ol {
+  margin: 0.65em 0;
+}
+
+.md-typeset ul li,
+.md-typeset ol li {
+  margin: 0.15em 0;
+}
+
+.md-typeset pre {
+  margin: 0.8em 0;
+}
+
+/* ---------- 头部与标签栏 ---------- */
+
+.md-header__inner {
+  height: 2.9rem;
+}
+
+.md-header__title {
+  font-family: var(--guide-font-display);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.md-header__button.md-logo img {
+  height: 1.5rem;
+  width: auto;
 }
 
 .md-header,
 .md-tabs {
-  background: #fff;
-  border-bottom: 1px solid var(--guide-border);
-  color: var(--guide-ink);
+  background: var(--guide-card);
+  border-bottom: 1px solid var(--border);
+  color: var(--ink);
   box-shadow: none;
-}
-
-[data-md-color-scheme="slate"] .md-header,
-[data-md-color-scheme="slate"] .md-tabs {
-  background: var(--guide-page);
 }
 
 .md-header__title,
@@ -112,23 +163,30 @@ body {
 .md-source,
 .md-source__repository,
 .md-source__facts {
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-tabs__link {
-  opacity: 0.78;
+  opacity: 1;
+  padding: 0.4em 1.2em;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
-.md-tabs__link:hover {
-  color: var(--ouc-blue);
-  opacity: 1;
+.md-tabs__item {
+  height: 2.9rem;
+  margin: 0 0.55rem;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: var(--accent);
 }
 
 .md-tabs__link--active {
-  color: var(--ouc-blue);
-  opacity: 1;
   font-weight: 700;
-  box-shadow: inset 0 -2px 0 var(--ouc-blue);
+  box-shadow: inset 0 -2px 0 var(--accent);
 }
 
 .md-tabs,
@@ -142,7 +200,7 @@ body {
   z-index: 10;
 }
 
-/* ============ 专栏篇下拉面板(分组式) ============ */
+/* ---------- 专栏篇下拉面板 ---------- */
 
 .guide-tabs-item--dropdown {
   position: relative;
@@ -155,7 +213,7 @@ body {
 .guide-tabs-trigger::after {
   display: inline-block;
   margin-left: 0.24rem;
-  color: var(--guide-muted);
+  color: var(--muted);
   content: "⌄";
   font-size: 0.68rem;
   line-height: 1;
@@ -175,10 +233,10 @@ body {
   display: none;
   min-width: 11.5rem;
   padding: 0.35rem;
-  border: 1px solid var(--guide-border);
+  border: 1px solid var(--border);
   border-radius: 0.28rem;
-  background: #fff;
-  box-shadow: 0 0.45rem 1.4rem rgba(31, 35, 40, 0.08);
+  background: var(--guide-card);
+  box-shadow: var(--panel-shadow);
 }
 
 .guide-tabs-dropdown--portal {
@@ -188,10 +246,10 @@ body {
   width: max-content;
   max-width: min(44rem, calc(100vw - 1.2rem));
   padding: 0.9rem 1rem 1rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
   background: var(--guide-card);
-  box-shadow: 0 1rem 2.4rem rgba(3, 27, 57, 0.14);
+  box-shadow: var(--panel-shadow);
   opacity: 0;
   transform: translateY(-0.3rem);
   transition: opacity 140ms ease, transform 140ms ease;
@@ -218,10 +276,11 @@ body {
 
 .guide-mega__title {
   margin: 0.2rem 0 0.45rem;
-  color: var(--ouc-blue);
+  color: var(--taupe);
+  font-family: var(--guide-font-display);
   font-size: 0.64rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
+  font-weight: 600;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
@@ -229,27 +288,27 @@ body {
   display: block;
   padding: 0.34rem 0.55rem;
   border-radius: 0.4rem;
-  color: var(--guide-muted);
+  color: var(--ink);
   font-size: 0.78rem;
   white-space: nowrap;
 }
 
 .guide-tabs-dropdown a:hover,
 .guide-tabs-dropdown a:focus {
-  background: var(--guide-hover);
-  color: var(--ouc-blue);
+  background: var(--accent-soft);
+  color: var(--accent);
 }
 
 .guide-tabs-dropdown a.guide-mega__link--current {
-  background: var(--ouc-blue-soft);
-  color: var(--ouc-blue);
+  background: var(--accent-soft);
+  color: var(--accent);
   font-weight: 700;
 }
 
-/* ============ 侧边导航 / 目录 ============ */
+/* ---------- 侧边导航 / 目录 ---------- */
 
 .md-nav__title {
-  color: var(--guide-ink);
+  color: var(--ink);
   font-weight: 700;
 }
 
@@ -258,13 +317,13 @@ body {
 }
 
 .md-nav__link {
-  color: var(--guide-muted);
+  color: var(--muted-strong);
 }
 
 .md-nav__link--active,
 .md-nav__link:focus,
 .md-nav__link:hover {
-  color: var(--ouc-blue);
+  color: var(--accent);
 }
 
 .md-nav__link--active {
@@ -273,20 +332,15 @@ body {
 
 .md-sidebar--primary,
 .md-sidebar--primary .md-sidebar__scrollwrap {
-  background: #fff;
-}
-
-[data-md-color-scheme="slate"] .md-sidebar--primary,
-[data-md-color-scheme="slate"] .md-sidebar--primary .md-sidebar__scrollwrap {
   background: var(--guide-page);
 }
 
 .md-nav--primary .md-nav__title,
 .md-nav--primary .md-nav__title[for="__drawer"],
 .md-nav--primary .md-nav__source {
-  border-bottom: 1px solid var(--guide-border);
+  border-bottom: 1px solid var(--border);
   background: var(--guide-page);
-  color: var(--guide-ink);
+  color: var(--ink);
   box-shadow: none;
 }
 
@@ -301,28 +355,28 @@ body {
 
 .md-nav--primary .md-nav__source .md-source {
   background: var(--guide-page);
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-nav--primary .md-nav__source .md-source__repository {
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-nav--primary .md-nav__source .md-source__facts {
-  color: var(--guide-muted);
+  color: var(--muted);
 }
 
 [data-md-color-primary="blue"] .md-nav--primary .md-nav__title[for="__drawer"],
 [data-md-color-primary="blue"] .md-nav--primary .md-nav__source {
   background: var(--guide-page);
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-footer,
 .md-footer-meta {
-  border-top: 1px solid var(--guide-border);
+  border-top: 1px solid var(--border);
   background: var(--guide-page);
-  color: var(--guide-muted);
+  color: var(--muted);
 }
 
 .md-footer__title,
@@ -330,41 +384,41 @@ body {
 .md-footer-meta__inner,
 .md-copyright,
 .md-social__link {
-  color: var(--guide-muted);
+  color: var(--muted);
 }
 
 .md-footer__link:hover,
 .md-social__link:hover {
-  color: var(--ouc-blue);
+  color: var(--accent);
 }
 
 .md-search__form {
-  background: var(--guide-hover);
-  border: 1px solid var(--guide-border);
-  border-radius: 0.25rem;
+  background: var(--soft);
+  border: 1px solid var(--border);
+  border-radius: 999px;
   box-shadow: none;
 }
 
 .md-search__input,
 .md-search__icon {
-  color: var(--guide-ink);
+  color: var(--ink);
 }
 
 .md-search__input::placeholder {
-  color: var(--guide-muted);
+  color: var(--muted);
   opacity: 1;
 }
 
 .md-search__form:hover,
 .md-search__form:focus-within {
   background: var(--guide-card);
-  border-color: var(--guide-border-strong);
+  border-color: var(--border-strong);
 }
 
 .md-search__output {
-  border: 1px solid var(--guide-border);
-  border-radius: 0.25rem;
-  box-shadow: 0 0.4rem 1.2rem rgba(3, 27, 57, 0.12);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--panel-shadow);
 }
 
 .md-search-result__meta,
@@ -373,23 +427,23 @@ body {
 }
 
 .md-search-result__link:hover {
-  background: var(--guide-hover);
+  background: var(--softer);
 }
 
-/* ============ 页面布局 ============ */
+/* ---------- 页面布局 ---------- */
 
 .md-main__inner {
-  margin-top: 1.15rem;
+  margin-top: 0.8rem;
 }
 
 .md-content__inner {
-  padding-top: 0.55rem;
-  padding-bottom: 2.5rem;
+  padding-top: 0.4rem;
+  padding-bottom: 2rem;
 }
 
 @media screen and (min-width: 76.25em) {
   .md-grid {
-    max-width: 72rem;
+    max-width: 53.5rem;
   }
 
   .md-sidebar--primary {
@@ -407,41 +461,45 @@ body {
   }
 
   .md-sidebar--secondary .md-sidebar__scrollwrap {
-    border-right: 1px solid var(--guide-border);
+    border-right: 1px solid var(--border);
     border-left: 0;
   }
 
   .md-sidebar--secondary .md-nav__title {
     padding-left: 0;
-    color: var(--guide-ink);
+    color: var(--ink);
   }
 }
 
-/* ============ 标题体系 ============ */
+/* ---------- 标题体系(devo 参考:Josefin Sans + 大写 + 主题色) ---------- */
 
 .md-typeset h1 {
-  color: var(--guide-ink);
-  font-family: var(--guide-font-serif);
-  font-weight: 900;
+  color: var(--ink-strong);
+  font-family: var(--guide-font-display);
+  font-weight: 700;
   letter-spacing: 0.01em;
-  line-height: 1.24;
+  line-height: 1.3;
+  font-size: 1.9em;
 }
 
 .md-typeset h2 {
-  margin-top: 2.35em;
-  padding-bottom: 0.3rem;
-  border-bottom: 1px solid var(--guide-border);
-  color: var(--guide-ink);
-  font-family: var(--guide-font-serif);
-  font-weight: 700;
-  letter-spacing: 0.01em;
+  margin-top: 1.9em;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+  font-family: var(--guide-font-display);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 1.5em;
 }
 
 .md-typeset h3 {
-  color: var(--guide-ink);
-  font-family: var(--guide-font-serif);
-  font-weight: 700;
-  letter-spacing: 0.01em;
+  color: var(--ink-strong);
+  font-family: var(--guide-font-display);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-size: 1.18em;
 }
 
 .md-typeset h2 + .guide-grid,
@@ -451,97 +509,86 @@ body {
 }
 
 .md-typeset a {
-  color: var(--ouc-blue);
+  color: var(--accent);
   text-underline-offset: 0.16em;
 }
 
 .md-typeset a:hover {
-  color: var(--hwu-navy);
+  color: var(--accent-dark);
 }
 
 .md-typeset hr {
-  border-bottom-color: var(--guide-border);
+  border-bottom-color: var(--border);
 }
 
-/* ============ 按钮(药丸式) ============ */
+/* ---------- 按钮(药丸式,devo 参考 radius 999px) ---------- */
 
 .md-typeset .md-button {
   min-height: 2.05rem;
-  padding: 0.42rem 0.95rem;
+  padding: 0.42rem 1rem;
   border-radius: 999px;
   font-weight: 700;
   text-transform: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .md-typeset .md-button--primary {
-  background: var(--ouc-blue);
-  border-color: var(--ouc-blue);
+  background: var(--accent);
+  border-color: var(--accent);
   color: #fff;
 }
 
 .md-typeset .md-button--primary:hover {
-  background: var(--hwu-navy);
-  border-color: var(--hwu-navy);
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
   color: #fff;
+  box-shadow: 0 6px 20px rgba(0, 50, 136, 0.35);
 }
 
 .md-typeset .md-button:not(.md-button--primary) {
-  border-color: var(--guide-border-strong);
-  color: var(--guide-ink);
+  background: var(--guide-card);
+  border-color: var(--border-strong);
+  color: var(--ink);
 }
 
 .md-typeset .md-button:not(.md-button--primary):hover {
-  background: transparent;
-  border-color: var(--ouc-blue);
-  color: var(--ouc-blue);
+  background: var(--guide-card);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-/* ============ 首页 Hero ============ */
+/* ---------- 首页 Hero ---------- */
 
 .md-typeset .mit-hero {
   position: relative;
-  margin: 0.6rem 0 1.4rem;
-  padding: clamp(1.5rem, 4vw, 2.4rem);
-  border: 1px solid var(--guide-border);
-  border-radius: 0.8rem;
-  background:
-    radial-gradient(120% 140% 140% 100% at 100% 0%, var(--hwu-sand-soft) 0%, transparent 42%),
-    linear-gradient(180deg, #fbfcfe 0%, var(--guide-card) 100%);
-  overflow: hidden;
-}
-
-[data-md-color-scheme="slate"] .md-typeset .mit-hero {
-  background:
-    radial-gradient(120% 140% at 100% 0%, var(--hwu-sand-soft) 0%, transparent 42%),
-    linear-gradient(180deg, var(--guide-page-soft) 0%, var(--guide-card) 100%);
-}
-
-.md-typeset .mit-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--ouc-blue) 0%, var(--hwu-navy) 58%, var(--hwu-sand) 100%);
+  margin: 0.4rem 0 1.1rem;
+  padding: 0.4rem 0 1rem;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
 }
 
 .md-typeset .mit-hero__eyebrow {
   display: inline-flex;
   align-items: center;
   width: fit-content;
-  color: var(--ouc-blue);
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
+  color: var(--accent);
+  font-family: var(--guide-font-display);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
 }
 
 .md-typeset .mit-hero h1 {
-  margin: 0.5rem 0 0.55rem;
-  font-size: clamp(1.75rem, 4.2vw, 2.6rem);
+  margin: 0.5rem 0 0.5rem;
+  font-size: clamp(1.7rem, 2.8vw, 1.9rem);
 }
 
 .md-typeset .mit-hero__meta {
-  color: var(--guide-muted);
+  color: var(--muted-strong);
   font-size: 0.84rem;
 }
 
@@ -550,14 +597,14 @@ body {
 }
 
 .md-typeset .mit-hero__meta strong {
-  color: var(--guide-ink);
+  color: var(--ink-strong);
 }
 
 .md-typeset .mit-hero__anchors {
   margin-top: 1.05rem;
   padding-top: 0.8rem;
-  border-top: 1px solid var(--guide-border);
-  color: var(--guide-border-strong);
+  border-top: 1px solid var(--border);
+  color: var(--border-strong);
 }
 
 .md-typeset .mit-hero__anchors p {
@@ -565,14 +612,16 @@ body {
 }
 
 .md-typeset .mit-anchor {
-  color: var(--guide-muted);
-  font-size: 0.8rem;
-  font-weight: 700;
+  color: var(--muted-strong);
+  font-family: var(--guide-font-display);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   text-decoration: none;
 }
 
 .md-typeset .mit-anchor:hover {
-  color: var(--ouc-blue);
+  color: var(--accent);
   text-decoration: underline;
 }
 
@@ -591,35 +640,37 @@ body {
   margin: 0;
 }
 
-/* ============ 关于:键值信息栅格 ============ */
+/* ---------- 关于:键值信息栅格 ---------- */
 
 .md-typeset .mit-logistics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem 1.5rem;
-  margin: 1.1rem 0 1.4rem;
+  gap: 0.8rem 1.2rem;
+  margin: 0.9rem 0 1.2rem;
 }
 
 .md-typeset .mit-logistics > div {
   padding-top: 0.7rem;
-  border-top: 2px solid var(--guide-border-strong);
+  border-top: 2px solid var(--sand);
 }
 
 .md-typeset .mit-logistics > div > p {
   margin: 0;
-  color: var(--guide-muted);
+  color: var(--muted-strong);
   font-size: 0.78rem;
   line-height: 1.7;
 }
 
 .md-typeset .mit-logistics > div > p:first-child {
   margin-bottom: 0.3rem;
-  color: var(--hwu-navy);
-  font-size: 0.84rem;
-  font-weight: 800;
+  color: var(--navy);
+  font-family: var(--guide-font-display);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
-/* ============ 动态列表 ============ */
+/* ---------- 动态列表 ---------- */
 
 .md-typeset .mit-news {
   margin: 0.8rem 0 1rem;
@@ -631,190 +682,186 @@ body {
 
 .md-typeset .mit-news li {
   margin: 0;
-  padding: 0.55rem 0;
-  color: var(--guide-muted);
+  padding: 0.45rem 0;
+  color: var(--muted-strong);
 }
 
 .md-typeset .mit-news li + li {
-  border-top: 1px solid var(--guide-border);
+  border-top: 1px solid var(--border);
 }
 
 .md-typeset .mit-news li strong {
-  color: var(--ouc-blue);
+  color: var(--accent);
 }
 
-/* ============ 表格 ============ */
+/* ---------- 表格 ---------- */
 
 .md-typeset table:not([class]) {
   overflow: hidden;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
   background: var(--guide-card);
   font-size: 0.78rem;
+  margin: 0.9em 0;
 }
 
 .md-typeset table:not([class]) th {
-  background: var(--ouc-blue-soft);
-  color: var(--hwu-navy-dark);
-  font-weight: 800;
+  background: var(--sand-soft);
+  color: var(--ink-strong);
+  font-weight: 700;
+  padding: 0.55em 0.8em;
 }
 
-[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
-  color: var(--guide-ink);
+.md-typeset table:not([class]) td {
+  padding: 0.55em 0.8em;
 }
 
 .md-typeset table:not([class]) td:first-child {
-  color: var(--guide-ink);
-  font-weight: 700;
+  color: var(--ink-strong);
+  font-weight: 600;
 }
 
 .md-typeset table:not([class]) tr:hover td {
-  background: var(--guide-hover);
+  background: var(--softer);
 }
 
-/* ============ 药丸链接(表格内跳转) ============ */
+/* ---------- 专题药丸链接(devo 参考:圆角 chip + 主题色底) ---------- */
 
 .md-typeset .mit-pill {
   display: inline-block;
-  margin: 0.1rem 0.15rem 0.1rem 0;
-  padding: 0.1rem 0.62rem;
-  border: 1px solid rgba(0, 50, 136, 0.4);
+  margin: 0.1rem 0.2rem 0.1rem 0;
+  padding: 0.1em 0.7em;
   border-radius: 999px;
-  color: var(--ouc-blue);
-  font-size: 0.72rem;
-  font-weight: 700;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 600;
   line-height: 1.6;
   white-space: nowrap;
   text-decoration: none;
-}
-
-[data-md-color-scheme="slate"] .md-typeset .mit-pill {
-  border-color: rgba(133, 174, 232, 0.5);
+  transition: all 0.3s ease-in-out;
 }
 
 .md-typeset .mit-pill:hover,
 .md-typeset .mit-pill:focus {
-  background: var(--ouc-blue);
-  border-color: var(--ouc-blue);
+  background: var(--accent);
   color: #fff;
 }
 
-/* ============ 六大板块编号卡片 ============ */
+/* ---------- 板块编号 ---------- */
 
 .md-typeset .mit-num {
   display: inline-block;
-  background: linear-gradient(90deg, var(--ouc-blue), var(--hwu-navy));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-size: 0.8rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-family: var(--guide-font-display);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
 }
 
 .md-typeset .guide-card .mit-num + h3 {
   margin-top: 0.15rem;
 }
 
-/* ============ 贡献者卡片 ============ */
+/* ---------- 贡献者卡片 ---------- */
 
 .md-typeset .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr));
   gap: 0.7rem;
-  margin: 1rem 0 1.5rem;
+  margin: 0.9rem 0 1.2rem;
 }
 
 .md-typeset .people-card {
-  padding: 0.85rem 0.95rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
   background: var(--guide-card);
-  transition: border-color 120ms ease, background-color 120ms ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .md-typeset .people-card:hover {
-  border-color: var(--guide-border-strong);
-  background: var(--guide-hover);
+  border-color: var(--accent);
+  box-shadow: var(--card-shadow-hover);
 }
 
 .md-typeset .people-card p {
   margin: 0;
-  color: var(--guide-muted);
+  color: var(--muted-strong);
   font-size: 0.78rem;
 }
 
 .md-typeset .people-card p:first-child {
   margin-bottom: 0.25rem;
-  color: var(--guide-ink);
+  color: var(--ink-strong);
   font-size: 0.88rem;
 }
 
 .md-typeset .people-card a {
-  color: var(--guide-ink);
+  color: var(--ink-strong);
   font-weight: 700;
 }
 
 .md-typeset .people-card a:hover {
-  color: var(--ouc-blue);
+  color: var(--accent);
 }
 
-/* ============ 通用卡片网格 ============ */
+/* ---------- 通用卡片网格(devo 参考 .opening-role 样式) ---------- */
 
 .md-typeset .guide-grid,
 .md-typeset .topic-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-  margin: 1rem 0 1.5rem;
+  gap: 0.7rem;
+  margin: 0.9rem 0 1.1rem;
 }
 
 .md-typeset .guide-card,
 .md-typeset .topic-card {
-  padding: 1rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  padding: 0.8rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
   background: var(--guide-card);
   box-shadow: none;
-  transition: border-color 120ms ease, background-color 120ms ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .md-typeset .guide-card:hover,
 .md-typeset .topic-card:hover {
-  border-color: var(--guide-border-strong);
-  background: var(--guide-hover);
+  border-color: var(--accent);
+  box-shadow: var(--card-shadow-hover);
 }
 
 .md-typeset .guide-card h3,
 .md-typeset .topic-card h3 {
   margin-top: 0;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
 }
 
 .md-typeset .guide-card h3 a,
 .md-typeset .topic-card h3 a {
-  color: var(--guide-ink);
+  color: var(--accent);
 }
 
 .md-typeset .guide-card h3 a:hover,
 .md-typeset .topic-card h3 a:hover {
-  color: var(--ouc-blue);
+  color: var(--accent-dark);
 }
 
 .md-typeset .guide-card p,
 .md-typeset .topic-card p {
-  margin-bottom: 0.6rem;
-  color: var(--guide-muted);
+  margin-bottom: 0.45rem;
+  color: var(--muted-strong);
 }
 
-/* ============ 图片 / PDF / 提示块 ============ */
+/* ---------- 图片 / PDF / 提示块 ---------- */
 
 .md-typeset .guide-image {
   display: block;
   width: 100%;
-  margin: 1rem auto;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  margin: 0.9rem auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
   box-shadow: none;
 }
 
@@ -828,10 +875,10 @@ body {
 
 .md-typeset .guide-pdf-embed {
   margin: 1.2rem 0 1.6rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
   overflow: hidden;
-  background: #fff;
+  background: var(--guide-card);
 }
 
 .md-typeset .guide-pdf-embed iframe {
@@ -846,25 +893,27 @@ body {
   width: min(15rem, 70vw);
   margin: 1rem auto 1.25rem;
   padding: 0.6rem;
-  border: 1px solid var(--guide-border);
-  border-radius: 0.6rem;
-  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--guide-card);
 }
 
 .md-typeset .admonition {
-  border-color: var(--guide-border);
-  border-radius: 0.6rem;
+  margin: 0.9em 0;
+  border-color: var(--border);
+  border-radius: 10px;
   background: var(--guide-card);
   box-shadow: none;
 }
 
 .md-typeset .admonition-title {
-  background: var(--ouc-blue-soft);
+  background: var(--accent-soft);
+  border-radius: 10px 10px 0 0;
 }
 
 .md-typeset blockquote {
-  border-left-color: var(--guide-border-strong);
-  color: var(--guide-muted);
+  border-left-color: var(--sand);
+  color: var(--muted-strong);
 }
 
 div.doc-contents:not(.first) {
@@ -887,7 +936,7 @@ a.autorefs-external::after {
 }
 
 a.autorefs-external:hover::after {
-  background-color: var(--md-accent-fg-color);
+  background-color: var(--accent);
 }
 
 .highlight .gp,
@@ -895,7 +944,7 @@ a.autorefs-external:hover::after {
   user-select: none;
 }
 
-/* ============ 移动端 ============ */
+/* ---------- 移动端 ---------- */
 
 @media screen and (max-width: 60rem) {
   .md-typeset .mit-logistics {
@@ -924,7 +973,7 @@ a.autorefs-external:hover::after {
   }
 
   .md-typeset h2 {
-    margin-top: 1.8em;
+    margin-top: 1.7em;
   }
 
   .md-typeset .guide-grid,
@@ -944,7 +993,7 @@ a.autorefs-external:hover::after {
   }
 
   .md-typeset .mit-hero {
-    padding: 1.1rem;
+    padding: 0.2rem 0 1rem;
   }
 
   .md-typeset .mit-hero__actions p {
