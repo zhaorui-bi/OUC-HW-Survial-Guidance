@@ -1,15 +1,15 @@
 /* ==========================================================================
    OUC-HWU Survial Guidance — 设计语言对齐 MIT Han Lab (hanlab.mit.edu)
    Token 取自其线上样式:
-   --light-black:#333  --blue:#0080cc  --mit-red:#a31f34  --light-grey:#ededed
-   --pink:#fcf5f5      --shadow:#0003  --mit-grey:#8a8b8c --mit-light:#c2c0bf
-   字体:Open Sans / Lato + 系统无衬线;链接默认深色,悬停 MIT 红
+   版式与中性色取自 hanlab.mit.edu(--light-black:#333 --blue:#0080cc 等)
+   强调色体系:中国海洋大学海大蓝 #003288(--accent)+ 亮蓝 #0080cc
+   字体:Open Sans / Lato + 系统无衬线;链接默认深色,悬停海大蓝
    ========================================================================== */
 
 :root {
-  --mit-red: #a31f34;
-  --mit-red-dark: #8c1a2c;
-  --mit-blue: #0080cc;
+  --accent: #003288;
+  --accent-dark: #00256b;
+  --link-blue: #0080cc;
   --ink: #333;
   --ink-strong: #111;
   --muted: #8a8b8c;
@@ -19,7 +19,7 @@
   --light-grey: #ededed;
   --soft: #f3f3f3;
   --softer: #fafafa;
-  --pink: #fcf5f5;
+  --accent-soft: #eef2f9;
   --shadow: rgba(0, 0, 0, 0.2);
 
   --guide-card: #ffffff;
@@ -34,9 +34,9 @@
 }
 
 [data-md-color-scheme="slate"] {
-  --mit-red: #e05c70;
-  --mit-red-dark: #eb7c8d;
-  --mit-blue: #4db3e6;
+  --accent: #85aee8;
+  --accent-dark: #a9c6f0;
+  --link-blue: #4db3e6;
   --ink: #d6d9dc;
   --ink-strong: #f2f3f4;
   --muted: #9a9c9e;
@@ -46,7 +46,7 @@
   --light-grey: #26292c;
   --soft: #1e2124;
   --softer: #17191c;
-  --pink: rgba(224, 92, 112, 0.12);
+  --accent-soft: rgba(133, 174, 232, 0.14);
   --shadow: rgba(0, 0, 0, 0.55);
 
   --guide-card: #1b1e21;
@@ -127,12 +127,12 @@ body {
 
 .md-tabs__link:hover,
 .md-tabs__link--active {
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 .md-tabs__link--active {
   font-weight: 700;
-  box-shadow: inset 0 -2px 0 var(--mit-red);
+  box-shadow: inset 0 -2px 0 var(--accent);
 }
 
 .md-tabs,
@@ -241,12 +241,12 @@ body {
 .guide-tabs-dropdown a:hover,
 .guide-tabs-dropdown a:focus {
   background: var(--soft);
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 .guide-tabs-dropdown a.guide-mega__link--current {
-  background: var(--pink);
-  color: var(--mit-red);
+  background: var(--accent-soft);
+  color: var(--accent);
   font-weight: 700;
 }
 
@@ -268,7 +268,7 @@ body {
 .md-nav__link--active,
 .md-nav__link:focus,
 .md-nav__link:hover {
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 .md-nav__link--active {
@@ -339,7 +339,7 @@ body {
 
 .md-footer__link:hover,
 .md-social__link:hover {
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 .md-search__form {
@@ -455,7 +455,7 @@ body {
   margin-top: 0.8rem;
 }
 
-/* 链接:默认深色,悬停 MIT 红(hanlab 规则 a:hover{color:var(--mit-red)}) */
+/* 链接:默认深色,悬停海大蓝(hanlab 规则 a:hover{color:var(--accent)}) */
 
 .md-typeset a {
   color: var(--ink);
@@ -463,7 +463,7 @@ body {
 }
 
 .md-typeset a:hover {
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 .md-typeset hr {
@@ -481,14 +481,14 @@ body {
 }
 
 .md-typeset .md-button--primary {
-  background: var(--mit-red);
-  border-color: var(--mit-red);
+  background: var(--accent);
+  border-color: var(--accent);
   color: #fff;
 }
 
 .md-typeset .md-button--primary:hover {
-  background: var(--mit-red-dark);
-  border-color: var(--mit-red-dark);
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
   color: #fff;
 }
 
@@ -499,8 +499,8 @@ body {
 }
 
 .md-typeset .md-button:not(.md-button--primary):hover {
-  background: var(--mit-red);
-  border-color: var(--mit-red);
+  background: var(--accent);
+  border-color: var(--accent);
   color: #fff;
 }
 
@@ -525,7 +525,7 @@ body {
   display: inline-flex;
   align-items: center;
   width: fit-content;
-  color: var(--mit-red);
+  color: var(--accent);
   font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.16em;
@@ -569,7 +569,7 @@ body {
 }
 
 .md-typeset .mit-anchor:hover {
-  color: var(--mit-red);
+  color: var(--accent);
   text-decoration: underline;
 }
 
@@ -637,7 +637,7 @@ body {
 }
 
 .md-typeset .mit-news li strong {
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 /* ---------- 表格 ---------- */
@@ -673,7 +673,7 @@ body {
   padding: 0;
   border: 0;
   border-radius: 0;
-  color: var(--mit-blue);
+  color: var(--link-blue);
   font-size: 0.78rem;
   font-weight: 600;
   line-height: 1.6;
@@ -683,29 +683,29 @@ body {
 
 .md-typeset .mit-pill::before {
   content: "[ ";
-  color: var(--mit-blue);
+  color: var(--link-blue);
 }
 
 .md-typeset .mit-pill::after {
   content: " ]";
-  color: var(--mit-blue);
+  color: var(--link-blue);
 }
 
 .md-typeset .mit-pill:hover,
 .md-typeset .mit-pill:focus {
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 .md-typeset .mit-pill:hover::before,
 .md-typeset .mit-pill:hover::after {
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 /* ---------- 板块编号 ---------- */
 
 .md-typeset .mit-num {
   display: inline-block;
-  color: var(--mit-red);
+  color: var(--accent);
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.1em;
@@ -755,7 +755,7 @@ body {
 }
 
 .md-typeset .people-card a:hover {
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 /* ---------- 通用卡片网格 ---------- */
@@ -797,7 +797,7 @@ body {
 
 .md-typeset .guide-card h3 a:hover,
 .md-typeset .topic-card h3 a:hover {
-  color: var(--mit-red);
+  color: var(--accent);
 }
 
 .md-typeset .guide-card p,
@@ -886,7 +886,7 @@ a.autorefs-external::after {
 }
 
 a.autorefs-external:hover::after {
-  background-color: var(--mit-red);
+  background-color: var(--accent);
 }
 
 .highlight .gp,
