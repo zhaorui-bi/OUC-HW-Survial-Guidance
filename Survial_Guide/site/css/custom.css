@@ -93,6 +93,20 @@ body {
   margin: 0.7em 0;
 }
 
+.md-typeset ul,
+.md-typeset ol {
+  margin: 0.65em 0;
+}
+
+.md-typeset ul li,
+.md-typeset ol li {
+  margin: 0.15em 0;
+}
+
+.md-typeset pre {
+  margin: 0.8em 0;
+}
+
 /* ---------- 头部与标签栏 ---------- */
 
 .md-header__inner {
@@ -547,8 +561,8 @@ body {
 
 .md-typeset .mit-hero {
   position: relative;
-  margin: 0.4rem 0 1.3rem;
-  padding: 0.4rem 0 1.1rem;
+  margin: 0.4rem 0 1.1rem;
+  padding: 0.4rem 0 1rem;
   border: 0;
   border-bottom: 1px solid var(--border);
   border-radius: 0;
@@ -688,6 +702,7 @@ body {
   border-radius: 10px;
   background: var(--guide-card);
   font-size: 0.78rem;
+  margin: 0.9em 0;
 }
 
 .md-typeset table:not([class]) th {
@@ -754,7 +769,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr));
   gap: 0.7rem;
-  margin: 1rem 0 1.5rem;
+  margin: 0.9rem 0 1.2rem;
 }
 
 .md-typeset .people-card {
@@ -798,7 +813,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.7rem;
-  margin: 1rem 0 1.25rem;
+  margin: 0.9rem 0 1.1rem;
 }
 
 .md-typeset .guide-card,
@@ -844,7 +859,7 @@ body {
 .md-typeset .guide-image {
   display: block;
   width: 100%;
-  margin: 1rem auto;
+  margin: 0.9rem auto;
   border: 1px solid var(--border);
   border-radius: 10px;
   box-shadow: none;
@@ -884,6 +899,7 @@ body {
 }
 
 .md-typeset .admonition {
+  margin: 0.9em 0;
   border-color: var(--border);
   border-radius: 10px;
   background: var(--guide-card);
