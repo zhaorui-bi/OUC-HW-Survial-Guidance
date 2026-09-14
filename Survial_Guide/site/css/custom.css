@@ -54,7 +54,7 @@
 }
 
 html {
-  scroll-padding-top: 3.4rem;
+  scroll-padding-top: 3.2rem;
 }
 
 body {
@@ -63,7 +63,7 @@ body {
 }
 
 .md-grid {
-  max-width: 55rem;
+  max-width: 53.5rem;
 }
 
 .md-typeset {
@@ -74,7 +74,25 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* ---------- 头部与标签栏 ---------- */
+.md-typeset p {
+  margin: 0.7em 0;
+}
+
+/* ---------- 头部与标签栏(加高顶栏,导航更饱满) ---------- */
+
+.md-header__inner {
+  height: 2.9rem;
+}
+
+.md-header__title {
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.md-header__button.md-logo img {
+  height: 1.5rem;
+  width: auto;
+}
 
 .md-header,
 .md-tabs {
@@ -123,6 +141,13 @@ body {
 
 .md-tabs__link {
   opacity: 1;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.md-tabs__item {
+  height: 2.7rem;
 }
 
 .md-tabs__link:hover,
@@ -383,17 +408,17 @@ body {
 /* ---------- 页面布局 ---------- */
 
 .md-main__inner {
-  margin-top: 1.15rem;
+  margin-top: 0.8rem;
 }
 
 .md-content__inner {
-  padding-top: 0.55rem;
-  padding-bottom: 2.5rem;
+  padding-top: 0.4rem;
+  padding-bottom: 2rem;
 }
 
 @media screen and (min-width: 76.25em) {
   .md-grid {
-    max-width: 55rem;
+    max-width: 53.5rem;
   }
 
   .md-sidebar--primary {
@@ -433,8 +458,8 @@ body {
 }
 
 .md-typeset h2 {
-  margin-top: 2.05em;
-  padding-bottom: 0.3rem;
+  margin-top: 1.9em;
+  padding-bottom: 0.25rem;
   border-bottom: 1px solid var(--border);
   color: var(--ink-strong);
   font-family: var(--guide-font-sans);
@@ -593,8 +618,8 @@ body {
 .md-typeset .mit-logistics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem 1.5rem;
-  margin: 1.1rem 0 1.4rem;
+  gap: 0.8rem 1.2rem;
+  margin: 0.9rem 0 1.2rem;
 }
 
 .md-typeset .mit-logistics > div {
@@ -628,7 +653,7 @@ body {
 
 .md-typeset .mit-news li {
   margin: 0;
-  padding: 0.55rem 0;
+  padding: 0.45rem 0;
   color: var(--muted-strong);
 }
 
@@ -654,6 +679,11 @@ body {
   background: var(--soft);
   color: var(--ink-strong);
   font-weight: 700;
+  padding: 0.55em 0.8em;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.55em 0.8em;
 }
 
 .md-typeset table:not([class]) td:first-child {
@@ -725,7 +755,7 @@ body {
 }
 
 .md-typeset .people-card {
-  padding: 0.85rem 0.95rem;
+  padding: 0.7rem 0.8rem;
   border: 1px solid var(--border);
   border-radius: 0.2rem;
   background: var(--guide-card);
@@ -770,7 +800,7 @@ body {
 
 .md-typeset .guide-card,
 .md-typeset .topic-card {
-  padding: 1rem;
+  padding: 0.8rem 0.85rem;
   border: 1px solid var(--border);
   border-radius: 0.2rem;
   background: var(--guide-card);
@@ -787,7 +817,7 @@ body {
 .md-typeset .guide-card h3,
 .md-typeset .topic-card h3 {
   margin-top: 0;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
 }
 
 .md-typeset .guide-card h3 a,
@@ -802,7 +832,7 @@ body {
 
 .md-typeset .guide-card p,
 .md-typeset .topic-card p {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.45rem;
   color: var(--muted-strong);
 }
 
