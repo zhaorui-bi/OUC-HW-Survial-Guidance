@@ -63,14 +63,14 @@ body {
 }
 
 .md-grid {
-  max-width: 74rem;
+  max-width: 61rem;
 }
 
 .md-typeset {
   color: var(--ink);
   font-family: var(--guide-font-sans);
   font-size: 0.84rem;
-  line-height: 1.75;
+  line-height: 1.7;
   text-rendering: optimizeLegibility;
 }
 
@@ -393,7 +393,7 @@ body {
 
 @media screen and (min-width: 76.25em) {
   .md-grid {
-    max-width: 72rem;
+    max-width: 61rem;
   }
 
   .md-sidebar--primary {
@@ -432,7 +432,7 @@ body {
 }
 
 .md-typeset h2 {
-  margin-top: 2.35em;
+  margin-top: 2.05em;
   padding-bottom: 0.3rem;
   border-bottom: 1px solid var(--border);
   color: var(--ink-strong);
@@ -505,8 +505,8 @@ body {
 
 .md-typeset .mit-hero {
   position: relative;
-  margin: 0.4rem 0 1.6rem;
-  padding: 0.4rem 0 1.2rem;
+  margin: 0.4rem 0 1.3rem;
+  padding: 0.4rem 0 1.1rem;
   border: 0;
   border-bottom: 1px solid var(--border);
   border-radius: 0;
@@ -530,8 +530,8 @@ body {
 }
 
 .md-typeset .mit-hero h1 {
-  margin: 0.5rem 0 0.55rem;
-  font-size: clamp(1.9rem, 4.4vw, 2.75rem);
+  margin: 0.5rem 0 0.5rem;
+  font-size: clamp(1.8rem, 3.4vw, 2.4rem);
 }
 
 .md-typeset .mit-hero__meta {
@@ -761,8 +761,8 @@ body {
 .md-typeset .topic-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-  margin: 1rem 0 1.5rem;
+  gap: 0.7rem;
+  margin: 1rem 0 1.25rem;
 }
 
 .md-typeset .guide-card,
